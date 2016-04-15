@@ -16,13 +16,13 @@ namespace HausbauBuch.Controls
             {
                 HorizontalOptions = LayoutOptions.StartAndExpand
             };
-            dateLabel.SetBinding(Label.TextProperty, new Binding("Date"));
+            dateLabel.SetBinding(Label.TextProperty, new Binding("Date", BindingMode.Default, new DateTimeConverter()));
 
             var nameLabel = new DefaultLabel
             {
                 HorizontalOptions = LayoutOptions.CenterAndExpand
             };
-            nameLabel.SetBinding(Label.TextProperty, new Binding("Name"));
+            nameLabel.SetBinding(Label.TextProperty, new Binding("Title"));
 
             var checkSwitch = new Switch
             {
@@ -30,6 +30,10 @@ namespace HausbauBuch.Controls
                 HorizontalOptions = LayoutOptions.EndAndExpand
             };
             checkSwitch.SetBinding(Switch.IsToggledProperty, new Binding("Finished"));
+            checkSwitch.Toggled += (sender, args) =>
+            {
+                MessagingCenter.Send(this, "updateList");
+            };
 
             var cellStack = new StackLayout
             {

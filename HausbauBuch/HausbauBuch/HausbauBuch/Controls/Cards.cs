@@ -10,7 +10,15 @@ namespace HausbauBuch.Controls
 {
     public class Cards : Grid
     {
-        public Cards(string title, int amount = 0, string iconName = "")
+        public static BindableProperty CardsPageProperty = BindableProperty.CreateAttached("CardsPage", typeof(CardPage), typeof(Cards),CardPage.Nothing, BindingMode.OneWay);
+
+        public CardPage CardsPage
+        {
+            get { return (CardPage) GetValue(CardsPageProperty); }
+            set { SetValue(CardsPageProperty, value);}
+        }
+
+        public Cards(string title, int amount = 0, string iconName = "", CardPage page = CardPage.Nothing)
         {
             var nameLabel = new DefaultLabel
             {
@@ -38,6 +46,8 @@ namespace HausbauBuch.Controls
             ColumnDefinitions.Add(new ColumnDefinition {Width = new GridLength(3, GridUnitType.Star)});
             RowDefinitions.Add(new RowDefinition {Height = new GridLength(2, GridUnitType.Star)});
             RowDefinitions.Add(new RowDefinition {Height = new GridLength(1, GridUnitType.Star)});
+
+            CardsPage = page;
 
             Children.Add(icon, 0, 0);
             Children.Add(amountLabel, 1, 0);

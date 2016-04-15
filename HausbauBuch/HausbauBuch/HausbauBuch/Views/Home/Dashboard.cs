@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using HausbauBuch.Classes;
@@ -19,6 +20,8 @@ namespace HausbauBuch.Views.Home
 {
     public class Dashboard : DefaultContentPage
     {
+        private readonly ListView _checkList;
+
         public Dashboard()
         {
             Title = "Unser Hausbau-Buch";
@@ -38,39 +41,45 @@ namespace HausbauBuch.Views.Home
                     new ColumnDefinition {Width = new GridLength(1, GridUnitType.Star)}
                 }
             };
-
-            var tapGestureRecognizer = new TapGestureRecognizer();
-            tapGestureRecognizer.Tapped += async delegate { await NavigatePage(); };
-
-            grid.Children.Add(new Cards("Termine", 12, "appointments.png"), 0, 0);
-            grid.Children.Add(new Cards("Aufgaben", 90, "activities.png"), 1, 0);
-            grid.Children.Add(new Cards("Dateien", 4, "documents.png"), 0, 1);
-            grid.Children.Add(new Cards("Kontakte", 12, "contacts.png"), 1, 1);
-            grid.Children.Add(new Cards("Einrichtung", 46, "enviroment.png"), 0, 2);
-            grid.Children.Add(new Cards("Garten", 11, "garden.png"), 1, 2);
             
-            var testData = new List<CheckListItem>
-            {
-                new CheckListItem
-                {
-                    Date = DateTime.Today.ToString(),
-                    Name = "test1",
-                    Finished = false
-                },
-                new CheckListItem
-                {
-                    Date = new DateTime(2016, 7, 14).ToString(),
-                    Name = "test2",
-                    Finished = true
-                }
-            };
+            var appointmentsCard = new Cards("Termine", 12, "appointments.png", CardPage.Appointments);
+            var appointmentsTapGestureRecognizer = new TapGestureRecognizer();
+            appointmentsTapGestureRecognizer.Tapped += AppointmentsCardClickedAsync;
+            appointmentsCard.GestureRecognizers.Add(appointmentsTapGestureRecognizer);
+            var activitiesCard = new Cards("Aufgaben", 90, "activities.png", CardPage.Activities);
+            var activitiesTapGestureRecognizer = new TapGestureRecognizer();
+            activitiesTapGestureRecognizer.Tapped += ActivitiesCardClickedAsync;
+            activitiesCard.GestureRecognizers.Add(activitiesTapGestureRecognizer);
+            var documentsCard = new Cards("Dateien", 4, "documents.png", CardPage.Documents);
+            var documentsTapGestureRecognizer = new TapGestureRecognizer();
+            documentsTapGestureRecognizer.Tapped += DocumentsCardClickedAsync;
+            documentsCard.GestureRecognizers.Add(documentsTapGestureRecognizer);
+            var contactsCard = new Cards("Kontakte", 12, "contacts.png", CardPage.Contacts);
+            var contactsTapGestureRecognizer = new TapGestureRecognizer();
+            contactsTapGestureRecognizer.Tapped += ContactsCardClickedAsync;
+            contactsCard.GestureRecognizers.Add(contactsTapGestureRecognizer);
+            var enviromentsCard = new Cards("Einrichtung", 46, "enviroment.png", CardPage.Enviroment);
+            var enviromentsTapGestureRecognizer = new TapGestureRecognizer();
+            enviromentsTapGestureRecognizer.Tapped += EnviromentsCardClickedAsync;
+            enviromentsCard.GestureRecognizers.Add(enviromentsTapGestureRecognizer);
+            var gardensCard = new Cards("Garten", 11, "garden.png", CardPage.Garden);
+            var gardensTapGestureRecognizer = new TapGestureRecognizer();
+            gardensTapGestureRecognizer.Tapped += GardensCardClickedAsync;
+            gardensCard.GestureRecognizers.Add(gardensTapGestureRecognizer);
 
-            var checkList = new ListView
+            grid.Children.Add(appointmentsCard, 0, 0);
+            grid.Children.Add(activitiesCard, 1, 0);
+            grid.Children.Add(documentsCard, 0, 1);
+            grid.Children.Add(contactsCard, 1, 1);
+            grid.Children.Add(enviromentsCard, 0, 2);
+            grid.Children.Add(gardensCard, 1, 2);
+            
+            _checkList = new ListView
             {
                 BackgroundColor = Colors.Primary,
-                ItemTemplate = new DataTemplate(typeof (CheckListCell)),
-                ItemsSource = testData
+                ItemTemplate = new DataTemplate(typeof (CheckListCell))
             };
+            SetCheckListItems();
 
             var listViewHeaderStack = new StackLayout
             {
@@ -97,7 +106,7 @@ namespace HausbauBuch.Views.Home
                 Children =
                 {
                     listViewHeaderStack,
-                    checkList
+                    _checkList
                 },
                 VerticalOptions = LayoutOptions.Center,
                 HorizontalOptions = LayoutOptions.Center
@@ -117,9 +126,26 @@ namespace HausbauBuch.Views.Home
             Content = mainGrid;
         }
 
-        private async Task NavigatePage(CardPage page = CardPage.Nothing)
+        protected override void OnAppearing()
         {
-            switch (page)
+            base.OnAppearing();
+
+            MessagingCenter.Subscribe<CheckListCell>(this, "updateList", (sender) =>
+            {
+                SetCheckListItems();
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            MessagingCenter.Unsubscribe<CheckListCell>(this, "updateList");
+        }
+
+        private async Task NavigatePage(Cards card)
+        {
+            switch (card.CardsPage)
             {
                 case CardPage.Activities:
                     await Navigation.PushAsync(new ActivitiesView());
@@ -140,6 +166,56 @@ namespace HausbauBuch.Views.Home
                     await Navigation.PushAsync(new GardenView());
                     break;
             }
+        }
+
+        private async void ActivitiesCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private async void AppointmentsCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private async void ContactsCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private async void DocumentsCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private async void EnviromentsCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private async void GardensCardClickedAsync(object sender, EventArgs e)
+        {
+            await NavigatePage((Cards) sender);
+        }
+
+        private void SetCheckListItems()
+        {
+            var testData = new List<Classes.Activities>
+            {
+                new Classes.Activities
+                {
+                    Date = DateTime.Today,
+                    Title = "test1",
+                    Finished = false
+                },
+                new Classes.Activities
+                {
+                    Date = new DateTime(2016, 7, 14),
+                    Title = "test2",
+                    Finished = true
+                }
+            };
+            _checkList.ItemsSource = testData.Where(a => !a.Finished);
         }
     }
 }

@@ -1,78 +1,80 @@
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\HausbauBuch.Droid.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\FormsViewGroup.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\HausbauBuch.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Mono.Android.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\mscorlib.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Core.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.Linq.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.Design.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.CardView.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.MediaRouter.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.RecyclerView.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Core.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Platform.Android.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Platform.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Xaml.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.AppIndexing.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.Base.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.Basement.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Collections.Concurrent.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Collections.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.Annotations.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.EventBasedAsync.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Contracts.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Debug.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Tools.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Tracing.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Dynamic.Runtime.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Globalization.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.IO.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Expressions.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Parallel.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Queryable.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.NetworkInformation.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Primitives.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Requests.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ObjectModel.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.ILGeneration.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.Lightweight.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Extensions.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Primitives.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Resources.ResourceManager.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Extensions.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.InteropServices.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.InteropServices.WindowsRuntime.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Numerics.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Json.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Xml.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Security.Principal.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Http.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Primitives.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Security.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.Encoding.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.RegularExpressions.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Tasks.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Tasks.Parallel.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Timer.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Http.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Numerics.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\HausbauBuch.Droid.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\FormsViewGroup.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\HausbauBuch.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\mscorlib.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\SQLite-net.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Core.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.Design.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Core.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Platform.Android.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Platform.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.Forms.Xaml.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.AppIndexing.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.Base.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Collections.Concurrent.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Collections.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.Annotations.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.EventBasedAsync.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Contracts.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Debug.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Tools.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Diagnostics.Tracing.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Dynamic.Runtime.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Globalization.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.IO.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Expressions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Parallel.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Linq.Queryable.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.NetworkInformation.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Primitives.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Requests.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ObjectModel.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.ILGeneration.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Emit.Lightweight.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Extensions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Reflection.Primitives.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Resources.ResourceManager.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Extensions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.InteropServices.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Numerics.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Json.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.Xml.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Security.Principal.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Http.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Primitives.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Security.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.Encoding.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Text.RegularExpressions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Tasks.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Tasks.Parallel.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Threading.Timer.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\SQLitePCL.raw.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Http.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Numerics.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.dll
