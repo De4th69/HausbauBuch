@@ -104,3 +104,6 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLite-net.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll.mdb
+C:\Users\Death\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Death\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll
+C:\Users\Death\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.pdb

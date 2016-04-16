@@ -1,10 +1,13 @@
-﻿using HausbauBuch.Views.Home;
+﻿using HausbauBuch.Business;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Views
 {
     public class App : Application
     {
+        public static SQLite.SQLiteConnection SqlConnection;
+
         public App()
         {
             MainPage = new NavigationPage(new Dashboard());
@@ -12,6 +15,8 @@ namespace HausbauBuch.Views
 
         protected override void OnStart()
         {
+            var dataBaseAccess = DependencyService.Get<IDatabaseAccess>();
+            SqlConnection = dataBaseAccess.GetConnection();
             // Handle when your app starts
         }
 
