@@ -24,7 +24,7 @@ namespace HausbauBuch.Business
         {
             lock (Locker)
             {
-                return (from a in _sqlLiteConnection.Table<Activities>() select a).ToList();
+                return (from a in _sqlLiteConnection.Table<Activities>() select a).ToList().Where(a => !a.Deleted);
             }
         }
 
@@ -35,6 +35,14 @@ namespace HausbauBuch.Business
                 return _sqlLiteConnection.Query<Activities>("SELECT * FROM [Activities] WHERE [Finished] = 0 AND [Deleted] = 0");
             }
         }
+
+        public IEnumerable<Activities> GetCheckListActivities()
+        {
+            lock (Locker)
+            {
+                return _sqlLiteConnection.Query<Activities>("SELECT * FROM [Activities] WHERE [Finished] = 0 AND [Deleted] = 0 AND [IsCheckList] = 1");
+            }
+        } 
 
         public Activities GetActivity(Guid id)
         {

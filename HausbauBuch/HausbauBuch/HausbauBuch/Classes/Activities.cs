@@ -20,6 +20,8 @@ namespace HausbauBuch.Classes
 
         public bool Finished { get; set; }
 
+        public bool IsCheckList { get; set; }
+
         public DateTime CreateAt { get; set; }
 
         public DateTime ModifiedAt { get; set; }
