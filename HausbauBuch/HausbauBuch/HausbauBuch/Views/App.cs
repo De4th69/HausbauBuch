@@ -7,16 +7,17 @@ namespace HausbauBuch.Views
     public class App : Application
     {
         public static SQLite.SQLiteConnection SqlConnection;
-
+        
         public App()
         {
+            var dataBaseAccess = DependencyService.Get<IDatabaseAccess>();
+            SqlConnection = dataBaseAccess.GetConnection();
+            
             MainPage = new NavigationPage(new Dashboard());
         }
 
         protected override void OnStart()
         {
-            var dataBaseAccess = DependencyService.Get<IDatabaseAccess>();
-            SqlConnection = dataBaseAccess.GetConnection();
             // Handle when your app starts
         }
 

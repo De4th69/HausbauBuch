@@ -4,6 +4,7 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\Mono.Android.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\mscorlib.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\SQLite-net.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\SQLitePCL.raw.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Core.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.dll
@@ -72,7 +73,6 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\SQLitePCL.raw.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.Net.Http.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll

@@ -35,9 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Business\ActivitiesCrud.cs" />
+    <Compile Include="Business\ActivityController.cs" />
     <Compile Include="Business\IDatabaseAccess.cs" />
     <Compile Include="Classes\Activities.cs" />
+    <Compile Include="Classes\Entity.cs" />
     <Compile Include="Controls\Cards.cs" />
     <Compile Include="Controls\CheckListCell.cs" />
     <Compile Include="Controls\DefaultButton.cs" />

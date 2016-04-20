@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using HausbauBuch.Business;
 using HausbauBuch.Classes;
 using HausbauBuch.Controls;
 using HausbauBuch.Helper;
@@ -20,6 +21,8 @@ namespace HausbauBuch.Views.Home
 {
     public class Dashboard : DefaultContentPage
     {
+        private static readonly ActivitiesController ActivityController = new ActivitiesController();
+
         private readonly ListView _checkList;
 
         public Dashboard()
@@ -96,7 +99,8 @@ namespace HausbauBuch.Views.Home
                         BorderRadius = 0,
                         BorderWidth = 0,
                         Image = "add.png",
-                        Command = new Command(async () => await Navigation.PushAsync(new CreateCheckListItemView()))
+                        //Command = new Command(async () => await Navigation.PushAsync(new CreateCheckListItemView()))
+                        Command = new Command(CreateTestData)
                     }
                 }
             };
@@ -126,23 +130,26 @@ namespace HausbauBuch.Views.Home
             Content = mainGrid;
         }
 
-        protected override void OnAppearing()
+        private void CreateTestData()
         {
-            base.OnAppearing();
-
-            MessagingCenter.Subscribe<CheckListCell>(this, "updateList", (sender) =>
+            var act1 = new Classes.Activities
             {
-                SetCheckListItems();
-            });
+                Title = "Test1",
+                Description = "testestestestsetsetes",
+                IsCheckList = true
+            };
+            var act2 = new Classes.Activities
+            {
+                Title = "Test2",
+                Description = "jkdsafjklsa",
+                IsCheckList = true
+            };
+
+            act1.Id = ActivityController.SaveActivity(act1);
+            act2.Id = ActivityController.SaveActivity(act2);
+            SetCheckListItems();
         }
-
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-
-            MessagingCenter.Unsubscribe<CheckListCell>(this, "updateList");
-        }
-
+        
         private async Task NavigatePage(Cards card)
         {
             switch (card.CardsPage)
@@ -200,22 +207,8 @@ namespace HausbauBuch.Views.Home
 
         private void SetCheckListItems()
         {
-            var testData = new List<Classes.Activities>
-            {
-                new Classes.Activities
-                {
-                    Date = DateTime.Today,
-                    Title = "test1",
-                    Finished = false
-                },
-                new Classes.Activities
-                {
-                    Date = new DateTime(2016, 7, 14),
-                    Title = "test2",
-                    Finished = true
-                }
-            };
-            _checkList.ItemsSource = testData.Where(a => !a.Finished);
+            var checkListItems = ActivityController.GetCheckListActivities();
+            _checkList.ItemsSource = checkListItems;
         }
     }
 }

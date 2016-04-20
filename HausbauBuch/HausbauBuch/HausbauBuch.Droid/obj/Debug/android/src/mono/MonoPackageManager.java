@@ -83,6 +83,7 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"HausbauBuch.dll",
 		"SQLite-net.dll",
+		"SQLitePCL.raw.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
@@ -146,7 +147,6 @@ class MonoPackageManager_Resources {
 		"System.Xml.XDocument.dll",
 		"System.Xml.XmlSerializer.dll",
 		"System.ServiceModel.Internals.dll",
-		"SQLitePCL.raw.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

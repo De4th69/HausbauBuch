@@ -7,11 +7,8 @@ using SQLite;
 
 namespace HausbauBuch.Classes
 {
-    public class Activities
+    public class Activities : Entity
     {
-        [PrimaryKey]
-        public Guid ActivitesId { get; set; }
-
         public string Title { get; set; }
 
         public string Description { get; set; }
@@ -21,13 +18,5 @@ namespace HausbauBuch.Classes
         public bool Finished { get; set; }
 
         public bool IsCheckList { get; set; }
-
-        public DateTime CreateAt { get; set; }
-
-        public DateTime ModifiedAt { get; set; }
-        
-        public DateTime FinishedOn { get; set; }
-
-        public bool Deleted { get; set; }
     }
 }
