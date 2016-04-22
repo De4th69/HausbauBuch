@@ -11,8 +11,8 @@ using Android.Views;
 using Android.Widget;
 using HausbauBuch.Business;
 using HausbauBuch.Droid;
+using SQLite;
 using Xamarin.Forms;
-using Environment = System.Environment;
 
 [assembly: Dependency(typeof(DatabaseAccess))]
 
@@ -25,13 +25,13 @@ namespace HausbauBuch.Droid
             
         }
 
-        public SQLite.SQLiteConnection GetConnection()
+        public SQLiteAsyncConnection GetConnection()
         {
             var sqlDbFileName = "Hausbau.db3";
             var documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var path = System.IO.Path.Combine(documentsPath, sqlDbFileName);
 
-            var connection = new SQLite.SQLiteConnection(path);
+            var connection = new SQLiteAsyncConnection(path);
 
             return connection;
         }

@@ -12,16 +12,31 @@ namespace HausbauBuch.Views.Activities
     {
         public ActivitiesView()
         {
-            Content = new StackLayout
+            var activitiesListView = new ListView
             {
-                Children =
-                {
-                    new DefaultLabel
-                    {
-                        Text = "Placeholder"
-                    }
-                }
+                ItemTemplate = new DataTemplate(typeof (ActivitiesCell)),
+                HasUnevenRows = true
             };
+            activitiesListView.ItemTapped += ActivitiesListViewOnItemTapped;
+            SetListViewItems(activitiesListView);
+
+            var stack = new StackLayout();
+            stack.Children.Add(activitiesListView);
+
+            Content = stack;
         }
+
+        private async void ActivitiesListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        {
+            var activity = itemTappedEventArgs.Item as Classes.Activities;
+            ((ListView) sender).SelectedItem = null;
+            await Navigation.PushAsync(new ActivityView() {Activity = activity});
+        }
+
+        private async void SetListViewItems(ListView activitiesListView)
+        {
+            activitiesListView.ItemsSource = await App.ActivityController.Get(x => !x.Deleted, x => x.Date);
+        }
+
     }
 }

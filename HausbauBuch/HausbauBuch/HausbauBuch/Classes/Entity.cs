@@ -10,7 +10,7 @@ namespace HausbauBuch.Classes
     public class Entity
     {
         [PrimaryKey, AutoIncrement]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public DateTime CreatedAt { get; set; }
 

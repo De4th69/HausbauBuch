@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -10,7 +11,6 @@ using HausbauBuch.Controls;
 using HausbauBuch.Helper;
 using HausbauBuch.Views.Activities;
 using HausbauBuch.Views.Appointments;
-using HausbauBuch.Views.CheckList;
 using HausbauBuch.Views.Contacts;
 using HausbauBuch.Views.Documents;
 using HausbauBuch.Views.Enviroment;
@@ -21,14 +21,15 @@ namespace HausbauBuch.Views.Home
 {
     public class Dashboard : DefaultContentPage
     {
-        private static readonly ActivitiesController ActivityController = new ActivitiesController();
-
         private readonly ListView _checkList;
+
+        public static Amounts Amounts = new Amounts();
 
         public Dashboard()
         {
+            InitAmounts();
+
             Title = "Unser Hausbau-Buch";
-            
             var grid = new Grid
             {
                 ColumnSpacing = 10,
@@ -45,27 +46,27 @@ namespace HausbauBuch.Views.Home
                 }
             };
             
-            var appointmentsCard = new Cards("Termine", 12, "appointments.png", CardPage.Appointments);
+            var appointmentsCard = new Cards("Termine", "appointments.png", CardPage.Appointments);
             var appointmentsTapGestureRecognizer = new TapGestureRecognizer();
             appointmentsTapGestureRecognizer.Tapped += AppointmentsCardClickedAsync;
             appointmentsCard.GestureRecognizers.Add(appointmentsTapGestureRecognizer);
-            var activitiesCard = new Cards("Aufgaben", 90, "activities.png", CardPage.Activities);
+            var activitiesCard = new Cards("Aufgaben", "activities.png", CardPage.Activities);
             var activitiesTapGestureRecognizer = new TapGestureRecognizer();
             activitiesTapGestureRecognizer.Tapped += ActivitiesCardClickedAsync;
             activitiesCard.GestureRecognizers.Add(activitiesTapGestureRecognizer);
-            var documentsCard = new Cards("Dateien", 4, "documents.png", CardPage.Documents);
+            var documentsCard = new Cards("Dateien", "documents.png", CardPage.Documents);
             var documentsTapGestureRecognizer = new TapGestureRecognizer();
             documentsTapGestureRecognizer.Tapped += DocumentsCardClickedAsync;
             documentsCard.GestureRecognizers.Add(documentsTapGestureRecognizer);
-            var contactsCard = new Cards("Kontakte", 12, "contacts.png", CardPage.Contacts);
+            var contactsCard = new Cards("Kontakte", "contacts.png", CardPage.Contacts);
             var contactsTapGestureRecognizer = new TapGestureRecognizer();
             contactsTapGestureRecognizer.Tapped += ContactsCardClickedAsync;
             contactsCard.GestureRecognizers.Add(contactsTapGestureRecognizer);
-            var enviromentsCard = new Cards("Einrichtung", 46, "enviroment.png", CardPage.Enviroment);
+            var enviromentsCard = new Cards("Einrichtung", "enviroment.png", CardPage.Enviroment);
             var enviromentsTapGestureRecognizer = new TapGestureRecognizer();
             enviromentsTapGestureRecognizer.Tapped += EnviromentsCardClickedAsync;
             enviromentsCard.GestureRecognizers.Add(enviromentsTapGestureRecognizer);
-            var gardensCard = new Cards("Garten", 11, "garden.png", CardPage.Garden);
+            var gardensCard = new Cards("Garten", "garden.png", CardPage.Garden);
             var gardensTapGestureRecognizer = new TapGestureRecognizer();
             gardensTapGestureRecognizer.Tapped += GardensCardClickedAsync;
             gardensCard.GestureRecognizers.Add(gardensTapGestureRecognizer);
@@ -80,9 +81,19 @@ namespace HausbauBuch.Views.Home
             _checkList = new ListView
             {
                 BackgroundColor = Colors.Primary,
-                ItemTemplate = new DataTemplate(typeof (CheckListCell))
+                ItemTemplate = new DataTemplate(() =>
+                {
+                    var checkListCell = new CheckListCell {ParentListView = _checkList};
+                    return checkListCell;
+                })
             };
+
             SetCheckListItems();
+
+            _checkList.Refreshing += (sender, args) =>
+            {
+                SetCheckListItems();
+            };
 
             var listViewHeaderStack = new StackLayout
             {
@@ -127,26 +138,75 @@ namespace HausbauBuch.Views.Home
             };
             mainGrid.Children.Add(grid,0,0);
             mainGrid.Children.Add(stack,0,1);
+
+            var dropTables = new ToolbarItem
+            {
+                Text = "Drop",
+                Command = new Command(DropTables)
+            };
+            ToolbarItems.Add(dropTables);
             Content = mainGrid;
         }
 
-        private void CreateTestData()
+        private async void InitAmounts()
+        {
+            await Task.Run(async () =>
+            {
+                Amounts.ActivitiesAmount = await App.ActivityController.Count(x => !x.Deleted);
+                Amounts.AppointmentsAmount = await App.AppointmentsController.Count(x => !x.Deleted);
+                Amounts.ContactsAmount = await App.ContactsController.Count(x => !x.Deleted);
+                Amounts.DocumentsAmount = await App.DocumentsController.Count(x => !x.Deleted);
+                Amounts.EnviromentsAmount = await App.EnviromentsController.Count(x => !x.Deleted);
+                Amounts.GardenAmount = await App.GardenController.Count(x => !x.Deleted);
+            });
+        }
+
+        private async void DropTables()
+        {
+            //For Debug. Add new Tables to drop when new entities get introduced
+            await App.SqlConnection.DropTableAsync<Classes.Activities>();
+            await App.SqlConnection.CreateTableAsync<Classes.Activities>();
+            await App.SqlConnection.DropTableAsync<Classes.Appointments>();
+            await App.SqlConnection.CreateTableAsync<Classes.Appointments>();
+            await App.SqlConnection.DropTableAsync<Classes.Contacts>();
+            await App.SqlConnection.CreateTableAsync<Classes.Contacts>();
+            await App.SqlConnection.DropTableAsync<Classes.Documents>();
+            await App.SqlConnection.CreateTableAsync<Classes.Documents>();
+            await App.SqlConnection.DropTableAsync<Classes.Enviroments>();
+            await App.SqlConnection.CreateTableAsync<Classes.Enviroments>();
+            await App.SqlConnection.DropTableAsync<Classes.GardenIdeas>();
+            await App.SqlConnection.CreateTableAsync<Classes.GardenIdeas>();
+            InitAmounts();
+            SetCheckListItems();
+        }
+        
+        private async void CreateTestData()
         {
             var act1 = new Classes.Activities
             {
                 Title = "Test1",
                 Description = "testestestestsetsetes",
-                IsCheckList = true
+                IsCheckList = true,
+                Date = DateTime.Today
             };
             var act2 = new Classes.Activities
             {
                 Title = "Test2",
                 Description = "jkdsafjklsa",
-                IsCheckList = true
+                IsCheckList = true,
+                Date = new DateTime(2016, 4, 27)
+            };
+            var act3 = new Classes.Activities
+            {
+                Title = "Test3",
+                Description = "fsdjakflsajfklas",
+                Date = new DateTime(2016, 4, 23)
             };
 
-            act1.Id = ActivityController.SaveActivity(act1);
-            act2.Id = ActivityController.SaveActivity(act2);
+            act1.Id = await App.ActivityController.Insert(act1);
+            Amounts.ActivitiesAmount++;
+            act2.Id = await App.ActivityController.Insert(act2);
+            act3.Id = await App.ActivityController.Insert(act3);
             SetCheckListItems();
         }
         
@@ -205,10 +265,10 @@ namespace HausbauBuch.Views.Home
             await NavigatePage((Cards) sender);
         }
 
-        private void SetCheckListItems()
+        public async void SetCheckListItems()
         {
-            var checkListItems = ActivityController.GetCheckListActivities();
-            _checkList.ItemsSource = checkListItems;
+            _checkList.ItemsSource = await App.ActivityController.Get(a => a.IsCheckList && !a.Deleted && !a.Finished, a => a.Date);
+            _checkList.EndRefresh();
         }
     }
 }

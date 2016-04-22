@@ -14,6 +14,8 @@ c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\Hausbau
 c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLite-net.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLitePCL.raw.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -24,7 +26,6 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLite-net.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLitePCL.raw.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.csprojResolveAssemblyReference.cache
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll.mdb

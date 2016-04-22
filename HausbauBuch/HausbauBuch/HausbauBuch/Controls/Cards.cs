@@ -3,22 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HausbauBuch.Classes;
 using HausbauBuch.Helper;
+using HausbauBuch.Views;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Controls
 {
     public class Cards : Grid
     {
-        public static BindableProperty CardsPageProperty = BindableProperty.CreateAttached("CardsPage", typeof(CardPage), typeof(Cards),CardPage.Nothing, BindingMode.OneWay);
+        public static BindableProperty CardsPageProperty = BindableProperty.Create("CardsPage", typeof(CardPage), typeof(Cards),CardPage.Nothing);
 
         public CardPage CardsPage
         {
             get { return (CardPage) GetValue(CardsPageProperty); }
             set { SetValue(CardsPageProperty, value);}
         }
-
-        public Cards(string title, int amount = 0, string iconName = "", CardPage page = CardPage.Nothing)
+        
+        public Cards(string title, string iconName = "", CardPage page = CardPage.Nothing)
         {
             var nameLabel = new DefaultLabel
             {
@@ -36,10 +39,33 @@ namespace HausbauBuch.Controls
 
             var amountLabel = new DefaultLabel
             {
-                Text = amount.ToString(),
                 HorizontalOptions = LayoutOptions.EndAndExpand,
                 VerticalOptions = LayoutOptions.Center
             };
+
+            switch (page)
+            {
+                case CardPage.Activities:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("ActivitiesAmount"));
+                    break;
+                case CardPage.Appointments:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("AppointmentsAmount"));
+                    break;
+                case CardPage.Contacts:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("ContactsAmount"));
+                    break;
+                case CardPage.Documents:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("DocumentsAmount"));
+                    break;
+                case CardPage.Enviroment:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("EnviromentsAmount"));
+                    break;
+                case CardPage.Garden:
+                    amountLabel.SetBinding(Label.TextProperty, new Binding("GardenAmount"));
+                    break;
+            }
+
+            BindingContext = Dashboard.Amounts;
 
             BackgroundColor = Colors.Primary;
             ColumnDefinitions.Add(new ColumnDefinition {Width = new GridLength(1, GridUnitType.Star)});

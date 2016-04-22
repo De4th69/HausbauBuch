@@ -36,9 +36,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Business\ActivityController.cs" />
+    <Compile Include="Business\AppointmentsController.cs" />
+    <Compile Include="Business\ContactsController.cs" />
+    <Compile Include="Business\DocumentsController.cs" />
+    <Compile Include="Business\EntityController.cs" />
+    <Compile Include="Business\EnviromentsController.cs" />
+    <Compile Include="Business\GardenController.cs" />
     <Compile Include="Business\IDatabaseAccess.cs" />
     <Compile Include="Classes\Activities.cs" />
+    <Compile Include="Classes\Amounts.cs" />
+    <Compile Include="Classes\Appointments.cs" />
+    <Compile Include="Classes\Contacts.cs" />
+    <Compile Include="Classes\Documents.cs" />
     <Compile Include="Classes\Entity.cs" />
+    <Compile Include="Classes\Enviroments.cs" />
+    <Compile Include="Classes\GardenIdeas.cs" />
+    <Compile Include="Controls\ActivitiesCell.cs" />
     <Compile Include="Controls\Cards.cs" />
     <Compile Include="Controls\CheckListCell.cs" />
     <Compile Include="Controls\DefaultButton.cs" />
@@ -48,10 +61,10 @@
     <Compile Include="Helper\Colors.cs" />
     <Compile Include="Helper\DateTimeConverter.cs" />
     <Compile Include="Views\Activities\ActivitiesView.cs" />
+    <Compile Include="Views\Activities\ActivityView.cs" />
     <Compile Include="Views\App.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Appointments\AppointmentsView.cs" />
-    <Compile Include="Views\CheckList\CreateCheckListItemView.cs" />
     <Compile Include="Views\Contacts\ContactsView.cs" />
     <Compile Include="Views\Documents\DocumentsView.cs" />
     <Compile Include="Views\Enviroment\EnviromentView.cs" />
