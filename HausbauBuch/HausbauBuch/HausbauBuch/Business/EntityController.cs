@@ -5,12 +5,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using HausbauBuch.Classes;
 using HausbauBuch.Views;
 using SQLite;
 
 namespace HausbauBuch.Business
 {
-    public interface IController<T> where T : class, new()
+    public interface IController<T> where T : Entity, new()
     {
         Task<List<T>> Get();
         Task<T> Get(int id);
@@ -30,7 +31,7 @@ namespace HausbauBuch.Business
         Task<int> Count(Expression<Func<T, bool>> predicate = null);
     }
 
-    public class EntityController<T> : IController<T> where T : class, new()
+    public class EntityController<T> : IController<T> where T : Entity, new()
     {
         private SQLiteAsyncConnection _db;
 
@@ -98,7 +99,6 @@ namespace HausbauBuch.Business
 
             return collection;
         }
-        
 
         public async Task<int> Insert(T entity)
         {

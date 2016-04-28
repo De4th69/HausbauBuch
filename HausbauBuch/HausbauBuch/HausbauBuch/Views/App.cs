@@ -1,5 +1,4 @@
-﻿using System.Xml.Linq;
-using HausbauBuch.Business;
+﻿using HausbauBuch.Business;
 using HausbauBuch.Views.Home;
 using SQLite;
 using Xamarin.Forms;
@@ -46,7 +45,7 @@ namespace HausbauBuch.Views
         {
             // Handle when your app resumes
         }
-
+        
         private static void InitControllers()
         {
             ActivityController = new ActivitiesController();

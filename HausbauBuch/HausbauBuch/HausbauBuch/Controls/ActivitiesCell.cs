@@ -1,17 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HausbauBuch.Classes;
 using HausbauBuch.Helper;
+using HausbauBuch.Views;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Controls
 {
     public class ActivitiesCell : ViewCell
     {
-        public ActivitiesCell()
+        public static BindableProperty ParentListViewProperty = BindableProperty.Create("ParentListView", typeof(ListView), typeof(ActivitiesCell), null);
+
+        public ListView ParentListView
         {
+            get { return (ListView) GetValue(ParentListViewProperty); }
+            set { SetValue(ParentListViewProperty, value); }
+        }
+
+        public ActivitiesCell(ListView parentListView = null)
+        {
+            if (parentListView != null)
+            {
+                ParentListView = parentListView;
+            }
+
             var dateLabel = new DefaultLabel
             {
                 HorizontalOptions = LayoutOptions.CenterAndExpand
@@ -49,6 +60,37 @@ namespace HausbauBuch.Controls
                     descriptionLabel
                 }
             };
+
+            var finishAction = new MenuItem {Text = "Fertig"};
+            finishAction.SetBinding(MenuItem.CommandParameterProperty, new Binding("."));
+            finishAction.Clicked += async (sender, e) =>
+            {
+                var activity = ((MenuItem) sender).CommandParameter as Activities;
+                if (activity != null)
+                {
+                    activity.Finished = true;
+                    activity.ModifiedAt = DateTime.Now;
+                    activity.FinishedOn = DateTime.Now;
+                    await App.ActivityController.Update(activity);
+                    ParentListView?.BeginRefresh();
+                }
+            };
+
+            var deleteAction = new MenuItem {Text = "Löschen"};
+            deleteAction.SetBinding(MenuItem.CommandParameterProperty, new Binding("."));
+            deleteAction.Clicked += async (sender, e) =>
+            {
+                var activity = ((MenuItem) sender).CommandParameter as Activities;
+                if (activity != null)
+                {
+                    activity.Deleted = true;
+                    activity.ModifiedAt = DateTime.Now;
+                    await App.ActivityController.Update(activity);
+                }
+            };
+
+            ContextActions.Add(finishAction);
+            ContextActions.Add(deleteAction);
 
             View = mainStack;
         }

@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
-using HausbauBuch.Business;
 using HausbauBuch.Classes;
 using HausbauBuch.Controls;
 using HausbauBuch.Helper;
@@ -25,10 +20,10 @@ namespace HausbauBuch.Views.Home
 
         public static Amounts Amounts = new Amounts();
 
+        public static EntityLists EntityLists = new EntityLists();
+
         public Dashboard()
         {
-            InitAmounts();
-
             Title = "Unser Hausbau-Buch";
             var grid = new Grid
             {
@@ -83,17 +78,15 @@ namespace HausbauBuch.Views.Home
                 BackgroundColor = Colors.Primary,
                 ItemTemplate = new DataTemplate(() =>
                 {
-                    var checkListCell = new CheckListCell {ParentListView = _checkList};
-                    return checkListCell;
-                })
+                    var activityCell = new ActivitiesCell(_checkList);
+                    return activityCell;
+                }),
+                HasUnevenRows = true
             };
-
-            SetCheckListItems();
-
-            _checkList.Refreshing += (sender, args) =>
-            {
-                SetCheckListItems();
-            };
+            
+            _checkList.Refreshing += CheckListOnRefreshing;
+            
+            _checkList.ItemTapped += CheckListOnItemTapped;
 
             var listViewHeaderStack = new StackLayout
             {
@@ -110,8 +103,11 @@ namespace HausbauBuch.Views.Home
                         BorderRadius = 0,
                         BorderWidth = 0,
                         Image = "add.png",
-                        //Command = new Command(async () => await Navigation.PushAsync(new CreateCheckListItemView()))
-                        Command = new Command(CreateTestData)
+                        Command = new Command(async () =>
+                        {
+                            var activity = new Classes.Activities {IsCheckList = true};
+                            await Navigation.PushAsync(new ActivityView(activity));
+                        })
                     }
                 }
             };
@@ -148,6 +144,32 @@ namespace HausbauBuch.Views.Home
             Content = mainGrid;
         }
 
+        protected override void OnAppearing()
+        {
+            _checkList.BeginRefresh();
+            InitAmounts();
+            base.OnAppearing();
+        }
+
+        private async void CheckListOnRefreshing(object sender, EventArgs eventArgs)
+        {
+            EntityLists.ActivityItems = await App.ActivityController.Get(a => !a.Deleted, a => a.Date);
+            EntityLists.AppointmentItems = await App.AppointmentsController.Get(a => !a.Deleted, a => a.Id);
+            EntityLists.ContactItems = await App.ContactsController.Get(a => !a.Deleted, a => a.Id);
+            EntityLists.DocumentItems = await App.DocumentsController.Get(a => !a.Deleted, a => a.Id);
+            EntityLists.EnviromentItems = await App.EnviromentsController.Get(a => !a.Deleted, a => a.Id);
+            EntityLists.GardenItems = await App.GardenController.Get(a => !a.Deleted, a => a.Id);
+            _checkList.ItemsSource = EntityLists.ActivityItems.Where(a => a.IsCheckList && !a.Finished);
+            _checkList.EndRefresh();
+        }
+
+        private async void CheckListOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        {
+            var activity = itemTappedEventArgs.Item as Classes.Activities;
+            ((ListView) sender).SelectedItem = null;
+            await Navigation.PushAsync(new ActivityView(activity));
+        }
+        
         private async void InitAmounts()
         {
             await Task.Run(async () =>
@@ -160,7 +182,7 @@ namespace HausbauBuch.Views.Home
                 Amounts.GardenAmount = await App.GardenController.Count(x => !x.Deleted);
             });
         }
-
+        
         private async void DropTables()
         {
             //For Debug. Add new Tables to drop when new entities get introduced
@@ -177,37 +199,7 @@ namespace HausbauBuch.Views.Home
             await App.SqlConnection.DropTableAsync<Classes.GardenIdeas>();
             await App.SqlConnection.CreateTableAsync<Classes.GardenIdeas>();
             InitAmounts();
-            SetCheckListItems();
-        }
-        
-        private async void CreateTestData()
-        {
-            var act1 = new Classes.Activities
-            {
-                Title = "Test1",
-                Description = "testestestestsetsetes",
-                IsCheckList = true,
-                Date = DateTime.Today
-            };
-            var act2 = new Classes.Activities
-            {
-                Title = "Test2",
-                Description = "jkdsafjklsa",
-                IsCheckList = true,
-                Date = new DateTime(2016, 4, 27)
-            };
-            var act3 = new Classes.Activities
-            {
-                Title = "Test3",
-                Description = "fsdjakflsajfklas",
-                Date = new DateTime(2016, 4, 23)
-            };
-
-            act1.Id = await App.ActivityController.Insert(act1);
-            Amounts.ActivitiesAmount++;
-            act2.Id = await App.ActivityController.Insert(act2);
-            act3.Id = await App.ActivityController.Insert(act3);
-            SetCheckListItems();
+            _checkList.BeginRefresh();
         }
         
         private async Task NavigatePage(Cards card)
@@ -263,12 +255,6 @@ namespace HausbauBuch.Views.Home
         private async void GardensCardClickedAsync(object sender, EventArgs e)
         {
             await NavigatePage((Cards) sender);
-        }
-
-        public async void SetCheckListItems()
-        {
-            _checkList.ItemsSource = await App.ActivityController.Get(a => a.IsCheckList && !a.Deleted && !a.Finished, a => a.Date);
-            _checkList.EndRefresh();
         }
     }
 }

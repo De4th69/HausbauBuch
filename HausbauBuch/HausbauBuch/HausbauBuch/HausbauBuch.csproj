@@ -49,13 +49,14 @@
     <Compile Include="Classes\Contacts.cs" />
     <Compile Include="Classes\Documents.cs" />
     <Compile Include="Classes\Entity.cs" />
+    <Compile Include="Classes\EntityLists.cs" />
     <Compile Include="Classes\Enviroments.cs" />
     <Compile Include="Classes\GardenIdeas.cs" />
     <Compile Include="Controls\ActivitiesCell.cs" />
     <Compile Include="Controls\Cards.cs" />
-    <Compile Include="Controls\CheckListCell.cs" />
     <Compile Include="Controls\DefaultButton.cs" />
     <Compile Include="Controls\DefaultContentPage.cs" />
+    <Compile Include="Controls\DefaultEntry.cs" />
     <Compile Include="Controls\DefaultLabel.cs" />
     <Compile Include="Helper\CardPage.cs" />
     <Compile Include="Helper\Colors.cs" />
