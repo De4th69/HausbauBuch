@@ -1,0 +1,31 @@
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.pdb
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll
+c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.pdb
+c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.pdb
+c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll.mdb
+c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLite-net.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\SQLitePCL.raw.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.csprojResolveAssemblyReference.cache
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll.mdb

@@ -24,22 +24,6 @@ namespace HausbauBuch.Classes
 
         public bool Deleted { get; set; }
 
-        private bool _synced;
-
-        public bool Synced
-        {
-            get { return _synced; }
-            set
-            {
-                if (value.Equals(_synced))
-                {
-                    return;
-                }
-                _synced = value;
-                OnPropertyChanged();
-            }
-        }
-
         public void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             var handler = PropertyChanged;
@@ -47,12 +31,6 @@ namespace HausbauBuch.Classes
             {
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
-        }
-
-        public Entity()
-        {
-            CreatedAt = DateTime.Now;
-            ModifiedAt = DateTime.Now;
         }
     }
 }

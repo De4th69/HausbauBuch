@@ -7,6 +7,7 @@ using HausbauBuch.Controls;
 using HausbauBuch.Helper;
 using HausbauBuch.Views.Home;
 using Xamarin.Forms;
+using Label = Xamarin.Forms.Label;
 
 namespace HausbauBuch.Views.Activities
 {

@@ -10,15 +10,17 @@ namespace HausbauBuch.Views.Appointments
 {
     public class AppointmentsView : DefaultContentPage
     {
-        private readonly ListView _appointmentsListView;
-
         public AppointmentsView()
         {
-            Title = "Termine";
-
-            _appointmentsListView = new ListView
+            Content = new StackLayout
             {
-
+                Children =
+                {
+                    new DefaultLabel
+                    {
+                        Text = "Placeholder"
+                    }
+                }
             };
         }
     }

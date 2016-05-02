@@ -100,6 +100,8 @@ namespace HausbauBuch.Classes
             Date = DateTime.Now;
             Finished = false;
             IsCheckList = false;
+            ModifiedAt = DateTime.Now;
+            CreatedAt = DateTime.Now;
         }
     }
 }
