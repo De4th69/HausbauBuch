@@ -2,6 +2,14 @@ HausbauBuch.Droid.MainActivity, HausbauBuch.Droid;md5b538e9bcbc7e12cc19deb3bec11
 HausbauBuch.Droid.MainActivity, HausbauBuch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainActivity
 HausbauBuch.Droid.MainActivity;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainActivity
 hausbaubuch.droid.MainActivity;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainActivity
+HausbauBuch.Droid.MainApplication, HausbauBuch.Droid;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
+HausbauBuch.Droid.MainApplication, HausbauBuch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
+HausbauBuch.Droid.MainApplication;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
+hausbaubuch.droid.MainApplication;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
+Plugin.Media.MediaPickerActivity, Plugin.Media;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
+plugin.media.MediaPickerActivity;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

@@ -6,7 +6,10 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="HausbauBuch" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <application android:label="HausbauBuch" android:icon="@drawable/icon" android:name="md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication" android:allowBackup="true" android:debuggable="true">
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Hausbau-Buch" android:theme="@style/StandardTheme" android:name="md5b538e9bcbc7e12cc19deb3bec1184dbe.MainActivity">
       <intent-filter>
@@ -14,6 +17,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="md588a879adf152f547778e5147cb2024ef.MediaPickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.RS.hausbaubuch.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

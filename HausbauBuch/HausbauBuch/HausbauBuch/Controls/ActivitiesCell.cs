@@ -2,6 +2,7 @@
 using HausbauBuch.Classes;
 using HausbauBuch.Helper;
 using HausbauBuch.Views;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Controls
@@ -61,7 +62,7 @@ namespace HausbauBuch.Controls
                 }
             };
 
-            var finishAction = new MenuItem {Text = "Fertig"};
+            var finishAction = new MenuItem {Icon = "finish.png"};
             finishAction.SetBinding(MenuItem.CommandParameterProperty, new Binding("."));
             finishAction.Clicked += async (sender, e) =>
             {
@@ -76,7 +77,7 @@ namespace HausbauBuch.Controls
                 }
             };
 
-            var deleteAction = new MenuItem {Text = "Löschen"};
+            var deleteAction = new MenuItem {Icon = "delete.png"};
             deleteAction.SetBinding(MenuItem.CommandParameterProperty, new Binding("."));
             deleteAction.Clicked += async (sender, e) =>
             {
@@ -85,6 +86,7 @@ namespace HausbauBuch.Controls
                 {
                     activity.Deleted = true;
                     activity.ModifiedAt = DateTime.Now;
+                    Dashboard.Amounts.ActivitiesAmount--;
                     await App.ActivityController.Update(activity);
                 }
             };

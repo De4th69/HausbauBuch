@@ -117,12 +117,13 @@ namespace HausbauBuch.Views.Activities
         {
             if (Activity.Id == null)
             {
-                Activity.ModifiedAt = DateTime.Now;
                 Activity.Id = await App.ActivityController.Insert(Activity);
                 Dashboard.EntityLists.ActivityItems.Add(Activity);
+                Dashboard.Amounts.ActivitiesAmount++;
             }
             else
             {
+                Activity.ModifiedAt = DateTime.Now;
                 await App.ActivityController.Update(Activity);
             }
         }
