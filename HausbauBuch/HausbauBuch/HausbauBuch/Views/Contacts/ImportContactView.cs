@@ -1,61 +1,156 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using HausbauBuch.Controls;
-using Plugin.Contacts;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Views.Contacts
 {
     public class ImportContactView : DefaultContentPage
     {
-        private ListView _contactsListView;
+        private readonly Classes.Contacts _contactToSave = new Classes.Contacts();
 
-        public ImportContactView()
+        public ImportContactView(Plugin.Contacts.Abstractions.Contact contact)
         {
-            _contactsListView = new ListView
-            {
-                ItemTemplate = new DataTemplate(() =>
-                {
-                    var textCell = new TextCell();
-                    textCell.SetBinding(TextCell.TextProperty, new Binding("LastName"));
-                    textCell.SetBinding(TextCell.DetailProperty, new Binding("FirstName"));
-                    return textCell;
-                })
-            };
-            _contactsListView.ItemTapped += ContactsListViewOnItemTapped;
+            BindingContext = _contactToSave;
 
-            var mainStack = new StackLayout {Children = {_contactsListView}};
+            var nameLabel = new DefaultLabel {Text = contact.DisplayName};
+
+            var firstNameEntry = new DefaultEntry
+            {
+                Placeholder = "Vorname"
+            };
+            firstNameEntry.TextChanged += FirstNameEntryOnTextChanged;
+
+            var lastNameEntry = new DefaultEntry
+            {
+                Placeholder = "Nachname"
+            };
+            lastNameEntry.TextChanged += LastNameEntryOnTextChanged;
+
+            var companyEntry = new DefaultEntry
+            {
+                Placeholder = "Firmenname"
+            };
+            companyEntry.TextChanged += CompanyEntryOnTextChanged;
+
+            var phoneLabel = new DefaultLabel
+            {
+                Text = "Telefon"
+            };
+            
+            var phonePicker = new Picker {Title = "Telefon" };
+            foreach (var phoneNumbers in contact.Phones.Where(n => n.Type == Plugin.Contacts.Abstractions.PhoneType.Work))
+            {
+                phonePicker.Items.Add(phoneNumbers.Number);
+            }
+            phonePicker.SelectedIndexChanged += PhonePickerOnSelectedIndexChanged;
+
+            var mobilePicker = new Picker {Title = "Mobil"};
+            foreach (var mobileNumbers in contact.Phones.Where(n => n.Type == Plugin.Contacts.Abstractions.PhoneType.Mobile))
+            {
+                mobilePicker.Items.Add(mobileNumbers.Number);
+            }
+            mobilePicker.SelectedIndexChanged += MobilePickerOnSelectedIndexChanged;
+
+            var emailPicker = new Picker {Title = "Email"};
+            foreach (var emailAdresses in contact.Emails)
+            {
+                emailPicker.Items.Add(emailAdresses.Address);
+            }
+            emailPicker.SelectedIndexChanged += EmailPickerOnSelectedIndexChanged;
+
+            var internetAddressPicker = new Picker {Title = "Internetadresse"};
+            foreach (var websites in contact.Websites)
+            {
+                internetAddressPicker.Items.Add(websites.Address);
+            }
+            internetAddressPicker.SelectedIndexChanged += InternetAddressPickerOnSelectedIndexChanged;
+
+            var mainStack = new StackLayout {Children =
+            {
+                nameLabel,
+                firstNameEntry,
+                lastNameEntry,
+                companyEntry,
+                phonePicker,
+                mobilePicker,
+                emailPicker,
+                internetAddressPicker
+            }};
+
+            firstNameEntry.Text = contact.FirstName;
+            lastNameEntry.Text = contact.LastName;
+            if (contact.Organizations.Count > 0)
+            {
+                companyEntry.Text = contact.Organizations.First().Name;
+            }
+
+            var saveToolbarItem = new ToolbarItem
+            {
+                Icon = "finish.png",
+                Command = new Command(SaveContact)
+            };
+
+            ToolbarItems.Add(saveToolbarItem);
 
             Content = mainStack;
         }
 
-        protected override void OnAppearing()
+        private void CompanyEntryOnTextChanged(object sender, TextChangedEventArgs textChangedEventArgs)
         {
-            GetContacts();
-            base.OnAppearing();
+            _contactToSave.CompanyName = textChangedEventArgs.NewTextValue;
         }
 
-        private async void GetContacts()
+        private void LastNameEntryOnTextChanged(object sender, TextChangedEventArgs textChangedEventArgs)
         {
-            if (await CrossContacts.Current.RequestPermission())
+            _contactToSave.LastName = textChangedEventArgs.NewTextValue;
+        }
+
+        private void FirstNameEntryOnTextChanged(object sender, TextChangedEventArgs textChangedEventArgs)
+        {
+            _contactToSave.FirstName = textChangedEventArgs.NewTextValue;
+        }
+
+        private void InternetAddressPickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
+        {
+            if (((Picker) sender).SelectedIndex != 0)
             {
-                //TODO: Exceptionhandling
-                CrossContacts.Current.PreferContactAggregation = false;
-                await Task.Run(() =>
-                {
-                    if (CrossContacts.Current.Contacts == null) return;
-                    var contacts = CrossContacts.Current.Contacts.Where(c => !string.IsNullOrEmpty(c.LastName)).ToList();
-                    _contactsListView.ItemsSource = contacts.OrderBy(c => c.LastName);
-                });
+                _contactToSave.InternetAddress = ((Picker) sender).Items[((Picker) sender).SelectedIndex];
             }
         }
 
-        private void ContactsListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        private void EmailPickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
         {
-            
+            if (((Picker)sender).SelectedIndex != 0)
+            {
+                _contactToSave.Email = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
+            }
+        }
+
+        private void MobilePickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
+        {
+            if (((Picker)sender).SelectedIndex != 0)
+            {
+                _contactToSave.MobileNumber = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
+            }
+        }
+
+        private void PhonePickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
+        {
+            if (((Picker)sender).SelectedIndex != 0)
+            {
+                _contactToSave.PhoneNumber = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
+            }
+        }
+
+        private async void SaveContact()
+        {
+            _contactToSave.FullName = _contactToSave.FirstName + " " + _contactToSave.LastName;
+            _contactToSave.Id = await App.ContactsController.Insert(_contactToSave);
+            Dashboard.EntityLists.ContactItems.Add(_contactToSave);
+            Dashboard.Amounts.ContactsAmount++;
+            await Navigation.PopAsync();
         }
     }
 }

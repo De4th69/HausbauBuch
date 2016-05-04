@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HausbauBuch.Controls;
 using HausbauBuch.Views.Home;
+using HausbauBuch.Views.Misc;
 using Softweb.Controls;
 using Xamarin.Forms;
 
@@ -47,7 +48,7 @@ namespace HausbauBuch.Views.Contacts
                 Text = "Import",
                 Command = new Command(async () =>
                 {
-                    await Navigation.PushAsync(new ImportContactView());
+                    await Navigation.PushAsync(new SelectContactView());
                 })
             };
 
