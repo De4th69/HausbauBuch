@@ -185,6 +185,37 @@
             </summary>
         </member>
         <!-- Badly formed XML comment ignored for member "P:Plugin.Media.Abstractions.StoreCameraMediaOptions.SaveToAlbum" -->
+        <member name="P:Plugin.Media.Abstractions.StoreCameraMediaOptions.PhotoSize">
+            <summary>
+            Gets or sets the size of the photo.
+            </summary>
+            <value>The size of the photo.</value>
+        </member>
+        <member name="T:Plugin.Media.Abstractions.PhotoSize">
+            <summary>
+            Photo size enum.
+            </summary>
+        </member>
+        <member name="F:Plugin.Media.Abstractions.PhotoSize.Small">
+            <summary>
+            25% of original
+            </summary>
+        </member>
+        <member name="F:Plugin.Media.Abstractions.PhotoSize.Medium">
+            <summary>
+            50% of the original
+            </summary>
+        </member>
+        <member name="F:Plugin.Media.Abstractions.PhotoSize.Large">
+            <summary>
+            75% of the original
+            </summary>
+        </member>
+        <member name="F:Plugin.Media.Abstractions.PhotoSize.Full">
+            <summary>
+            Untouched
+            </summary>
+        </member>
         <member name="T:Plugin.Media.Abstractions.VideoQuality">
             <summary>
             Video quality

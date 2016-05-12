@@ -40,14 +40,14 @@ namespace HausbauBuch.Views.Contacts
             };
             
             var phonePicker = new Picker {Title = "Telefon" };
-            foreach (var phoneNumbers in contact.Phones.Where(n => n.Type == Plugin.Contacts.Abstractions.PhoneType.Work))
+            foreach (var phoneNumbers in contact.Phones)
             {
                 phonePicker.Items.Add(phoneNumbers.Number);
             }
             phonePicker.SelectedIndexChanged += PhonePickerOnSelectedIndexChanged;
 
             var mobilePicker = new Picker {Title = "Mobil"};
-            foreach (var mobileNumbers in contact.Phones.Where(n => n.Type == Plugin.Contacts.Abstractions.PhoneType.Mobile))
+            foreach (var mobileNumbers in contact.Phones)
             {
                 mobilePicker.Items.Add(mobileNumbers.Number);
             }
@@ -114,7 +114,7 @@ namespace HausbauBuch.Views.Contacts
 
         private void InternetAddressPickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
         {
-            if (((Picker) sender).SelectedIndex != 0)
+            if (((Picker) sender).SelectedIndex != -1)
             {
                 _contactToSave.InternetAddress = ((Picker) sender).Items[((Picker) sender).SelectedIndex];
             }
@@ -122,7 +122,7 @@ namespace HausbauBuch.Views.Contacts
 
         private void EmailPickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
         {
-            if (((Picker)sender).SelectedIndex != 0)
+            if (((Picker)sender).SelectedIndex != -1)
             {
                 _contactToSave.Email = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
             }
@@ -130,7 +130,7 @@ namespace HausbauBuch.Views.Contacts
 
         private void MobilePickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
         {
-            if (((Picker)sender).SelectedIndex != 0)
+            if (((Picker)sender).SelectedIndex != -1)
             {
                 _contactToSave.MobileNumber = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
             }
@@ -138,7 +138,7 @@ namespace HausbauBuch.Views.Contacts
 
         private void PhonePickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
         {
-            if (((Picker)sender).SelectedIndex != 0)
+            if (((Picker)sender).SelectedIndex != -1)
             {
                 _contactToSave.PhoneNumber = ((Picker)sender).Items[((Picker)sender).SelectedIndex];
             }
@@ -150,6 +150,7 @@ namespace HausbauBuch.Views.Contacts
             _contactToSave.Id = await App.ContactsController.Insert(_contactToSave);
             Dashboard.EntityLists.ContactItems.Add(_contactToSave);
             Dashboard.Amounts.ContactsAmount++;
+            MessagingCenter.Send(this, "update");
             await Navigation.PopAsync();
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,11 +25,12 @@ namespace HausbauBuch.Views.Contacts
                 HasUnevenRows = true,
                 ItemTemplate = new DataTemplate(() =>
                 {
-                    var contactCell = new ContactCard();
+                    var contactCell = new ContactCard(_contactsListView);
                     return contactCell;
                 })
             };
             _contactsListView.ItemTapped += ContactsListViewOnItemTapped;
+            _contactsListView.Refreshing += (sender, args) => { SetListViewItems(); _contactsListView.EndRefresh(); };
             SetListViewItems();
 
             var mainStack = new StackLayout {Children = {_contactsListView}};
@@ -52,35 +54,26 @@ namespace HausbauBuch.Views.Contacts
                 })
             };
 
-            ToolbarItems.Add(addToolbarItem);
-            ToolbarItems.Add(importToolbarItem);
-
-            Content = mainStack;
-        }
-
-        protected override void OnAppearing()
-        {
-            SetListViewItems();
             MessagingCenter.Subscribe<ContactCard, string>(this, "browse", (card, s) =>
             {
                 NavigateToBrowser(s);
             });
+
+            MessagingCenter.Subscribe<ContactView>(this, "update", view => SetListViewItems());
+
+            MessagingCenter.Subscribe<ImportContactView>(this, "update", view => SetListViewItems());
 
             MessagingCenter.Subscribe<ContactCard, string>(this, "error", (card, t) =>
             {
                 ShowError(t);
             });
 
-            base.OnAppearing();
-        }
+            ToolbarItems.Add(addToolbarItem);
+            ToolbarItems.Add(importToolbarItem);
 
-        protected override void OnDisappearing()
-        {
-            MessagingCenter.Unsubscribe<ContactCard, string>(this, "browse");
-            MessagingCenter.Unsubscribe<ContactCard, string>(this, "error");
-            base.OnDisappearing();
+            Content = mainStack;
         }
-
+        
         private async void ContactsListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
         {
             var contact = itemTappedEventArgs.Item as Classes.Contacts;
@@ -90,7 +83,7 @@ namespace HausbauBuch.Views.Contacts
 
         private void SetListViewItems()
         {
-            _contactsListView.ItemsSource = Dashboard.EntityLists.ContactItems;
+            _contactsListView.ItemsSource = Dashboard.EntityLists.ContactItems.Where(c => !c.Deleted);
         }
 
         private async void NavigateToBrowser(string internetAddress)

@@ -11,7 +11,7 @@ using Xamarin.Forms;
 
 namespace HausbauBuch.Controls
 {
-    public class Cards : Grid
+    public class Cards : Frame
     {
         public static BindableProperty CardsPageProperty = BindableProperty.Create("CardsPage", typeof(CardPage), typeof(Cards),CardPage.Nothing);
 
@@ -68,24 +68,33 @@ namespace HausbauBuch.Controls
             BindingContext = Dashboard.Amounts;
 
             BackgroundColor = Colors.Primary;
-            ColumnDefinitions.Add(new ColumnDefinition {Width = new GridLength(1, GridUnitType.Star)});
-            ColumnDefinitions.Add(new ColumnDefinition {Width = new GridLength(3, GridUnitType.Star)});
-            RowDefinitions.Add(new RowDefinition {Height = new GridLength(2, GridUnitType.Star)});
-            RowDefinitions.Add(new RowDefinition {Height = new GridLength(1, GridUnitType.Star)});
-
+            
             CardsPage = page;
-
-            Children.Add(icon, 0, 0);
-            Children.Add(amountLabel, 1, 0);
-            Children.Add(nameLabel, 0, 1);
-
-            SetRow(nameLabel, 1);
-            SetColumnSpan(nameLabel, 2);
-
             Padding = 5;
 
             WidthRequest = 500;
             HeightRequest = 300;
+
+            var upperStack = new StackLayout
+            {
+                Orientation = StackOrientation.Horizontal,
+                Children =
+                {
+                    icon,
+                    amountLabel
+                }
+            };
+
+            var mainStack = new StackLayout
+            {
+                Children =
+                {
+                    upperStack,
+                    nameLabel
+                }
+            };
+
+            Content = mainStack;
         }
     }
 }

@@ -120,6 +120,7 @@ namespace HausbauBuch.Views.Activities
                 Activity.Id = await App.ActivityController.Insert(Activity);
                 Dashboard.EntityLists.ActivityItems.Add(Activity);
                 Dashboard.Amounts.ActivitiesAmount++;
+                MessagingCenter.Send(this, "update");
             }
             else
             {

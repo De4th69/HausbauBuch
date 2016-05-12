@@ -19,10 +19,12 @@ public final class R {
         public static int abc_slide_in_top=0x7f040007;
         public static int abc_slide_out_bottom=0x7f040008;
         public static int abc_slide_out_top=0x7f040009;
-        public static int design_fab_in=0x7f04000a;
-        public static int design_fab_out=0x7f04000b;
-        public static int design_snackbar_in=0x7f04000c;
-        public static int design_snackbar_out=0x7f04000d;
+        public static int design_bottom_sheet_slide_in=0x7f04000a;
+        public static int design_bottom_sheet_slide_out=0x7f04000b;
+        public static int design_fab_in=0x7f04000c;
+        public static int design_fab_out=0x7f04000d;
+        public static int design_snackbar_in=0x7f04000e;
+        public static int design_snackbar_out=0x7f04000f;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -32,15 +34,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarDivider=0x7f01008f;
+        public static int actionBarDivider=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarItemBackground=0x7f010090;
+        public static int actionBarItemBackground=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarPopupTheme=0x7f010089;
+        public static int actionBarPopupTheme=0x7f010061;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -58,117 +60,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int actionBarSize=0x7f01008e;
+        public static int actionBarSize=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarSplitStyle=0x7f01008b;
+        public static int actionBarSplitStyle=0x7f010063;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarStyle=0x7f01008a;
+        public static int actionBarStyle=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabBarStyle=0x7f010085;
+        public static int actionBarTabBarStyle=0x7f01005d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabStyle=0x7f010084;
+        public static int actionBarTabStyle=0x7f01005c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTabTextStyle=0x7f010086;
+        public static int actionBarTabTextStyle=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarTheme=0x7f01008c;
+        public static int actionBarTheme=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionBarWidgetTheme=0x7f01008d;
+        public static int actionBarWidgetTheme=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionButtonStyle=0x7f0100a9;
+        public static int actionButtonStyle=0x7f010081;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionDropDownStyle=0x7f0100a5;
+        public static int actionDropDownStyle=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionLayout=0x7f010060;
+        public static int actionLayout=0x7f0100cf;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionMenuTextAppearance=0x7f010091;
+        public static int actionMenuTextAppearance=0x7f010069;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int actionMenuTextColor=0x7f010092;
+        public static int actionMenuTextColor=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeBackground=0x7f010095;
+        public static int actionModeBackground=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCloseButtonStyle=0x7f010094;
+        public static int actionModeCloseButtonStyle=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCloseDrawable=0x7f010097;
+        public static int actionModeCloseDrawable=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCopyDrawable=0x7f010099;
+        public static int actionModeCopyDrawable=0x7f010071;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeCutDrawable=0x7f010098;
+        public static int actionModeCutDrawable=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeFindDrawable=0x7f01009d;
+        public static int actionModeFindDrawable=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModePasteDrawable=0x7f01009a;
+        public static int actionModePasteDrawable=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModePopupWindowStyle=0x7f01009f;
+        public static int actionModePopupWindowStyle=0x7f010077;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeSelectAllDrawable=0x7f01009b;
+        public static int actionModeSelectAllDrawable=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeShareDrawable=0x7f01009c;
+        public static int actionModeShareDrawable=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeSplitBackground=0x7f010096;
+        public static int actionModeSplitBackground=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeStyle=0x7f010093;
+        public static int actionModeStyle=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionModeWebSearchDrawable=0x7f01009e;
+        public static int actionModeWebSearchDrawable=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionOverflowButtonStyle=0x7f010087;
+        public static int actionOverflowButtonStyle=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int actionOverflowMenuStyle=0x7f010088;
+        public static int actionOverflowMenuStyle=0x7f010060;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -176,7 +178,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int actionProviderClass=0x7f010062;
+        public static int actionProviderClass=0x7f0100d1;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -184,15 +186,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int actionViewClass=0x7f010061;
+        public static int actionViewClass=0x7f0100d0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int activityChooserViewStyle=0x7f0100b1;
+        public static int activityChooserViewStyle=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogButtonGroupStyle=0x7f0100d4;
+        public static int alertDialogButtonGroupStyle=0x7f0100ac;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -200,15 +202,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int alertDialogCenterButtons=0x7f0100d5;
+        public static int alertDialogCenterButtons=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogStyle=0x7f0100d3;
+        public static int alertDialogStyle=0x7f0100ab;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int alertDialogTheme=0x7f0100d6;
+        public static int alertDialogTheme=0x7f0100ae;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -216,7 +218,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int allowStacking=0x7f010051;
+        public static int allowStacking=0x7f0100c0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -226,7 +228,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int arrowHeadLength=0x7f010058;
+        public static int arrowHeadLength=0x7f0100c7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -236,11 +238,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int arrowShaftLength=0x7f010059;
+        public static int arrowShaftLength=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int autoCompleteTextViewStyle=0x7f0100db;
+        public static int autoCompleteTextViewStyle=0x7f0100b3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -265,7 +267,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int backgroundTint=0x7f0100f8;
+        public static int backgroundTint=0x7f0100fb;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -279,7 +281,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int backgroundTintMode=0x7f0100f9;
+        public static int backgroundTintMode=0x7f0100fc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -289,7 +291,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int barLength=0x7f01005a;
+        public static int barLength=0x7f0100c9;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int behavior_hideable=0x7f010101;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -299,7 +309,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int behavior_overlapTop=0x7f01011e;
+        public static int behavior_overlapTop=0x7f010127;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -309,31 +319,49 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int borderWidth=0x7f010115;
+        public static int behavior_peekHeight=0x7f010100;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int borderWidth=0x7f01011d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int borderlessButtonStyle=0x7f0100ae;
+        public static int borderlessButtonStyle=0x7f010086;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarButtonStyle=0x7f0100ab;
+        public static int bottomSheetDialogTheme=0x7f010117;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarNegativeButtonStyle=0x7f0100d9;
+        public static int bottomSheetStyle=0x7f010118;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarNeutralButtonStyle=0x7f0100da;
+        public static int buttonBarButtonStyle=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarPositiveButtonStyle=0x7f0100d8;
+        public static int buttonBarNegativeButtonStyle=0x7f0100b1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonBarStyle=0x7f0100aa;
+        public static int buttonBarNeutralButtonStyle=0x7f0100b2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int buttonBarPositiveButtonStyle=0x7f0100b0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int buttonBarStyle=0x7f010082;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -355,11 +383,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonStyle=0x7f0100dc;
+        public static int buttonStyle=0x7f0100b4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int buttonStyleSmall=0x7f0100dd;
+        public static int buttonStyleSmall=0x7f0100b5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -368,7 +396,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int buttonTint=0x7f010052;
+        public static int buttonTint=0x7f0100c1;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -382,7 +410,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static int buttonTintMode=0x7f010053;
+        public static int buttonTintMode=0x7f0100c2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -441,11 +469,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int checkboxStyle=0x7f0100de;
+        public static int checkboxStyle=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int checkedTextViewStyle=0x7f0100df;
+        public static int checkedTextViewStyle=0x7f0100b7;
         /** 
         Whether or not this view should have a circular clip applied
         
@@ -460,7 +488,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int closeIcon=0x7f01006a;
+        public static int closeIcon=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -472,11 +500,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int collapseContentDescription=0x7f0100ef;
+        public static int collapseContentDescription=0x7f0100f2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int collapseIcon=0x7f0100ee;
+        public static int collapseIcon=0x7f0100f1;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -495,11 +523,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int collapsedTitleGravity=0x7f010109;
+        public static int collapsedTitleGravity=0x7f01010e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int collapsedTitleTextAppearance=0x7f010105;
+        public static int collapsedTitleTextAppearance=0x7f01010a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -508,7 +536,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int color=0x7f010054;
+        public static int color=0x7f0100c3;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -517,7 +545,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorAccent=0x7f0100cc;
+        public static int colorAccent=0x7f0100a4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -526,7 +554,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorButtonNormal=0x7f0100d0;
+        public static int colorButtonNormal=0x7f0100a8;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -535,7 +563,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlActivated=0x7f0100ce;
+        public static int colorControlActivated=0x7f0100a6;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -544,7 +572,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlHighlight=0x7f0100cf;
+        public static int colorControlHighlight=0x7f0100a7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -553,7 +581,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorControlNormal=0x7f0100cd;
+        public static int colorControlNormal=0x7f0100a5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -562,7 +590,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorPrimary=0x7f0100ca;
+        public static int colorPrimary=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -571,7 +599,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorPrimaryDark=0x7f0100cb;
+        public static int colorPrimaryDark=0x7f0100a3;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -594,11 +622,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int colorSwitchThumbNormal=0x7f0100d1;
+        public static int colorSwitchThumbNormal=0x7f0100a9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int commitIcon=0x7f01006f;
+        public static int commitIcon=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -697,11 +725,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int contentScrim=0x7f010106;
+        public static int contentScrim=0x7f01010b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int controlBackground=0x7f0100d2;
+        public static int controlBackground=0x7f0100aa;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -709,7 +737,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int counterEnabled=0x7f010133;
+        public static int counterEnabled=0x7f01013d;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -717,15 +745,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int counterMaxLength=0x7f010134;
+        public static int counterMaxLength=0x7f01013e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int counterOverflowTextAppearance=0x7f010136;
+        public static int counterOverflowTextAppearance=0x7f010140;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int counterTextAppearance=0x7f010135;
+        public static int counterTextAppearance=0x7f01013f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -737,7 +765,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int defaultQueryHint=0x7f010069;
+        public static int defaultQueryHint=0x7f0100d8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -747,11 +775,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dialogPreferredPadding=0x7f0100a3;
+        public static int dialogPreferredPadding=0x7f01007b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dialogTheme=0x7f0100a2;
+        public static int dialogTheme=0x7f01007a;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -775,7 +803,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dividerHorizontal=0x7f0100b0;
+        public static int dividerHorizontal=0x7f010088;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -785,11 +813,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dividerPadding=0x7f01005e;
+        public static int dividerPadding=0x7f0100cd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dividerVertical=0x7f0100af;
+        public static int dividerVertical=0x7f010087;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -799,7 +827,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int drawableSize=0x7f010056;
+        public static int drawableSize=0x7f0100c5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -807,7 +835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int dropDownListViewStyle=0x7f0100c2;
+        public static int dropDownListViewStyle=0x7f01009a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -817,21 +845,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int dropdownListPreferredItemHeight=0x7f0100a6;
+        public static int dropdownListPreferredItemHeight=0x7f01007e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int editTextBackground=0x7f0100b7;
+        public static int editTextBackground=0x7f01008f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int editTextColor=0x7f0100b6;
+        public static int editTextColor=0x7f01008e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int editTextStyle=0x7f0100e0;
+        public static int editTextStyle=0x7f0100b8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -849,11 +877,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int errorEnabled=0x7f010131;
+        public static int errorEnabled=0x7f01013b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int errorTextAppearance=0x7f010132;
+        public static int errorTextAppearance=0x7f01013c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -865,7 +893,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expanded=0x7f0100fa;
+        public static int expanded=0x7f0100fd;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -884,7 +912,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int expandedTitleGravity=0x7f01010a;
+        public static int expandedTitleGravity=0x7f01010f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -894,7 +922,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMargin=0x7f0100ff;
+        public static int expandedTitleMargin=0x7f010104;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -904,7 +932,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginBottom=0x7f010103;
+        public static int expandedTitleMarginBottom=0x7f010108;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -914,7 +942,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginEnd=0x7f010102;
+        public static int expandedTitleMarginEnd=0x7f010107;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -924,7 +952,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginStart=0x7f010100;
+        public static int expandedTitleMarginStart=0x7f010105;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -934,11 +962,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int expandedTitleMarginTop=0x7f010101;
+        public static int expandedTitleMarginTop=0x7f010106;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int expandedTitleTextAppearance=0x7f010104;
+        public static int expandedTitleTextAppearance=0x7f010109;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -953,7 +981,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int fabSize=0x7f010113;
+        public static int fabSize=0x7f01011b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -961,7 +989,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int foregroundInsidePadding=0x7f010116;
+        public static int foregroundInsidePadding=0x7f01011f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -971,15 +999,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int gapBetweenBars=0x7f010057;
+        public static int gapBetweenBars=0x7f0100c6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int goIcon=0x7f01006b;
+        public static int goIcon=0x7f0100da;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int headerLayout=0x7f01011c;
+        public static int headerLayout=0x7f010125;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1005,15 +1033,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int hintAnimationEnabled=0x7f010137;
+        public static int hintAnimationEnabled=0x7f010141;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int hintEnabled=0x7f01013a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int hintTextAppearance=0x7f010130;
+        public static int hintTextAppearance=0x7f010139;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int homeAsUpIndicator=0x7f0100a8;
+        public static int homeAsUpIndicator=0x7f010080;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1029,7 +1065,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int iconifiedByDefault=0x7f010067;
+        public static int iconifiedByDefault=0x7f0100d6;
         /** 
         The fixed aspect ratio to use in aspect ratio adjustments.
         
@@ -1060,7 +1096,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int imageButtonStyle=0x7f0100b8;
+        public static int imageButtonStyle=0x7f010090;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1078,7 +1114,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int insetForeground=0x7f01011d;
+        public static int insetForeground=0x7f010126;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1090,7 +1126,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int itemBackground=0x7f01011a;
+        public static int itemBackground=0x7f010123;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1099,7 +1135,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int itemIconTint=0x7f010118;
+        public static int itemIconTint=0x7f010121;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1113,7 +1149,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int itemTextAppearance=0x7f01011b;
+        public static int itemTextAppearance=0x7f010124;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1122,15 +1158,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int itemTextColor=0x7f010119;
+        public static int itemTextColor=0x7f010122;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int keylines=0x7f01010c;
+        public static int keylines=0x7f010111;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout=0x7f010066;
+        public static int layout=0x7f0100d5;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1142,7 +1178,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout_anchor=0x7f01010f;
+        public static int layout_anchor=0x7f010114;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1165,7 +1201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static int layout_anchorGravity=0x7f010111;
+        public static int layout_anchorGravity=0x7f010116;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1173,7 +1209,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_behavior=0x7f01010e;
+        public static int layout_behavior=0x7f010113;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1185,7 +1221,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int layout_collapseMode=0x7f0100fd;
+        public static int layout_collapseMode=0x7f010102;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1193,7 +1229,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_collapseParallaxMultiplier=0x7f0100fe;
+        public static int layout_collapseParallaxMultiplier=0x7f010103;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1201,7 +1237,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_keyline=0x7f010110;
+        public static int layout_keyline=0x7f010115;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1215,19 +1251,19 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
          */
-        public static int layout_scrollFlags=0x7f0100fb;
+        public static int layout_scrollFlags=0x7f0100fe;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int layout_scrollInterpolator=0x7f0100fc;
+        public static int layout_scrollInterpolator=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listChoiceBackgroundIndicator=0x7f0100c9;
+        public static int listChoiceBackgroundIndicator=0x7f0100a1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listDividerAlertDialog=0x7f0100a4;
+        public static int listDividerAlertDialog=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1239,7 +1275,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int listPopupWindowStyle=0x7f0100c3;
+        public static int listPopupWindowStyle=0x7f01009b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1249,7 +1285,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeight=0x7f0100bd;
+        public static int listPreferredItemHeight=0x7f010095;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1259,7 +1295,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeightLarge=0x7f0100bf;
+        public static int listPreferredItemHeightLarge=0x7f010097;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1269,7 +1305,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemHeightSmall=0x7f0100be;
+        public static int listPreferredItemHeightSmall=0x7f010096;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1279,7 +1315,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemPaddingLeft=0x7f0100c0;
+        public static int listPreferredItemPaddingLeft=0x7f010098;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1289,7 +1325,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int listPreferredItemPaddingRight=0x7f0100c1;
+        public static int listPreferredItemPaddingRight=0x7f010099;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1301,7 +1337,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int logoDescription=0x7f0100f2;
+        public static int logoDescription=0x7f0100f5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1311,7 +1347,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int maxActionInlineWidth=0x7f01011f;
+        public static int maxActionInlineWidth=0x7f010128;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1321,7 +1357,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int maxButtonHeight=0x7f0100ed;
+        public static int maxButtonHeight=0x7f0100f0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1329,7 +1365,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int measureWithLargestChild=0x7f01005c;
+        public static int measureWithLargestChild=0x7f0100cb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1417,7 +1453,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int menu=0x7f010117;
+        public static int menu=0x7f010120;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1429,11 +1465,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int navigationContentDescription=0x7f0100f1;
+        public static int navigationContentDescription=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int navigationIcon=0x7f0100f0;
+        public static int navigationIcon=0x7f0100f3;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1453,7 +1489,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int overlapAnchor=0x7f010064;
+        public static int overlapAnchor=0x7f0100d3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1463,7 +1499,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingEnd=0x7f0100f6;
+        public static int paddingEnd=0x7f0100f9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1473,15 +1509,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int paddingStart=0x7f0100f5;
+        public static int paddingStart=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int panelBackground=0x7f0100c6;
+        public static int panelBackground=0x7f01009e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int panelMenuListTheme=0x7f0100c8;
+        public static int panelMenuListTheme=0x7f0100a0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1491,11 +1527,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int panelMenuListWidth=0x7f0100c7;
+        public static int panelMenuListWidth=0x7f01009f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int popupMenuStyle=0x7f0100b4;
+        public static int popupMenuStyle=0x7f01008c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1503,7 +1539,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int popupWindowStyle=0x7f0100b5;
+        public static int popupWindowStyle=0x7f01008d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1511,7 +1547,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int preserveIconSpacing=0x7f010063;
+        public static int preserveIconSpacing=0x7f0100d2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1521,7 +1557,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int pressedTranslationZ=0x7f010114;
+        public static int pressedTranslationZ=0x7f01011c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1539,7 +1575,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int queryBackground=0x7f010071;
+        public static int queryBackground=0x7f0100e0;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1547,15 +1583,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int queryHint=0x7f010068;
+        public static int queryHint=0x7f0100d7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int radioButtonStyle=0x7f0100e1;
+        public static int radioButtonStyle=0x7f0100b9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int ratingBarStyle=0x7f0100e2;
+        public static int ratingBarStyle=0x7f0100ba;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int ratingBarStyleIndicator=0x7f0100bb;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int ratingBarStyleSmall=0x7f0100bc;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1572,7 +1616,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int rippleColor=0x7f010112;
+        public static int rippleColor=0x7f01011a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -1581,27 +1625,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchHintIcon=0x7f01006d;
+        public static int searchHintIcon=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchIcon=0x7f01006c;
+        public static int searchIcon=0x7f0100db;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int searchViewStyle=0x7f0100bc;
+        public static int searchViewStyle=0x7f010094;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int seekBarStyle=0x7f0100e3;
+        public static int seekBarStyle=0x7f0100bd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int selectableItemBackground=0x7f0100ac;
+        public static int selectableItemBackground=0x7f010084;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int selectableItemBackgroundBorderless=0x7f0100ad;
+        public static int selectableItemBackgroundBorderless=0x7f010085;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1615,7 +1659,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static int showAsAction=0x7f01005f;
+        public static int showAsAction=0x7f0100ce;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1628,7 +1672,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static int showDividers=0x7f01005d;
+        public static int showDividers=0x7f0100cc;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1636,7 +1680,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int showText=0x7f010079;
+        public static int showText=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1656,15 +1700,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int spinBars=0x7f010055;
+        public static int spinBars=0x7f0100c4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int spinnerDropDownItemStyle=0x7f0100a7;
+        public static int spinnerDropDownItemStyle=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int spinnerStyle=0x7f0100e4;
+        public static int spinnerStyle=0x7f0100be;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1672,7 +1716,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int splitTrack=0x7f010078;
+        public static int splitTrack=0x7f0100e7;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int srcCompat=0x7f010050;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1688,11 +1736,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int state_above_anchor=0x7f010065;
+        public static int state_above_anchor=0x7f0100d4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int statusBarBackground=0x7f01010d;
+        public static int statusBarBackground=0x7f010112;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1701,11 +1749,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int statusBarScrim=0x7f010107;
+        public static int statusBarScrim=0x7f01010c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int submitBackground=0x7f010072;
+        public static int submitBackground=0x7f0100e1;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1717,7 +1765,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int subtitleTextAppearance=0x7f0100e7;
+        public static int subtitleTextAppearance=0x7f0100ea;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1726,7 +1774,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int subtitleTextColor=0x7f0100f4;
+        public static int subtitleTextColor=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1734,7 +1782,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int suggestionRowLayout=0x7f010070;
+        public static int suggestionRowLayout=0x7f0100df;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1744,7 +1792,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int switchMinWidth=0x7f010076;
+        public static int switchMinWidth=0x7f0100e5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1754,19 +1802,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int switchPadding=0x7f010077;
+        public static int switchPadding=0x7f0100e6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int switchStyle=0x7f0100e5;
+        public static int switchStyle=0x7f0100bf;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int switchTextAppearance=0x7f010075;
+        public static int switchTextAppearance=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tabBackground=0x7f010123;
+        public static int tabBackground=0x7f01012c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1776,7 +1824,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabContentStart=0x7f010122;
+        public static int tabContentStart=0x7f01012b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1787,7 +1835,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabGravity=0x7f010125;
+        public static int tabGravity=0x7f01012e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1796,7 +1844,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorColor=0x7f010120;
+        public static int tabIndicatorColor=0x7f010129;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1806,7 +1854,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabIndicatorHeight=0x7f010121;
+        public static int tabIndicatorHeight=0x7f01012a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1816,7 +1864,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabMaxWidth=0x7f010127;
+        public static int tabMaxWidth=0x7f010130;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1826,7 +1874,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabMinWidth=0x7f010126;
+        public static int tabMinWidth=0x7f01012f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1837,7 +1885,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int tabMode=0x7f010124;
+        public static int tabMode=0x7f01012d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1847,7 +1895,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPadding=0x7f01012f;
+        public static int tabPadding=0x7f010138;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1857,7 +1905,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingBottom=0x7f01012e;
+        public static int tabPaddingBottom=0x7f010137;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1867,7 +1915,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingEnd=0x7f01012d;
+        public static int tabPaddingEnd=0x7f010136;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1877,7 +1925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingStart=0x7f01012b;
+        public static int tabPaddingStart=0x7f010134;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1887,7 +1935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabPaddingTop=0x7f01012c;
+        public static int tabPaddingTop=0x7f010135;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1896,11 +1944,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabSelectedTextColor=0x7f01012a;
+        public static int tabSelectedTextColor=0x7f010133;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int tabTextAppearance=0x7f010128;
+        public static int tabTextAppearance=0x7f010131;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1909,52 +1957,61 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int tabTextColor=0x7f010129;
+        public static int tabTextColor=0x7f010132;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static int textAllCaps=0x7f010050;
+        public static int textAllCaps=0x7f010051;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceLargePopupMenu=0x7f0100a0;
+        public static int textAppearanceLargePopupMenu=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceListItem=0x7f0100c4;
+        public static int textAppearanceListItem=0x7f01009c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceListItemSmall=0x7f0100c5;
+        public static int textAppearanceListItemSmall=0x7f01009d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSearchResultSubtitle=0x7f0100ba;
+        public static int textAppearanceSearchResultSubtitle=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSearchResultTitle=0x7f0100b9;
+        public static int textAppearanceSearchResultTitle=0x7f010091;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int textAppearanceSmallPopupMenu=0x7f0100a1;
+        public static int textAppearanceSmallPopupMenu=0x7f010079;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int textColorAlertDialogListItem=0x7f0100d7;
+        public static int textColorAlertDialogListItem=0x7f0100af;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int textColorError=0x7f010119;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int textColorSearchUrl=0x7f0100bb;
+        public static int textColorSearchUrl=0x7f010093;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int theme=0x7f0100f7;
+        public static int theme=0x7f0100fa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1964,7 +2021,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int thickness=0x7f01005b;
+        public static int thickness=0x7f0100ca;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1974,7 +2031,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int thumbTextPadding=0x7f010074;
+        public static int thumbTextPadding=0x7f0100e3;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1990,7 +2047,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleEnabled=0x7f01010b;
+        public static int titleEnabled=0x7f010110;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2000,7 +2057,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginBottom=0x7f0100ec;
+        public static int titleMarginBottom=0x7f0100ef;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2010,7 +2067,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginEnd=0x7f0100ea;
+        public static int titleMarginEnd=0x7f0100ed;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2020,7 +2077,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginStart=0x7f0100e9;
+        public static int titleMarginStart=0x7f0100ec;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2030,7 +2087,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMarginTop=0x7f0100eb;
+        public static int titleMarginTop=0x7f0100ee;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2040,11 +2097,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleMargins=0x7f0100e8;
+        public static int titleMargins=0x7f0100eb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int titleTextAppearance=0x7f0100e6;
+        public static int titleTextAppearance=0x7f0100e9;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2053,7 +2110,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titleTextColor=0x7f0100f3;
+        public static int titleTextColor=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2061,23 +2118,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarId=0x7f010108;
+        public static int toolbarId=0x7f01010d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarNavigationButtonStyle=0x7f0100b3;
+        public static int toolbarNavigationButtonStyle=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int toolbarStyle=0x7f0100b2;
+        public static int toolbarStyle=0x7f01008a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int track=0x7f010073;
+        public static int track=0x7f0100e2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int voiceIcon=0x7f01006e;
+        public static int tsquare_dayBackground=0x7f010143;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_dayTextColor=0x7f010144;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2085,7 +2151,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionBar=0x7f01007a;
+        public static int tsquare_displayHeader=0x7f010146;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_dividerColor=0x7f010142;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_headerTextColor=0x7f010147;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2093,7 +2177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionBarOverlay=0x7f01007c;
+        public static int tsquare_state_current_month=0x7f010149;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2101,85 +2185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowActionModeOverlay=0x7f01007d;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowFixedHeightMajor=0x7f010081;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowFixedHeightMinor=0x7f01007f;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowFixedWidthMajor=0x7f01007e;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowFixedWidthMinor=0x7f010080;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowMinWidthMajor=0x7f010082;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int windowMinWidthMinor=0x7f010083;
+        public static int tsquare_state_highlighted=0x7f01014e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2187,7 +2193,170 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int windowNoTitle=0x7f01007b;
+        public static int tsquare_state_range_first=0x7f01014b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_state_range_last=0x7f01014d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_state_range_middle=0x7f01014c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_state_selectable=0x7f010148;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_state_today=0x7f01014a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int tsquare_titleTextColor=0x7f010145;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int useCompatPadding=0x7f01011e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int voiceIcon=0x7f0100dd;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowActionBar=0x7f010052;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowActionBarOverlay=0x7f010054;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowActionModeOverlay=0x7f010055;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowFixedHeightMajor=0x7f010059;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowFixedHeightMinor=0x7f010057;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowFixedWidthMajor=0x7f010056;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowFixedWidthMinor=0x7f010058;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowMinWidthMajor=0x7f01005a;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowMinWidthMinor=0x7f01005b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int windowNoTitle=0x7f010053;
     }
     public static final class bool {
         public static int abc_action_bar_embed_tabs=0x7f0c0003;
@@ -2200,20 +2369,20 @@ containing a value of this type.
         public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0c0007;
     }
     public static final class color {
-        public static int abc_background_cache_hint_selector_material_dark=0x7f080058;
-        public static int abc_background_cache_hint_selector_material_light=0x7f080059;
-        public static int abc_color_highlight_material=0x7f08005a;
+        public static int abc_background_cache_hint_selector_material_dark=0x7f080065;
+        public static int abc_background_cache_hint_selector_material_light=0x7f080066;
+        public static int abc_color_highlight_material=0x7f080067;
         public static int abc_input_method_navigation_guard=0x7f080015;
-        public static int abc_primary_text_disable_only_material_dark=0x7f08005b;
-        public static int abc_primary_text_disable_only_material_light=0x7f08005c;
-        public static int abc_primary_text_material_dark=0x7f08005d;
-        public static int abc_primary_text_material_light=0x7f08005e;
-        public static int abc_search_url_text=0x7f08005f;
+        public static int abc_primary_text_disable_only_material_dark=0x7f080068;
+        public static int abc_primary_text_disable_only_material_light=0x7f080069;
+        public static int abc_primary_text_material_dark=0x7f08006a;
+        public static int abc_primary_text_material_light=0x7f08006b;
+        public static int abc_search_url_text=0x7f08006c;
         public static int abc_search_url_text_normal=0x7f080016;
         public static int abc_search_url_text_pressed=0x7f080017;
         public static int abc_search_url_text_selected=0x7f080018;
-        public static int abc_secondary_text_material_dark=0x7f080060;
-        public static int abc_secondary_text_material_light=0x7f080061;
+        public static int abc_secondary_text_material_dark=0x7f08006d;
+        public static int abc_secondary_text_material_light=0x7f08006e;
         public static int accent_material_dark=0x7f080019;
         public static int accent_material_light=0x7f08001a;
         public static int background_floating_material_dark=0x7f08001b;
@@ -2228,31 +2397,44 @@ containing a value of this type.
         public static int bright_foreground_material_light=0x7f080024;
         public static int button_material_dark=0x7f080025;
         public static int button_material_light=0x7f080026;
+        public static int calendar_active_month_bg=0x7f080059;
+        public static int calendar_bg=0x7f08005a;
+        public static int calendar_divider=0x7f08005b;
+        public static int calendar_highlighted_day_bg=0x7f08005c;
+        public static int calendar_inactive_month_bg=0x7f08005d;
+        public static int calendar_selected_day_bg=0x7f08005e;
+        public static int calendar_selected_range_bg=0x7f08005f;
+        public static int calendar_text_active=0x7f080060;
+        public static int calendar_text_highlighted=0x7f080061;
+        public static int calendar_text_inactive=0x7f080062;
+        public static int calendar_text_selected=0x7f080063;
+        public static int calendar_text_selector=0x7f08006f;
+        public static int calendar_text_unselectable=0x7f080064;
         public static int cardview_dark_background=0x7f080011;
         public static int cardview_light_background=0x7f080012;
         public static int cardview_shadow_end_color=0x7f080013;
         public static int cardview_shadow_start_color=0x7f080014;
         public static int common_action_bar_splitter=0x7f080008;
-        public static int common_google_signin_btn_text_dark=0x7f080062;
+        public static int common_google_signin_btn_text_dark=0x7f080070;
         /**  Google Sign-in Button Colors 
          */
         public static int common_google_signin_btn_text_dark_default=0x7f080009;
         public static int common_google_signin_btn_text_dark_disabled=0x7f08000b;
         public static int common_google_signin_btn_text_dark_focused=0x7f08000c;
         public static int common_google_signin_btn_text_dark_pressed=0x7f08000a;
-        public static int common_google_signin_btn_text_light=0x7f080063;
+        public static int common_google_signin_btn_text_light=0x7f080071;
         public static int common_google_signin_btn_text_light_default=0x7f08000d;
         public static int common_google_signin_btn_text_light_disabled=0x7f08000f;
         public static int common_google_signin_btn_text_light_focused=0x7f080010;
         public static int common_google_signin_btn_text_light_pressed=0x7f08000e;
-        public static int common_plus_signin_btn_text_dark=0x7f080064;
+        public static int common_plus_signin_btn_text_dark=0x7f080072;
         /**  Google Plus Sign-in Button Colors 
          */
         public static int common_plus_signin_btn_text_dark_default=0x7f080000;
         public static int common_plus_signin_btn_text_dark_disabled=0x7f080002;
         public static int common_plus_signin_btn_text_dark_focused=0x7f080003;
         public static int common_plus_signin_btn_text_dark_pressed=0x7f080001;
-        public static int common_plus_signin_btn_text_light=0x7f080065;
+        public static int common_plus_signin_btn_text_light=0x7f080073;
         public static int common_plus_signin_btn_text_light_default=0x7f080004;
         public static int common_plus_signin_btn_text_light_disabled=0x7f080006;
         public static int common_plus_signin_btn_text_light_focused=0x7f080007;
@@ -2265,7 +2447,8 @@ containing a value of this type.
         public static int design_fab_stroke_top_inner_color=0x7f080054;
         public static int design_fab_stroke_top_outer_color=0x7f080055;
         public static int design_snackbar_background_color=0x7f080056;
-        public static int design_textinput_error_color=0x7f080057;
+        public static int design_textinput_error_color_dark=0x7f080057;
+        public static int design_textinput_error_color_light=0x7f080058;
         public static int dim_foreground_disabled_material_dark=0x7f080027;
         public static int dim_foreground_disabled_material_light=0x7f080028;
         public static int dim_foreground_material_dark=0x7f080029;
@@ -2304,125 +2487,133 @@ containing a value of this type.
         public static int secondary_text_disabled_material_light=0x7f08004a;
         public static int switch_thumb_disabled_material_dark=0x7f08004b;
         public static int switch_thumb_disabled_material_light=0x7f08004c;
-        public static int switch_thumb_material_dark=0x7f080066;
-        public static int switch_thumb_material_light=0x7f080067;
+        public static int switch_thumb_material_dark=0x7f080074;
+        public static int switch_thumb_material_light=0x7f080075;
         public static int switch_thumb_normal_material_dark=0x7f08004d;
         public static int switch_thumb_normal_material_light=0x7f08004e;
     }
     public static final class dimen {
-        public static int abc_action_bar_content_inset_material=0x7f090017;
-        public static int abc_action_bar_default_height_material=0x7f09000b;
-        public static int abc_action_bar_default_padding_end_material=0x7f090018;
-        public static int abc_action_bar_default_padding_start_material=0x7f090019;
-        public static int abc_action_bar_icon_vertical_padding_material=0x7f09001b;
-        public static int abc_action_bar_overflow_padding_end_material=0x7f09001c;
-        public static int abc_action_bar_overflow_padding_start_material=0x7f09001d;
-        public static int abc_action_bar_progress_bar_size=0x7f09000c;
-        public static int abc_action_bar_stacked_max_height=0x7f09001e;
-        public static int abc_action_bar_stacked_tab_max_width=0x7f09001f;
-        public static int abc_action_bar_subtitle_bottom_margin_material=0x7f090020;
-        public static int abc_action_bar_subtitle_top_margin_material=0x7f090021;
-        public static int abc_action_button_min_height_material=0x7f090022;
-        public static int abc_action_button_min_width_material=0x7f090023;
-        public static int abc_action_button_min_width_overflow_material=0x7f090024;
-        public static int abc_alert_dialog_button_bar_height=0x7f09000a;
-        public static int abc_button_inset_horizontal_material=0x7f090025;
-        public static int abc_button_inset_vertical_material=0x7f090026;
-        public static int abc_button_padding_horizontal_material=0x7f090027;
-        public static int abc_button_padding_vertical_material=0x7f090028;
-        public static int abc_config_prefDialogWidth=0x7f09000f;
-        public static int abc_control_corner_material=0x7f090029;
-        public static int abc_control_inset_material=0x7f09002a;
-        public static int abc_control_padding_material=0x7f09002b;
-        public static int abc_dialog_fixed_height_major=0x7f090010;
-        public static int abc_dialog_fixed_height_minor=0x7f090011;
-        public static int abc_dialog_fixed_width_major=0x7f090012;
-        public static int abc_dialog_fixed_width_minor=0x7f090013;
-        public static int abc_dialog_list_padding_vertical_material=0x7f09002c;
-        public static int abc_dialog_min_width_major=0x7f090014;
-        public static int abc_dialog_min_width_minor=0x7f090015;
-        public static int abc_dialog_padding_material=0x7f09002d;
-        public static int abc_dialog_padding_top_material=0x7f09002e;
-        public static int abc_disabled_alpha_material_dark=0x7f09002f;
-        public static int abc_disabled_alpha_material_light=0x7f090030;
-        public static int abc_dropdownitem_icon_width=0x7f090031;
-        public static int abc_dropdownitem_text_padding_left=0x7f090032;
-        public static int abc_dropdownitem_text_padding_right=0x7f090033;
-        public static int abc_edit_text_inset_bottom_material=0x7f090034;
-        public static int abc_edit_text_inset_horizontal_material=0x7f090035;
-        public static int abc_edit_text_inset_top_material=0x7f090036;
-        public static int abc_floating_window_z=0x7f090037;
-        public static int abc_list_item_padding_horizontal_material=0x7f090038;
-        public static int abc_panel_menu_list_width=0x7f090039;
-        public static int abc_search_view_preferred_width=0x7f09003a;
-        public static int abc_search_view_text_min_width=0x7f090016;
-        public static int abc_seekbar_track_background_height_material=0x7f09003b;
-        public static int abc_seekbar_track_progress_height_material=0x7f09003c;
-        public static int abc_select_dialog_padding_start_material=0x7f09003d;
-        public static int abc_switch_padding=0x7f09001a;
-        public static int abc_text_size_body_1_material=0x7f09003e;
-        public static int abc_text_size_body_2_material=0x7f09003f;
-        public static int abc_text_size_button_material=0x7f090040;
-        public static int abc_text_size_caption_material=0x7f090041;
-        public static int abc_text_size_display_1_material=0x7f090042;
-        public static int abc_text_size_display_2_material=0x7f090043;
-        public static int abc_text_size_display_3_material=0x7f090044;
-        public static int abc_text_size_display_4_material=0x7f090045;
-        public static int abc_text_size_headline_material=0x7f090046;
-        public static int abc_text_size_large_material=0x7f090047;
-        public static int abc_text_size_medium_material=0x7f090048;
-        public static int abc_text_size_menu_material=0x7f090049;
-        public static int abc_text_size_small_material=0x7f09004a;
-        public static int abc_text_size_subhead_material=0x7f09004b;
-        public static int abc_text_size_subtitle_material_toolbar=0x7f09000d;
-        public static int abc_text_size_title_material=0x7f09004c;
-        public static int abc_text_size_title_material_toolbar=0x7f09000e;
-        public static int cardview_compat_inset_shadow=0x7f090007;
-        public static int cardview_default_elevation=0x7f090008;
-        public static int cardview_default_radius=0x7f090009;
-        public static int design_appbar_elevation=0x7f09005d;
-        public static int design_fab_border_width=0x7f09005e;
-        public static int design_fab_content_size=0x7f09005f;
-        public static int design_fab_elevation=0x7f090060;
-        public static int design_fab_size_mini=0x7f090061;
-        public static int design_fab_size_normal=0x7f090062;
-        public static int design_fab_translation_z_pressed=0x7f090063;
-        public static int design_navigation_elevation=0x7f090064;
-        public static int design_navigation_icon_padding=0x7f090065;
-        public static int design_navigation_icon_size=0x7f090066;
-        public static int design_navigation_max_width=0x7f090067;
-        public static int design_navigation_padding_bottom=0x7f090068;
-        public static int design_navigation_padding_top_default=0x7f09005c;
-        public static int design_navigation_separator_vertical_padding=0x7f090069;
-        public static int design_snackbar_action_inline_max_width=0x7f090055;
-        public static int design_snackbar_background_corner_radius=0x7f090056;
-        public static int design_snackbar_elevation=0x7f09006a;
-        public static int design_snackbar_extra_spacing_horizontal=0x7f090057;
-        public static int design_snackbar_max_width=0x7f090058;
-        public static int design_snackbar_min_width=0x7f090059;
-        public static int design_snackbar_padding_horizontal=0x7f09006b;
-        public static int design_snackbar_padding_vertical=0x7f09006c;
-        public static int design_snackbar_padding_vertical_2lines=0x7f09005a;
-        public static int design_snackbar_text_size=0x7f09006d;
-        public static int design_tab_max_width=0x7f09006e;
-        public static int design_tab_scrollable_min_width=0x7f09005b;
-        public static int design_tab_text_size=0x7f09006f;
-        public static int design_tab_text_size_2line=0x7f090070;
-        public static int disabled_alpha_material_dark=0x7f09004d;
-        public static int disabled_alpha_material_light=0x7f09004e;
-        public static int highlight_alpha_material_colored=0x7f09004f;
-        public static int highlight_alpha_material_dark=0x7f090050;
-        public static int highlight_alpha_material_light=0x7f090051;
+        public static int abc_action_bar_content_inset_material=0x7f090019;
+        public static int abc_action_bar_default_height_material=0x7f09000d;
+        public static int abc_action_bar_default_padding_end_material=0x7f09001a;
+        public static int abc_action_bar_default_padding_start_material=0x7f09001b;
+        public static int abc_action_bar_icon_vertical_padding_material=0x7f09001d;
+        public static int abc_action_bar_overflow_padding_end_material=0x7f09001e;
+        public static int abc_action_bar_overflow_padding_start_material=0x7f09001f;
+        public static int abc_action_bar_progress_bar_size=0x7f09000e;
+        public static int abc_action_bar_stacked_max_height=0x7f090020;
+        public static int abc_action_bar_stacked_tab_max_width=0x7f090021;
+        public static int abc_action_bar_subtitle_bottom_margin_material=0x7f090022;
+        public static int abc_action_bar_subtitle_top_margin_material=0x7f090023;
+        public static int abc_action_button_min_height_material=0x7f090024;
+        public static int abc_action_button_min_width_material=0x7f090025;
+        public static int abc_action_button_min_width_overflow_material=0x7f090026;
+        public static int abc_alert_dialog_button_bar_height=0x7f09000c;
+        public static int abc_button_inset_horizontal_material=0x7f090027;
+        public static int abc_button_inset_vertical_material=0x7f090028;
+        public static int abc_button_padding_horizontal_material=0x7f090029;
+        public static int abc_button_padding_vertical_material=0x7f09002a;
+        public static int abc_config_prefDialogWidth=0x7f090011;
+        public static int abc_control_corner_material=0x7f09002b;
+        public static int abc_control_inset_material=0x7f09002c;
+        public static int abc_control_padding_material=0x7f09002d;
+        public static int abc_dialog_fixed_height_major=0x7f090012;
+        public static int abc_dialog_fixed_height_minor=0x7f090013;
+        public static int abc_dialog_fixed_width_major=0x7f090014;
+        public static int abc_dialog_fixed_width_minor=0x7f090015;
+        public static int abc_dialog_list_padding_vertical_material=0x7f09002e;
+        public static int abc_dialog_min_width_major=0x7f090016;
+        public static int abc_dialog_min_width_minor=0x7f090017;
+        public static int abc_dialog_padding_material=0x7f09002f;
+        public static int abc_dialog_padding_top_material=0x7f090030;
+        public static int abc_disabled_alpha_material_dark=0x7f090031;
+        public static int abc_disabled_alpha_material_light=0x7f090032;
+        public static int abc_dropdownitem_icon_width=0x7f090033;
+        public static int abc_dropdownitem_text_padding_left=0x7f090034;
+        public static int abc_dropdownitem_text_padding_right=0x7f090035;
+        public static int abc_edit_text_inset_bottom_material=0x7f090036;
+        public static int abc_edit_text_inset_horizontal_material=0x7f090037;
+        public static int abc_edit_text_inset_top_material=0x7f090038;
+        public static int abc_floating_window_z=0x7f090039;
+        public static int abc_list_item_padding_horizontal_material=0x7f09003a;
+        public static int abc_panel_menu_list_width=0x7f09003b;
+        public static int abc_search_view_preferred_width=0x7f09003c;
+        public static int abc_search_view_text_min_width=0x7f090018;
+        public static int abc_seekbar_track_background_height_material=0x7f09003d;
+        public static int abc_seekbar_track_progress_height_material=0x7f09003e;
+        public static int abc_select_dialog_padding_start_material=0x7f09003f;
+        public static int abc_switch_padding=0x7f09001c;
+        public static int abc_text_size_body_1_material=0x7f090040;
+        public static int abc_text_size_body_2_material=0x7f090041;
+        public static int abc_text_size_button_material=0x7f090042;
+        public static int abc_text_size_caption_material=0x7f090043;
+        public static int abc_text_size_display_1_material=0x7f090044;
+        public static int abc_text_size_display_2_material=0x7f090045;
+        public static int abc_text_size_display_3_material=0x7f090046;
+        public static int abc_text_size_display_4_material=0x7f090047;
+        public static int abc_text_size_headline_material=0x7f090048;
+        public static int abc_text_size_large_material=0x7f090049;
+        public static int abc_text_size_medium_material=0x7f09004a;
+        public static int abc_text_size_menu_material=0x7f09004b;
+        public static int abc_text_size_small_material=0x7f09004c;
+        public static int abc_text_size_subhead_material=0x7f09004d;
+        public static int abc_text_size_subtitle_material_toolbar=0x7f09000f;
+        public static int abc_text_size_title_material=0x7f09004e;
+        public static int abc_text_size_title_material_toolbar=0x7f090010;
+        public static int calendar_day_headers_paddingbottom=0x7f090074;
+        public static int calendar_month_title_bottommargin=0x7f090075;
+        public static int calendar_month_topmargin=0x7f090076;
+        public static int calendar_text_medium=0x7f090077;
+        public static int calendar_text_small=0x7f090078;
+        public static int cardview_compat_inset_shadow=0x7f090009;
+        public static int cardview_default_elevation=0x7f09000a;
+        public static int cardview_default_radius=0x7f09000b;
+        public static int design_appbar_elevation=0x7f09005f;
+        public static int design_bottom_sheet_modal_elevation=0x7f090060;
+        public static int design_bottom_sheet_modal_peek_height=0x7f090061;
+        public static int design_fab_border_width=0x7f090062;
+        public static int design_fab_elevation=0x7f090063;
+        public static int design_fab_image_size=0x7f090064;
+        public static int design_fab_size_mini=0x7f090065;
+        public static int design_fab_size_normal=0x7f090066;
+        public static int design_fab_translation_z_pressed=0x7f090067;
+        public static int design_navigation_elevation=0x7f090068;
+        public static int design_navigation_icon_padding=0x7f090069;
+        public static int design_navigation_icon_size=0x7f09006a;
+        public static int design_navigation_max_width=0x7f090057;
+        public static int design_navigation_padding_bottom=0x7f09006b;
+        public static int design_navigation_separator_vertical_padding=0x7f09006c;
+        public static int design_snackbar_action_inline_max_width=0x7f090058;
+        public static int design_snackbar_background_corner_radius=0x7f090059;
+        public static int design_snackbar_elevation=0x7f09006d;
+        public static int design_snackbar_extra_spacing_horizontal=0x7f09005a;
+        public static int design_snackbar_max_width=0x7f09005b;
+        public static int design_snackbar_min_width=0x7f09005c;
+        public static int design_snackbar_padding_horizontal=0x7f09006e;
+        public static int design_snackbar_padding_vertical=0x7f09006f;
+        public static int design_snackbar_padding_vertical_2lines=0x7f09005d;
+        public static int design_snackbar_text_size=0x7f090070;
+        public static int design_tab_max_width=0x7f090071;
+        public static int design_tab_scrollable_min_width=0x7f09005e;
+        public static int design_tab_text_size=0x7f090072;
+        public static int design_tab_text_size_2line=0x7f090073;
+        public static int disabled_alpha_material_dark=0x7f09004f;
+        public static int disabled_alpha_material_light=0x7f090050;
+        public static int highlight_alpha_material_colored=0x7f090051;
+        public static int highlight_alpha_material_dark=0x7f090052;
+        public static int highlight_alpha_material_light=0x7f090053;
         public static int item_touch_helper_max_drag_scroll_per_frame=0x7f090000;
-        public static int mr_controller_volume_group_list_item_height=0x7f090001;
-        public static int mr_controller_volume_group_list_item_icon_size=0x7f090002;
-        public static int mr_controller_volume_group_list_max_height=0x7f090003;
-        public static int mr_controller_volume_group_list_padding_top=0x7f090006;
-        public static int mr_dialog_fixed_width_major=0x7f090004;
-        public static int mr_dialog_fixed_width_minor=0x7f090005;
-        public static int notification_large_icon_height=0x7f090052;
-        public static int notification_large_icon_width=0x7f090053;
-        public static int notification_subtext_size=0x7f090054;
+        public static int item_touch_helper_swipe_escape_max_velocity=0x7f090001;
+        public static int item_touch_helper_swipe_escape_velocity=0x7f090002;
+        public static int mr_controller_volume_group_list_item_height=0x7f090003;
+        public static int mr_controller_volume_group_list_item_icon_size=0x7f090004;
+        public static int mr_controller_volume_group_list_max_height=0x7f090005;
+        public static int mr_controller_volume_group_list_padding_top=0x7f090008;
+        public static int mr_dialog_fixed_width_major=0x7f090006;
+        public static int mr_dialog_fixed_width_minor=0x7f090007;
+        public static int notification_large_icon_height=0x7f090054;
+        public static int notification_large_icon_width=0x7f090055;
+        public static int notification_subtext_size=0x7f090056;
     }
     public static final class drawable {
         public static int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2458,348 +2649,373 @@ containing a value of this type.
         public static int abc_ic_menu_selectall_mtrl_alpha=0x7f02001e;
         public static int abc_ic_menu_share_mtrl_alpha=0x7f02001f;
         public static int abc_ic_search_api_mtrl_alpha=0x7f020020;
-        public static int abc_ic_voice_search_api_mtrl_alpha=0x7f020021;
-        public static int abc_item_background_holo_dark=0x7f020022;
-        public static int abc_item_background_holo_light=0x7f020023;
-        public static int abc_list_divider_mtrl_alpha=0x7f020024;
-        public static int abc_list_focused_holo=0x7f020025;
-        public static int abc_list_longpressed_holo=0x7f020026;
-        public static int abc_list_pressed_holo_dark=0x7f020027;
-        public static int abc_list_pressed_holo_light=0x7f020028;
-        public static int abc_list_selector_background_transition_holo_dark=0x7f020029;
-        public static int abc_list_selector_background_transition_holo_light=0x7f02002a;
-        public static int abc_list_selector_disabled_holo_dark=0x7f02002b;
-        public static int abc_list_selector_disabled_holo_light=0x7f02002c;
-        public static int abc_list_selector_holo_dark=0x7f02002d;
-        public static int abc_list_selector_holo_light=0x7f02002e;
-        public static int abc_menu_hardkey_panel_mtrl_mult=0x7f02002f;
-        public static int abc_popup_background_mtrl_mult=0x7f020030;
-        public static int abc_ratingbar_full_material=0x7f020031;
-        public static int abc_scrubber_control_off_mtrl_alpha=0x7f020032;
-        public static int abc_scrubber_control_to_pressed_mtrl_000=0x7f020033;
-        public static int abc_scrubber_control_to_pressed_mtrl_005=0x7f020034;
-        public static int abc_scrubber_primary_mtrl_alpha=0x7f020035;
-        public static int abc_scrubber_track_mtrl_alpha=0x7f020036;
-        public static int abc_seekbar_thumb_material=0x7f020037;
-        public static int abc_seekbar_track_material=0x7f020038;
-        public static int abc_spinner_mtrl_am_alpha=0x7f020039;
-        public static int abc_spinner_textfield_background_material=0x7f02003a;
-        public static int abc_switch_thumb_material=0x7f02003b;
-        public static int abc_switch_track_mtrl_alpha=0x7f02003c;
-        public static int abc_tab_indicator_material=0x7f02003d;
-        public static int abc_tab_indicator_mtrl_alpha=0x7f02003e;
-        public static int abc_text_cursor_material=0x7f02003f;
-        public static int abc_textfield_activated_mtrl_alpha=0x7f020040;
-        public static int abc_textfield_default_mtrl_alpha=0x7f020041;
-        public static int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
-        public static int abc_textfield_search_default_mtrl_alpha=0x7f020043;
-        public static int abc_textfield_search_material=0x7f020044;
-        public static int browse=0x7f020045;
-        public static int call=0x7f020046;
-        public static int common_full_open_on_phone=0x7f020047;
-        public static int common_google_signin_btn_icon_dark=0x7f020048;
-        public static int common_google_signin_btn_icon_dark_disabled=0x7f020049;
-        public static int common_google_signin_btn_icon_dark_focused=0x7f02004a;
-        public static int common_google_signin_btn_icon_dark_normal=0x7f02004b;
-        public static int common_google_signin_btn_icon_dark_pressed=0x7f02004c;
-        public static int common_google_signin_btn_icon_light=0x7f02004d;
-        public static int common_google_signin_btn_icon_light_disabled=0x7f02004e;
-        public static int common_google_signin_btn_icon_light_focused=0x7f02004f;
-        public static int common_google_signin_btn_icon_light_normal=0x7f020050;
-        public static int common_google_signin_btn_icon_light_pressed=0x7f020051;
-        public static int common_google_signin_btn_text_dark=0x7f020052;
-        public static int common_google_signin_btn_text_dark_disabled=0x7f020053;
-        public static int common_google_signin_btn_text_dark_focused=0x7f020054;
-        public static int common_google_signin_btn_text_dark_normal=0x7f020055;
-        public static int common_google_signin_btn_text_dark_pressed=0x7f020056;
-        public static int common_google_signin_btn_text_light=0x7f020057;
-        public static int common_google_signin_btn_text_light_disabled=0x7f020058;
-        public static int common_google_signin_btn_text_light_focused=0x7f020059;
-        public static int common_google_signin_btn_text_light_normal=0x7f02005a;
-        public static int common_google_signin_btn_text_light_pressed=0x7f02005b;
-        public static int common_ic_googleplayservices=0x7f02005c;
-        public static int common_plus_signin_btn_icon_dark=0x7f02005d;
-        public static int common_plus_signin_btn_icon_dark_disabled=0x7f02005e;
-        public static int common_plus_signin_btn_icon_dark_focused=0x7f02005f;
-        public static int common_plus_signin_btn_icon_dark_normal=0x7f020060;
-        public static int common_plus_signin_btn_icon_dark_pressed=0x7f020061;
-        public static int common_plus_signin_btn_icon_light=0x7f020062;
-        public static int common_plus_signin_btn_icon_light_disabled=0x7f020063;
-        public static int common_plus_signin_btn_icon_light_focused=0x7f020064;
-        public static int common_plus_signin_btn_icon_light_normal=0x7f020065;
-        public static int common_plus_signin_btn_icon_light_pressed=0x7f020066;
-        public static int common_plus_signin_btn_text_dark=0x7f020067;
-        public static int common_plus_signin_btn_text_dark_disabled=0x7f020068;
-        public static int common_plus_signin_btn_text_dark_focused=0x7f020069;
-        public static int common_plus_signin_btn_text_dark_normal=0x7f02006a;
-        public static int common_plus_signin_btn_text_dark_pressed=0x7f02006b;
-        public static int common_plus_signin_btn_text_light=0x7f02006c;
-        public static int common_plus_signin_btn_text_light_disabled=0x7f02006d;
-        public static int common_plus_signin_btn_text_light_focused=0x7f02006e;
-        public static int common_plus_signin_btn_text_light_normal=0x7f02006f;
-        public static int common_plus_signin_btn_text_light_pressed=0x7f020070;
-        public static int contactdefault=0x7f020071;
-        public static int delete=0x7f020072;
-        public static int design_fab_background=0x7f020073;
-        public static int design_snackbar_background=0x7f020074;
-        public static int finish=0x7f020075;
-        public static int ic_audiotrack=0x7f020076;
-        public static int ic_audiotrack_light=0x7f020077;
-        public static int ic_bluetooth_grey=0x7f020078;
-        public static int ic_bluetooth_white=0x7f020079;
-        public static int ic_cast_dark=0x7f02007a;
-        public static int ic_cast_disabled_light=0x7f02007b;
-        public static int ic_cast_grey=0x7f02007c;
-        public static int ic_cast_light=0x7f02007d;
-        public static int ic_cast_off_light=0x7f02007e;
-        public static int ic_cast_on_0_light=0x7f02007f;
-        public static int ic_cast_on_1_light=0x7f020080;
-        public static int ic_cast_on_2_light=0x7f020081;
-        public static int ic_cast_on_light=0x7f020082;
-        public static int ic_cast_white=0x7f020083;
-        public static int ic_close_dark=0x7f020084;
-        public static int ic_close_light=0x7f020085;
-        public static int ic_collapse=0x7f020086;
-        public static int ic_collapse_00000=0x7f020087;
-        public static int ic_collapse_00001=0x7f020088;
-        public static int ic_collapse_00002=0x7f020089;
-        public static int ic_collapse_00003=0x7f02008a;
-        public static int ic_collapse_00004=0x7f02008b;
-        public static int ic_collapse_00005=0x7f02008c;
-        public static int ic_collapse_00006=0x7f02008d;
-        public static int ic_collapse_00007=0x7f02008e;
-        public static int ic_collapse_00008=0x7f02008f;
-        public static int ic_collapse_00009=0x7f020090;
-        public static int ic_collapse_00010=0x7f020091;
-        public static int ic_collapse_00011=0x7f020092;
-        public static int ic_collapse_00012=0x7f020093;
-        public static int ic_collapse_00013=0x7f020094;
-        public static int ic_collapse_00014=0x7f020095;
-        public static int ic_collapse_00015=0x7f020096;
-        public static int ic_expand=0x7f020097;
-        public static int ic_expand_00000=0x7f020098;
-        public static int ic_expand_00001=0x7f020099;
-        public static int ic_expand_00002=0x7f02009a;
-        public static int ic_expand_00003=0x7f02009b;
-        public static int ic_expand_00004=0x7f02009c;
-        public static int ic_expand_00005=0x7f02009d;
-        public static int ic_expand_00006=0x7f02009e;
-        public static int ic_expand_00007=0x7f02009f;
-        public static int ic_expand_00008=0x7f0200a0;
-        public static int ic_expand_00009=0x7f0200a1;
-        public static int ic_expand_00010=0x7f0200a2;
-        public static int ic_expand_00011=0x7f0200a3;
-        public static int ic_expand_00012=0x7f0200a4;
-        public static int ic_expand_00013=0x7f0200a5;
-        public static int ic_expand_00014=0x7f0200a6;
-        public static int ic_expand_00015=0x7f0200a7;
-        public static int ic_media_pause=0x7f0200a8;
-        public static int ic_media_play=0x7f0200a9;
-        public static int ic_media_route_disabled_mono_dark=0x7f0200aa;
-        public static int ic_media_route_off_mono_dark=0x7f0200ab;
-        public static int ic_media_route_on_0_mono_dark=0x7f0200ac;
-        public static int ic_media_route_on_1_mono_dark=0x7f0200ad;
-        public static int ic_media_route_on_2_mono_dark=0x7f0200ae;
-        public static int ic_media_route_on_mono_dark=0x7f0200af;
-        public static int ic_pause_dark=0x7f0200b0;
-        public static int ic_pause_light=0x7f0200b1;
-        public static int ic_play_dark=0x7f0200b2;
-        public static int ic_play_light=0x7f0200b3;
-        public static int ic_speaker_dark=0x7f0200b4;
-        public static int ic_speaker_group_dark=0x7f0200b5;
-        public static int ic_speaker_group_light=0x7f0200b6;
-        public static int ic_speaker_light=0x7f0200b7;
-        public static int ic_tv_dark=0x7f0200b8;
-        public static int ic_tv_light=0x7f0200b9;
-        public static int icon=0x7f0200ba;
-        public static int mail=0x7f0200bb;
-        public static int mobile=0x7f0200bc;
-        public static int mr_dialog_material_background_dark=0x7f0200bd;
-        public static int mr_dialog_material_background_light=0x7f0200be;
-        public static int mr_ic_audiotrack_light=0x7f0200bf;
-        public static int mr_ic_cast_dark=0x7f0200c0;
-        public static int mr_ic_cast_light=0x7f0200c1;
-        public static int mr_ic_close_dark=0x7f0200c2;
-        public static int mr_ic_close_light=0x7f0200c3;
-        public static int mr_ic_media_route_connecting_mono_dark=0x7f0200c4;
-        public static int mr_ic_media_route_connecting_mono_light=0x7f0200c5;
-        public static int mr_ic_media_route_mono_dark=0x7f0200c6;
-        public static int mr_ic_media_route_mono_light=0x7f0200c7;
-        public static int mr_ic_pause_dark=0x7f0200c8;
-        public static int mr_ic_pause_light=0x7f0200c9;
-        public static int mr_ic_play_dark=0x7f0200ca;
-        public static int mr_ic_play_light=0x7f0200cb;
-        public static int notification_template_icon_bg=0x7f0200cc;
+        public static int abc_ic_star_black_16dp=0x7f020021;
+        public static int abc_ic_star_black_36dp=0x7f020022;
+        public static int abc_ic_star_half_black_16dp=0x7f020023;
+        public static int abc_ic_star_half_black_36dp=0x7f020024;
+        public static int abc_ic_voice_search_api_mtrl_alpha=0x7f020025;
+        public static int abc_item_background_holo_dark=0x7f020026;
+        public static int abc_item_background_holo_light=0x7f020027;
+        public static int abc_list_divider_mtrl_alpha=0x7f020028;
+        public static int abc_list_focused_holo=0x7f020029;
+        public static int abc_list_longpressed_holo=0x7f02002a;
+        public static int abc_list_pressed_holo_dark=0x7f02002b;
+        public static int abc_list_pressed_holo_light=0x7f02002c;
+        public static int abc_list_selector_background_transition_holo_dark=0x7f02002d;
+        public static int abc_list_selector_background_transition_holo_light=0x7f02002e;
+        public static int abc_list_selector_disabled_holo_dark=0x7f02002f;
+        public static int abc_list_selector_disabled_holo_light=0x7f020030;
+        public static int abc_list_selector_holo_dark=0x7f020031;
+        public static int abc_list_selector_holo_light=0x7f020032;
+        public static int abc_menu_hardkey_panel_mtrl_mult=0x7f020033;
+        public static int abc_popup_background_mtrl_mult=0x7f020034;
+        public static int abc_ratingbar_full_material=0x7f020035;
+        public static int abc_ratingbar_indicator_material=0x7f020036;
+        public static int abc_ratingbar_small_material=0x7f020037;
+        public static int abc_scrubber_control_off_mtrl_alpha=0x7f020038;
+        public static int abc_scrubber_control_to_pressed_mtrl_000=0x7f020039;
+        public static int abc_scrubber_control_to_pressed_mtrl_005=0x7f02003a;
+        public static int abc_scrubber_primary_mtrl_alpha=0x7f02003b;
+        public static int abc_scrubber_track_mtrl_alpha=0x7f02003c;
+        public static int abc_seekbar_thumb_material=0x7f02003d;
+        public static int abc_seekbar_track_material=0x7f02003e;
+        public static int abc_spinner_mtrl_am_alpha=0x7f02003f;
+        public static int abc_spinner_textfield_background_material=0x7f020040;
+        public static int abc_switch_thumb_material=0x7f020041;
+        public static int abc_switch_track_mtrl_alpha=0x7f020042;
+        public static int abc_tab_indicator_material=0x7f020043;
+        public static int abc_tab_indicator_mtrl_alpha=0x7f020044;
+        public static int abc_text_cursor_material=0x7f020045;
+        public static int abc_textfield_activated_mtrl_alpha=0x7f020046;
+        public static int abc_textfield_default_mtrl_alpha=0x7f020047;
+        public static int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
+        public static int abc_textfield_search_default_mtrl_alpha=0x7f020049;
+        public static int abc_textfield_search_material=0x7f02004a;
+        public static int activities=0x7f02004b;
+        public static int add=0x7f02004c;
+        public static int appointments=0x7f02004d;
+        public static int browse=0x7f02004e;
+        public static int calendar_bg_selector=0x7f02004f;
+        public static int call=0x7f020050;
+        public static int camera=0x7f020051;
+        public static int common_full_open_on_phone=0x7f020052;
+        public static int common_google_signin_btn_icon_dark=0x7f020053;
+        public static int common_google_signin_btn_icon_dark_disabled=0x7f020054;
+        public static int common_google_signin_btn_icon_dark_focused=0x7f020055;
+        public static int common_google_signin_btn_icon_dark_normal=0x7f020056;
+        public static int common_google_signin_btn_icon_dark_pressed=0x7f020057;
+        public static int common_google_signin_btn_icon_light=0x7f020058;
+        public static int common_google_signin_btn_icon_light_disabled=0x7f020059;
+        public static int common_google_signin_btn_icon_light_focused=0x7f02005a;
+        public static int common_google_signin_btn_icon_light_normal=0x7f02005b;
+        public static int common_google_signin_btn_icon_light_pressed=0x7f02005c;
+        public static int common_google_signin_btn_text_dark=0x7f02005d;
+        public static int common_google_signin_btn_text_dark_disabled=0x7f02005e;
+        public static int common_google_signin_btn_text_dark_focused=0x7f02005f;
+        public static int common_google_signin_btn_text_dark_normal=0x7f020060;
+        public static int common_google_signin_btn_text_dark_pressed=0x7f020061;
+        public static int common_google_signin_btn_text_light=0x7f020062;
+        public static int common_google_signin_btn_text_light_disabled=0x7f020063;
+        public static int common_google_signin_btn_text_light_focused=0x7f020064;
+        public static int common_google_signin_btn_text_light_normal=0x7f020065;
+        public static int common_google_signin_btn_text_light_pressed=0x7f020066;
+        public static int common_ic_googleplayservices=0x7f020067;
+        public static int common_plus_signin_btn_icon_dark=0x7f020068;
+        public static int common_plus_signin_btn_icon_dark_disabled=0x7f020069;
+        public static int common_plus_signin_btn_icon_dark_focused=0x7f02006a;
+        public static int common_plus_signin_btn_icon_dark_normal=0x7f02006b;
+        public static int common_plus_signin_btn_icon_dark_pressed=0x7f02006c;
+        public static int common_plus_signin_btn_icon_light=0x7f02006d;
+        public static int common_plus_signin_btn_icon_light_disabled=0x7f02006e;
+        public static int common_plus_signin_btn_icon_light_focused=0x7f02006f;
+        public static int common_plus_signin_btn_icon_light_normal=0x7f020070;
+        public static int common_plus_signin_btn_icon_light_pressed=0x7f020071;
+        public static int common_plus_signin_btn_text_dark=0x7f020072;
+        public static int common_plus_signin_btn_text_dark_disabled=0x7f020073;
+        public static int common_plus_signin_btn_text_dark_focused=0x7f020074;
+        public static int common_plus_signin_btn_text_dark_normal=0x7f020075;
+        public static int common_plus_signin_btn_text_dark_pressed=0x7f020076;
+        public static int common_plus_signin_btn_text_light=0x7f020077;
+        public static int common_plus_signin_btn_text_light_disabled=0x7f020078;
+        public static int common_plus_signin_btn_text_light_focused=0x7f020079;
+        public static int common_plus_signin_btn_text_light_normal=0x7f02007a;
+        public static int common_plus_signin_btn_text_light_pressed=0x7f02007b;
+        public static int contactdefault=0x7f02007c;
+        public static int contacts=0x7f02007d;
+        public static int delete=0x7f02007e;
+        public static int design_fab_background=0x7f02007f;
+        public static int design_snackbar_background=0x7f020080;
+        public static int documents=0x7f020081;
+        public static int enviroment=0x7f020082;
+        public static int finish=0x7f020083;
+        public static int garden=0x7f020084;
+        public static int ic_audiotrack=0x7f020085;
+        public static int ic_audiotrack_light=0x7f020086;
+        public static int ic_bluetooth_grey=0x7f020087;
+        public static int ic_bluetooth_white=0x7f020088;
+        public static int ic_cast_dark=0x7f020089;
+        public static int ic_cast_disabled_light=0x7f02008a;
+        public static int ic_cast_grey=0x7f02008b;
+        public static int ic_cast_light=0x7f02008c;
+        public static int ic_cast_off_light=0x7f02008d;
+        public static int ic_cast_on_0_light=0x7f02008e;
+        public static int ic_cast_on_1_light=0x7f02008f;
+        public static int ic_cast_on_2_light=0x7f020090;
+        public static int ic_cast_on_light=0x7f020091;
+        public static int ic_cast_white=0x7f020092;
+        public static int ic_close_dark=0x7f020093;
+        public static int ic_close_light=0x7f020094;
+        public static int ic_collapse=0x7f020095;
+        public static int ic_collapse_00000=0x7f020096;
+        public static int ic_collapse_00001=0x7f020097;
+        public static int ic_collapse_00002=0x7f020098;
+        public static int ic_collapse_00003=0x7f020099;
+        public static int ic_collapse_00004=0x7f02009a;
+        public static int ic_collapse_00005=0x7f02009b;
+        public static int ic_collapse_00006=0x7f02009c;
+        public static int ic_collapse_00007=0x7f02009d;
+        public static int ic_collapse_00008=0x7f02009e;
+        public static int ic_collapse_00009=0x7f02009f;
+        public static int ic_collapse_00010=0x7f0200a0;
+        public static int ic_collapse_00011=0x7f0200a1;
+        public static int ic_collapse_00012=0x7f0200a2;
+        public static int ic_collapse_00013=0x7f0200a3;
+        public static int ic_collapse_00014=0x7f0200a4;
+        public static int ic_collapse_00015=0x7f0200a5;
+        public static int ic_expand=0x7f0200a6;
+        public static int ic_expand_00000=0x7f0200a7;
+        public static int ic_expand_00001=0x7f0200a8;
+        public static int ic_expand_00002=0x7f0200a9;
+        public static int ic_expand_00003=0x7f0200aa;
+        public static int ic_expand_00004=0x7f0200ab;
+        public static int ic_expand_00005=0x7f0200ac;
+        public static int ic_expand_00006=0x7f0200ad;
+        public static int ic_expand_00007=0x7f0200ae;
+        public static int ic_expand_00008=0x7f0200af;
+        public static int ic_expand_00009=0x7f0200b0;
+        public static int ic_expand_00010=0x7f0200b1;
+        public static int ic_expand_00011=0x7f0200b2;
+        public static int ic_expand_00012=0x7f0200b3;
+        public static int ic_expand_00013=0x7f0200b4;
+        public static int ic_expand_00014=0x7f0200b5;
+        public static int ic_expand_00015=0x7f0200b6;
+        public static int ic_media_pause=0x7f0200b7;
+        public static int ic_media_play=0x7f0200b8;
+        public static int ic_media_route_disabled_mono_dark=0x7f0200b9;
+        public static int ic_media_route_off_mono_dark=0x7f0200ba;
+        public static int ic_media_route_on_0_mono_dark=0x7f0200bb;
+        public static int ic_media_route_on_1_mono_dark=0x7f0200bc;
+        public static int ic_media_route_on_2_mono_dark=0x7f0200bd;
+        public static int ic_media_route_on_mono_dark=0x7f0200be;
+        public static int ic_pause_dark=0x7f0200bf;
+        public static int ic_pause_light=0x7f0200c0;
+        public static int ic_play_dark=0x7f0200c1;
+        public static int ic_play_light=0x7f0200c2;
+        public static int ic_speaker_dark=0x7f0200c3;
+        public static int ic_speaker_group_dark=0x7f0200c4;
+        public static int ic_speaker_group_light=0x7f0200c5;
+        public static int ic_speaker_light=0x7f0200c6;
+        public static int ic_tv_dark=0x7f0200c7;
+        public static int ic_tv_light=0x7f0200c8;
+        public static int icon=0x7f0200c9;
+        public static int mail=0x7f0200ca;
+        public static int mobile=0x7f0200cb;
+        public static int mr_dialog_material_background_dark=0x7f0200cc;
+        public static int mr_dialog_material_background_light=0x7f0200cd;
+        public static int mr_ic_audiotrack_light=0x7f0200ce;
+        public static int mr_ic_cast_dark=0x7f0200cf;
+        public static int mr_ic_cast_light=0x7f0200d0;
+        public static int mr_ic_close_dark=0x7f0200d1;
+        public static int mr_ic_close_light=0x7f0200d2;
+        public static int mr_ic_media_route_connecting_mono_dark=0x7f0200d3;
+        public static int mr_ic_media_route_connecting_mono_light=0x7f0200d4;
+        public static int mr_ic_media_route_mono_dark=0x7f0200d5;
+        public static int mr_ic_media_route_mono_light=0x7f0200d6;
+        public static int mr_ic_pause_dark=0x7f0200d7;
+        public static int mr_ic_pause_light=0x7f0200d8;
+        public static int mr_ic_play_dark=0x7f0200d9;
+        public static int mr_ic_play_light=0x7f0200da;
+        public static int notification_template_icon_bg=0x7f0200db;
     }
     public static final class id {
-        public static int action0=0x7f0a008f;
-        public static int action_bar=0x7f0a0062;
+        public static int action0=0x7f0a0096;
+        public static int action_bar=0x7f0a0063;
         public static int action_bar_activity_content=0x7f0a0001;
-        public static int action_bar_container=0x7f0a0061;
-        public static int action_bar_root=0x7f0a005d;
+        public static int action_bar_container=0x7f0a0062;
+        public static int action_bar_root=0x7f0a005e;
         public static int action_bar_spinner=0x7f0a0002;
-        public static int action_bar_subtitle=0x7f0a0043;
-        public static int action_bar_title=0x7f0a0042;
-        public static int action_context_bar=0x7f0a0063;
-        public static int action_divider=0x7f0a0093;
+        public static int action_bar_subtitle=0x7f0a0044;
+        public static int action_bar_title=0x7f0a0043;
+        public static int action_context_bar=0x7f0a0064;
+        public static int action_divider=0x7f0a009a;
         public static int action_menu_divider=0x7f0a0003;
         public static int action_menu_presenter=0x7f0a0004;
-        public static int action_mode_bar=0x7f0a005f;
-        public static int action_mode_bar_stub=0x7f0a005e;
-        public static int action_mode_close_button=0x7f0a0044;
-        public static int activity_chooser_view_content=0x7f0a0045;
-        public static int adjust_height=0x7f0a000b;
-        public static int adjust_width=0x7f0a000c;
-        public static int alertTitle=0x7f0a0051;
-        public static int always=0x7f0a0025;
-        public static int auto=0x7f0a0011;
-        public static int beginning=0x7f0a0022;
-        public static int bottom=0x7f0a0032;
-        public static int buttonPanel=0x7f0a004c;
-        public static int cancel_action=0x7f0a0090;
-        public static int center=0x7f0a0033;
-        public static int center_horizontal=0x7f0a0034;
-        public static int center_vertical=0x7f0a0035;
-        public static int checkbox=0x7f0a005a;
-        public static int chronometer=0x7f0a0096;
-        public static int clip_horizontal=0x7f0a003b;
-        public static int clip_vertical=0x7f0a003c;
-        public static int collapseActionView=0x7f0a0026;
-        public static int contentPanel=0x7f0a0052;
-        public static int custom=0x7f0a0058;
-        public static int customPanel=0x7f0a0057;
-        public static int dark=0x7f0a0012;
-        public static int decor_content_parent=0x7f0a0060;
-        public static int default_activity_button=0x7f0a0048;
-        public static int design_menu_item_action_area=0x7f0a0077;
-        public static int design_menu_item_action_area_stub=0x7f0a0076;
-        public static int design_menu_item_text=0x7f0a0075;
-        public static int design_navigation_view=0x7f0a0074;
-        public static int disableHome=0x7f0a0017;
-        public static int edit_query=0x7f0a0064;
-        public static int end=0x7f0a0023;
-        public static int end_padder=0x7f0a009b;
-        public static int enterAlways=0x7f0a002b;
-        public static int enterAlwaysCollapsed=0x7f0a002c;
-        public static int exitUntilCollapsed=0x7f0a002d;
-        public static int expand_activities_button=0x7f0a0046;
-        public static int expanded_menu=0x7f0a0059;
-        public static int fill=0x7f0a003d;
-        public static int fill_horizontal=0x7f0a003e;
-        public static int fill_vertical=0x7f0a0036;
-        public static int fixed=0x7f0a0040;
+        public static int action_mode_bar=0x7f0a0060;
+        public static int action_mode_bar_stub=0x7f0a005f;
+        public static int action_mode_close_button=0x7f0a0045;
+        public static int activity_chooser_view_content=0x7f0a0046;
+        public static int adjust_height=0x7f0a000c;
+        public static int adjust_width=0x7f0a000d;
+        public static int alertTitle=0x7f0a0052;
+        public static int always=0x7f0a0027;
+        public static int auto=0x7f0a0012;
+        public static int beginning=0x7f0a0024;
+        public static int bottom=0x7f0a0033;
+        public static int buttonPanel=0x7f0a004d;
+        public static int calendar_grid=0x7f0a007c;
+        public static int calendar_view=0x7f0a0072;
+        public static int cancel_action=0x7f0a0097;
+        public static int center=0x7f0a0034;
+        public static int center_horizontal=0x7f0a0035;
+        public static int center_vertical=0x7f0a0036;
+        public static int checkbox=0x7f0a005b;
+        public static int chronometer=0x7f0a009d;
+        public static int clip_horizontal=0x7f0a003c;
+        public static int clip_vertical=0x7f0a003d;
+        public static int collapseActionView=0x7f0a0028;
+        public static int contentPanel=0x7f0a0053;
+        public static int custom=0x7f0a0059;
+        public static int customPanel=0x7f0a0058;
+        public static int dark=0x7f0a0013;
+        public static int day_view_adapter_class=0x7f0a000b;
+        public static int decor_content_parent=0x7f0a0061;
+        public static int default_activity_button=0x7f0a0049;
+        public static int design_bottom_sheet=0x7f0a0074;
+        public static int design_menu_item_action_area=0x7f0a007b;
+        public static int design_menu_item_action_area_stub=0x7f0a007a;
+        public static int design_menu_item_text=0x7f0a0079;
+        public static int design_navigation_view=0x7f0a0078;
+        public static int disableHome=0x7f0a0018;
+        public static int edit_query=0x7f0a0065;
+        public static int end=0x7f0a0025;
+        public static int end_padder=0x7f0a00a2;
+        public static int enterAlways=0x7f0a002c;
+        public static int enterAlwaysCollapsed=0x7f0a002d;
+        public static int exitUntilCollapsed=0x7f0a002e;
+        public static int expand_activities_button=0x7f0a0047;
+        public static int expanded_menu=0x7f0a005a;
+        public static int fill=0x7f0a003e;
+        public static int fill_horizontal=0x7f0a003f;
+        public static int fill_vertical=0x7f0a0037;
+        public static int fixed=0x7f0a0041;
         public static int home=0x7f0a0005;
-        public static int homeAsUp=0x7f0a0018;
-        public static int icon=0x7f0a004a;
-        public static int icon_only=0x7f0a000e;
-        public static int ifRoom=0x7f0a0027;
-        public static int image=0x7f0a0047;
-        public static int info=0x7f0a009a;
+        public static int homeAsUp=0x7f0a0019;
+        public static int icon=0x7f0a004b;
+        public static int icon_only=0x7f0a000f;
+        public static int ifRoom=0x7f0a0029;
+        public static int image=0x7f0a0048;
+        public static int info=0x7f0a00a1;
         public static int item_touch_helper_previous_elevation=0x7f0a0000;
-        public static int left=0x7f0a0037;
-        public static int light=0x7f0a0013;
-        public static int line1=0x7f0a0094;
-        public static int line3=0x7f0a0098;
-        public static int listMode=0x7f0a0014;
-        public static int list_item=0x7f0a0049;
-        public static int media_actions=0x7f0a0092;
-        public static int middle=0x7f0a0024;
-        public static int mini=0x7f0a003f;
-        public static int mr_art=0x7f0a0083;
-        public static int mr_chooser_list=0x7f0a0078;
-        public static int mr_chooser_route_desc=0x7f0a007b;
-        public static int mr_chooser_route_icon=0x7f0a0079;
-        public static int mr_chooser_route_name=0x7f0a007a;
-        public static int mr_close=0x7f0a0080;
-        public static int mr_control_divider=0x7f0a0086;
-        public static int mr_control_play_pause=0x7f0a008b;
-        public static int mr_control_subtitle=0x7f0a008d;
-        public static int mr_control_title=0x7f0a008c;
-        public static int mr_custom_control=0x7f0a0081;
-        public static int mr_default_control=0x7f0a0082;
-        public static int mr_dialog_area=0x7f0a007d;
-        public static int mr_expandable_area=0x7f0a007c;
-        public static int mr_group_expand_collapse=0x7f0a008e;
-        public static int mr_media_main_control=0x7f0a0084;
-        public static int mr_name=0x7f0a007f;
-        public static int mr_playback_control=0x7f0a0085;
-        public static int mr_title_bar=0x7f0a007e;
-        public static int mr_volume_control=0x7f0a0087;
-        public static int mr_volume_group_list=0x7f0a0088;
-        public static int mr_volume_item_icon=0x7f0a0089;
-        public static int mr_volume_slider=0x7f0a008a;
-        public static int multiply=0x7f0a001d;
-        public static int navigation_header_container=0x7f0a0073;
-        public static int never=0x7f0a0028;
-        public static int none=0x7f0a000d;
-        public static int normal=0x7f0a0015;
-        public static int parallax=0x7f0a0030;
-        public static int parentPanel=0x7f0a004e;
-        public static int pin=0x7f0a0031;
+        public static int left=0x7f0a0038;
+        public static int light=0x7f0a0014;
+        public static int line1=0x7f0a009b;
+        public static int line3=0x7f0a009f;
+        public static int listMode=0x7f0a0015;
+        public static int list_item=0x7f0a004a;
+        public static int media_actions=0x7f0a0099;
+        public static int middle=0x7f0a0026;
+        public static int mini=0x7f0a0040;
+        public static int mr_art=0x7f0a0088;
+        public static int mr_chooser_list=0x7f0a007d;
+        public static int mr_chooser_route_desc=0x7f0a0080;
+        public static int mr_chooser_route_icon=0x7f0a007e;
+        public static int mr_chooser_route_name=0x7f0a007f;
+        public static int mr_close=0x7f0a0085;
+        public static int mr_control_divider=0x7f0a008b;
+        public static int mr_control_play_pause=0x7f0a0091;
+        public static int mr_control_subtitle=0x7f0a0094;
+        public static int mr_control_title=0x7f0a0093;
+        public static int mr_control_title_container=0x7f0a0092;
+        public static int mr_custom_control=0x7f0a0086;
+        public static int mr_default_control=0x7f0a0087;
+        public static int mr_dialog_area=0x7f0a0082;
+        public static int mr_expandable_area=0x7f0a0081;
+        public static int mr_group_expand_collapse=0x7f0a0095;
+        public static int mr_media_main_control=0x7f0a0089;
+        public static int mr_name=0x7f0a0084;
+        public static int mr_playback_control=0x7f0a008a;
+        public static int mr_title_bar=0x7f0a0083;
+        public static int mr_volume_control=0x7f0a008c;
+        public static int mr_volume_group_list=0x7f0a008d;
+        public static int mr_volume_item_icon=0x7f0a008f;
+        public static int mr_volume_slider=0x7f0a0090;
+        public static int multiply=0x7f0a001f;
+        public static int navigation_header_container=0x7f0a0077;
+        public static int never=0x7f0a002a;
+        public static int none=0x7f0a000e;
+        public static int normal=0x7f0a0016;
+        public static int parallax=0x7f0a0031;
+        public static int parentPanel=0x7f0a004f;
+        public static int pin=0x7f0a0032;
         public static int progress_circular=0x7f0a0006;
         public static int progress_horizontal=0x7f0a0007;
-        public static int radio=0x7f0a005c;
-        public static int right=0x7f0a0038;
-        public static int screen=0x7f0a001e;
-        public static int scroll=0x7f0a002e;
-        public static int scrollIndicatorDown=0x7f0a0056;
-        public static int scrollIndicatorUp=0x7f0a0053;
-        public static int scrollView=0x7f0a0054;
-        public static int scrollable=0x7f0a0041;
-        public static int search_badge=0x7f0a0066;
-        public static int search_bar=0x7f0a0065;
-        public static int search_button=0x7f0a0067;
-        public static int search_close_btn=0x7f0a006c;
-        public static int search_edit_frame=0x7f0a0068;
-        public static int search_go_btn=0x7f0a006e;
-        public static int search_mag_icon=0x7f0a0069;
-        public static int search_plate=0x7f0a006a;
-        public static int search_src_text=0x7f0a006b;
-        public static int search_voice_btn=0x7f0a006f;
-        public static int select_dialog_listview=0x7f0a0070;
-        public static int shortcut=0x7f0a005b;
-        public static int showCustom=0x7f0a0019;
-        public static int showHome=0x7f0a001a;
-        public static int showTitle=0x7f0a001b;
-        public static int sliding_tabs=0x7f0a009c;
-        public static int snackbar_action=0x7f0a0072;
-        public static int snackbar_text=0x7f0a0071;
-        public static int snap=0x7f0a002f;
-        public static int spacer=0x7f0a004d;
+        public static int radio=0x7f0a005d;
+        public static int right=0x7f0a0039;
+        public static int screen=0x7f0a0020;
+        public static int scroll=0x7f0a002f;
+        public static int scrollIndicatorDown=0x7f0a0057;
+        public static int scrollIndicatorUp=0x7f0a0054;
+        public static int scrollView=0x7f0a0055;
+        public static int scrollable=0x7f0a0042;
+        public static int search_badge=0x7f0a0067;
+        public static int search_bar=0x7f0a0066;
+        public static int search_button=0x7f0a0068;
+        public static int search_close_btn=0x7f0a006d;
+        public static int search_edit_frame=0x7f0a0069;
+        public static int search_go_btn=0x7f0a006f;
+        public static int search_mag_icon=0x7f0a006a;
+        public static int search_plate=0x7f0a006b;
+        public static int search_src_text=0x7f0a006c;
+        public static int search_voice_btn=0x7f0a0070;
+        public static int select_dialog_listview=0x7f0a0071;
+        public static int shortcut=0x7f0a005c;
+        public static int showCustom=0x7f0a001a;
+        public static int showHome=0x7f0a001b;
+        public static int showTitle=0x7f0a001c;
+        public static int sliding_tabs=0x7f0a00a3;
+        public static int snackbar_action=0x7f0a0076;
+        public static int snackbar_text=0x7f0a0075;
+        public static int snap=0x7f0a0030;
+        public static int spacer=0x7f0a004e;
         public static int split_action_bar=0x7f0a0008;
-        public static int src_atop=0x7f0a001f;
-        public static int src_in=0x7f0a0020;
-        public static int src_over=0x7f0a0021;
-        public static int standard=0x7f0a000f;
-        public static int start=0x7f0a0039;
-        public static int status_bar_latest_event_content=0x7f0a0091;
-        public static int submit_area=0x7f0a006d;
-        public static int tabMode=0x7f0a0016;
-        public static int text=0x7f0a0099;
-        public static int text2=0x7f0a0097;
-        public static int textSpacerNoButtons=0x7f0a0055;
-        public static int time=0x7f0a0095;
-        public static int title=0x7f0a004b;
-        public static int title_template=0x7f0a0050;
-        public static int toolbar=0x7f0a009d;
-        public static int top=0x7f0a003a;
-        public static int topPanel=0x7f0a004f;
+        public static int src_atop=0x7f0a0021;
+        public static int src_in=0x7f0a0022;
+        public static int src_over=0x7f0a0023;
+        public static int standard=0x7f0a0010;
+        public static int start=0x7f0a003a;
+        public static int status_bar_latest_event_content=0x7f0a0098;
+        public static int submit_area=0x7f0a006e;
+        public static int tabMode=0x7f0a0017;
+        public static int text=0x7f0a00a0;
+        public static int text2=0x7f0a009e;
+        public static int textSpacerNoButtons=0x7f0a0056;
+        public static int time=0x7f0a009c;
+        public static int title=0x7f0a004c;
+        public static int title_template=0x7f0a0051;
+        public static int toolbar=0x7f0a00a4;
+        public static int top=0x7f0a003b;
+        public static int topPanel=0x7f0a0050;
+        public static int touch_outside=0x7f0a0073;
         public static int up=0x7f0a0009;
-        public static int useLogo=0x7f0a001c;
+        public static int useLogo=0x7f0a001d;
         public static int view_offset_helper=0x7f0a000a;
-        public static int wide=0x7f0a0010;
-        public static int withText=0x7f0a0029;
-        public static int wrap_content=0x7f0a002a;
+        public static int volume_item_container=0x7f0a008e;
+        public static int wide=0x7f0a0011;
+        public static int withText=0x7f0a002b;
+        public static int wrap_content=0x7f0a001e;
     }
     public static final class integer {
-        public static int abc_config_activityDefaultDur=0x7f070003;
-        public static int abc_config_activityShortDur=0x7f070004;
-        public static int abc_max_action_buttons=0x7f070002;
-        public static int cancel_button_image_alpha=0x7f070005;
-        public static int design_snackbar_text_max_lines=0x7f070007;
+        public static int abc_config_activityDefaultDur=0x7f070005;
+        public static int abc_config_activityShortDur=0x7f070006;
+        public static int abc_max_action_buttons=0x7f070004;
+        public static int bottom_sheet_slide_duration=0x7f07000a;
+        public static int cancel_button_image_alpha=0x7f070007;
+        public static int design_snackbar_text_max_lines=0x7f070009;
         public static int google_play_services_version=0x7f070000;
         public static int mr_controller_volume_group_list_animation_duration_ms=0x7f070001;
-        public static int status_bar_notification_info_maxnum=0x7f070006;
+        public static int mr_controller_volume_group_list_fade_in_duration_ms=0x7f070002;
+        public static int mr_controller_volume_group_list_fade_out_duration_ms=0x7f070003;
+        public static int status_bar_notification_info_maxnum=0x7f070008;
     }
     public static final class interpolator {
         public static int mr_fast_out_slow_in=0x7f050000;
@@ -2831,41 +3047,45 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static int abc_search_view=0x7f030017;
         public static int abc_select_dialog_material=0x7f030018;
-        public static int design_layout_snackbar=0x7f030019;
-        public static int design_layout_snackbar_include=0x7f03001a;
-        public static int design_layout_tab_icon=0x7f03001b;
-        public static int design_layout_tab_text=0x7f03001c;
-        public static int design_menu_item_action_area=0x7f03001d;
-        public static int design_navigation_item=0x7f03001e;
-        public static int design_navigation_item_header=0x7f03001f;
-        public static int design_navigation_item_separator=0x7f030020;
-        public static int design_navigation_item_subheader=0x7f030021;
-        public static int design_navigation_menu=0x7f030022;
-        public static int design_navigation_menu_item=0x7f030023;
-        public static int mr_chooser_dialog=0x7f030024;
-        public static int mr_chooser_list_item=0x7f030025;
-        public static int mr_controller_material_dialog_b=0x7f030026;
-        public static int mr_controller_volume_item=0x7f030027;
-        public static int mr_playback_control=0x7f030028;
-        public static int mr_volume_control=0x7f030029;
-        public static int notification_media_action=0x7f03002a;
-        public static int notification_media_cancel_action=0x7f03002b;
-        public static int notification_template_big_media=0x7f03002c;
-        public static int notification_template_big_media_narrow=0x7f03002d;
-        public static int notification_template_lines=0x7f03002e;
-        public static int notification_template_media=0x7f03002f;
-        public static int notification_template_part_chronometer=0x7f030030;
-        public static int notification_template_part_time=0x7f030031;
-        public static int select_dialog_item_material=0x7f030032;
-        public static int select_dialog_multichoice_material=0x7f030033;
-        public static int select_dialog_singlechoice_material=0x7f030034;
-        public static int support_simple_spinner_dropdown_item=0x7f030035;
-        public static int tablayout=0x7f030036;
-        public static int toolbar=0x7f030037;
+        public static int calendarview=0x7f030019;
+        public static int design_bottom_sheet_dialog=0x7f03001a;
+        public static int design_layout_snackbar=0x7f03001b;
+        public static int design_layout_snackbar_include=0x7f03001c;
+        public static int design_layout_tab_icon=0x7f03001d;
+        public static int design_layout_tab_text=0x7f03001e;
+        public static int design_menu_item_action_area=0x7f03001f;
+        public static int design_navigation_item=0x7f030020;
+        public static int design_navigation_item_header=0x7f030021;
+        public static int design_navigation_item_separator=0x7f030022;
+        public static int design_navigation_item_subheader=0x7f030023;
+        public static int design_navigation_menu=0x7f030024;
+        public static int design_navigation_menu_item=0x7f030025;
+        public static int month=0x7f030026;
+        public static int mr_chooser_dialog=0x7f030027;
+        public static int mr_chooser_list_item=0x7f030028;
+        public static int mr_controller_material_dialog_b=0x7f030029;
+        public static int mr_controller_volume_item=0x7f03002a;
+        public static int mr_playback_control=0x7f03002b;
+        public static int mr_volume_control=0x7f03002c;
+        public static int notification_media_action=0x7f03002d;
+        public static int notification_media_cancel_action=0x7f03002e;
+        public static int notification_template_big_media=0x7f03002f;
+        public static int notification_template_big_media_narrow=0x7f030030;
+        public static int notification_template_lines=0x7f030031;
+        public static int notification_template_media=0x7f030032;
+        public static int notification_template_part_chronometer=0x7f030033;
+        public static int notification_template_part_time=0x7f030034;
+        public static int select_dialog_item_material=0x7f030035;
+        public static int select_dialog_multichoice_material=0x7f030036;
+        public static int select_dialog_singlechoice_material=0x7f030037;
+        public static int support_simple_spinner_dropdown_item=0x7f030038;
+        public static int tablayout=0x7f030039;
+        public static int toolbar=0x7f03003a;
+        public static int week=0x7f03003b;
     }
     public static final class string {
-        public static int ApplicationName=0x7f060045;
-        public static int Hello=0x7f060044;
+        public static int ApplicationName=0x7f060049;
+        public static int Hello=0x7f060048;
         public static int abc_action_bar_home_description=0x7f06002e;
         public static int abc_action_bar_home_description_format=0x7f06002f;
         public static int abc_action_bar_home_subtitle_description_format=0x7f060030;
@@ -2892,7 +3112,8 @@ containing a value of this type.
         /**  Brand name for Google [DO NOT TRANSLATE] 
          */
         public static int auth_google_play_services_client_google_display_name=0x7f060000;
-        public static int character_counter_pattern=0x7f060043;
+        public static int bottom_sheet_behavior=0x7f060043;
+        public static int character_counter_pattern=0x7f060044;
         /**  Message in confirmation dialog informing the user that one of the APIs they attepmt to access is not available. [CHAR LIMIT=NONE] 
          */
         public static int common_google_play_services_api_unavailable_text=0x7f060018;
@@ -2993,6 +3214,9 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static int common_signin_button_text_long=0x7f06001e;
+        public static int day_name_format=0x7f060047;
+        public static int invalid_date=0x7f060045;
+        public static int month_name_format=0x7f060046;
         public static int mr_button_content_description=0x7f06001f;
         public static int mr_chooser_searching=0x7f060020;
         public static int mr_chooser_title=0x7f060021;
@@ -3011,339 +3235,363 @@ containing a value of this type.
         public static int status_bar_notification_info_overflow=0x7f060041;
     }
     public static final class style {
-        public static int AlertDialog_AppCompat=0x7f0b0097;
-        public static int AlertDialog_AppCompat_Light=0x7f0b0098;
-        public static int Animation_AppCompat_Dialog=0x7f0b0099;
-        public static int Animation_AppCompat_DropDownUp=0x7f0b009a;
-        public static int AppCompatDialogStyle=0x7f0b015f;
-        public static int Base_AlertDialog_AppCompat=0x7f0b009b;
-        public static int Base_AlertDialog_AppCompat_Light=0x7f0b009c;
-        public static int Base_Animation_AppCompat_Dialog=0x7f0b009d;
-        public static int Base_Animation_AppCompat_DropDownUp=0x7f0b009e;
-        public static int Base_DialogWindowTitle_AppCompat=0x7f0b009f;
-        public static int Base_DialogWindowTitleBackground_AppCompat=0x7f0b00a0;
-        public static int Base_TextAppearance_AppCompat=0x7f0b0049;
-        public static int Base_TextAppearance_AppCompat_Body1=0x7f0b004a;
-        public static int Base_TextAppearance_AppCompat_Body2=0x7f0b004b;
-        public static int Base_TextAppearance_AppCompat_Button=0x7f0b0033;
-        public static int Base_TextAppearance_AppCompat_Caption=0x7f0b004c;
-        public static int Base_TextAppearance_AppCompat_Display1=0x7f0b004d;
-        public static int Base_TextAppearance_AppCompat_Display2=0x7f0b004e;
-        public static int Base_TextAppearance_AppCompat_Display3=0x7f0b004f;
-        public static int Base_TextAppearance_AppCompat_Display4=0x7f0b0050;
-        public static int Base_TextAppearance_AppCompat_Headline=0x7f0b0051;
-        public static int Base_TextAppearance_AppCompat_Inverse=0x7f0b001e;
-        public static int Base_TextAppearance_AppCompat_Large=0x7f0b0052;
-        public static int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b001f;
-        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0053;
-        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0054;
-        public static int Base_TextAppearance_AppCompat_Medium=0x7f0b0055;
-        public static int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0020;
-        public static int Base_TextAppearance_AppCompat_Menu=0x7f0b0056;
-        public static int Base_TextAppearance_AppCompat_SearchResult=0x7f0b00a1;
-        public static int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0057;
-        public static int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0058;
-        public static int Base_TextAppearance_AppCompat_Small=0x7f0b0059;
-        public static int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0021;
-        public static int Base_TextAppearance_AppCompat_Subhead=0x7f0b005a;
-        public static int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0022;
-        public static int Base_TextAppearance_AppCompat_Title=0x7f0b005b;
-        public static int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0023;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b005c;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b005d;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b005e;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b005f;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0060;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0061;
-        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0062;
-        public static int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0063;
-        public static int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0093;
-        public static int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00a2;
-        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0064;
-        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0065;
-        public static int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0066;
-        public static int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0067;
-        public static int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00a3;
-        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0068;
-        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0069;
-        public static int Base_Theme_AppCompat=0x7f0b006a;
-        public static int Base_Theme_AppCompat_CompactMenu=0x7f0b00a4;
-        public static int Base_Theme_AppCompat_Dialog=0x7f0b0024;
-        public static int Base_Theme_AppCompat_Dialog_Alert=0x7f0b00a5;
-        public static int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00a6;
-        public static int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b00a7;
-        public static int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b001b;
-        public static int Base_Theme_AppCompat_Light=0x7f0b006b;
-        public static int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00a8;
-        public static int Base_Theme_AppCompat_Light_Dialog=0x7f0b0025;
-        public static int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b00a9;
-        public static int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00aa;
-        public static int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00ab;
-        public static int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b001c;
-        public static int Base_ThemeOverlay_AppCompat=0x7f0b00ac;
-        public static int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00ad;
-        public static int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00ae;
-        public static int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00af;
-        public static int Base_ThemeOverlay_AppCompat_Light=0x7f0b00b0;
-        public static int Base_V11_Theme_AppCompat_Dialog=0x7f0b0026;
-        public static int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0027;
-        public static int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b002f;
-        public static int Base_V12_Widget_AppCompat_EditText=0x7f0b0030;
-        public static int Base_V21_Theme_AppCompat=0x7f0b006c;
-        public static int Base_V21_Theme_AppCompat_Dialog=0x7f0b006d;
-        public static int Base_V21_Theme_AppCompat_Light=0x7f0b006e;
-        public static int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b006f;
-        public static int Base_V22_Theme_AppCompat=0x7f0b0091;
-        public static int Base_V22_Theme_AppCompat_Light=0x7f0b0092;
-        public static int Base_V23_Theme_AppCompat=0x7f0b0094;
-        public static int Base_V23_Theme_AppCompat_Light=0x7f0b0095;
-        public static int Base_V7_Theme_AppCompat=0x7f0b00b1;
-        public static int Base_V7_Theme_AppCompat_Dialog=0x7f0b00b2;
-        public static int Base_V7_Theme_AppCompat_Light=0x7f0b00b3;
-        public static int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00b4;
-        public static int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00b5;
-        public static int Base_V7_Widget_AppCompat_EditText=0x7f0b00b6;
-        public static int Base_Widget_AppCompat_ActionBar=0x7f0b00b7;
-        public static int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00b8;
-        public static int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00b9;
-        public static int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0070;
-        public static int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0071;
-        public static int Base_Widget_AppCompat_ActionButton=0x7f0b0072;
-        public static int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0073;
-        public static int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0074;
-        public static int Base_Widget_AppCompat_ActionMode=0x7f0b00ba;
-        public static int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00bb;
-        public static int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0031;
-        public static int Base_Widget_AppCompat_Button=0x7f0b0075;
-        public static int Base_Widget_AppCompat_Button_Borderless=0x7f0b0076;
-        public static int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0077;
-        public static int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00bc;
-        public static int Base_Widget_AppCompat_Button_Colored=0x7f0b0096;
-        public static int Base_Widget_AppCompat_Button_Small=0x7f0b0078;
-        public static int Base_Widget_AppCompat_ButtonBar=0x7f0b0079;
-        public static int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00bd;
-        public static int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b007a;
-        public static int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b007b;
-        public static int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00be;
-        public static int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b001a;
-        public static int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00bf;
-        public static int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b007c;
-        public static int Base_Widget_AppCompat_EditText=0x7f0b0032;
-        public static int Base_Widget_AppCompat_ImageButton=0x7f0b007d;
-        public static int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00c0;
-        public static int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00c1;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00c2;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b007e;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b007f;
-        public static int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0080;
-        public static int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0081;
-        public static int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0082;
-        public static int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0083;
-        public static int Base_Widget_AppCompat_ListView=0x7f0b0084;
-        public static int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0085;
-        public static int Base_Widget_AppCompat_ListView_Menu=0x7f0b0086;
-        public static int Base_Widget_AppCompat_PopupMenu=0x7f0b0087;
-        public static int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0088;
-        public static int Base_Widget_AppCompat_PopupWindow=0x7f0b00c3;
-        public static int Base_Widget_AppCompat_ProgressBar=0x7f0b0028;
-        public static int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0029;
-        public static int Base_Widget_AppCompat_RatingBar=0x7f0b0089;
-        public static int Base_Widget_AppCompat_SearchView=0x7f0b00c4;
-        public static int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00c5;
-        public static int Base_Widget_AppCompat_SeekBar=0x7f0b008a;
-        public static int Base_Widget_AppCompat_Spinner=0x7f0b008b;
-        public static int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b001d;
-        public static int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b008c;
-        public static int Base_Widget_AppCompat_Toolbar=0x7f0b00c6;
-        public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b008d;
-        public static int Base_Widget_Design_TabLayout=0x7f0b014e;
+        public static int AlertDialog_AppCompat=0x7f0b00a1;
+        public static int AlertDialog_AppCompat_Light=0x7f0b00a2;
+        public static int Animation_AppCompat_Dialog=0x7f0b00a3;
+        public static int Animation_AppCompat_DropDownUp=0x7f0b00a4;
+        public static int Animation_Design_BottomSheetDialog=0x7f0b015a;
+        public static int AppCompatDialogStyle=0x7f0b0177;
+        public static int Base_AlertDialog_AppCompat=0x7f0b00a5;
+        public static int Base_AlertDialog_AppCompat_Light=0x7f0b00a6;
+        public static int Base_Animation_AppCompat_Dialog=0x7f0b00a7;
+        public static int Base_Animation_AppCompat_DropDownUp=0x7f0b00a8;
+        public static int Base_CardView=0x7f0b0018;
+        public static int Base_DialogWindowTitle_AppCompat=0x7f0b00a9;
+        public static int Base_DialogWindowTitleBackground_AppCompat=0x7f0b00aa;
+        public static int Base_TextAppearance_AppCompat=0x7f0b0051;
+        public static int Base_TextAppearance_AppCompat_Body1=0x7f0b0052;
+        public static int Base_TextAppearance_AppCompat_Body2=0x7f0b0053;
+        public static int Base_TextAppearance_AppCompat_Button=0x7f0b003b;
+        public static int Base_TextAppearance_AppCompat_Caption=0x7f0b0054;
+        public static int Base_TextAppearance_AppCompat_Display1=0x7f0b0055;
+        public static int Base_TextAppearance_AppCompat_Display2=0x7f0b0056;
+        public static int Base_TextAppearance_AppCompat_Display3=0x7f0b0057;
+        public static int Base_TextAppearance_AppCompat_Display4=0x7f0b0058;
+        public static int Base_TextAppearance_AppCompat_Headline=0x7f0b0059;
+        public static int Base_TextAppearance_AppCompat_Inverse=0x7f0b0026;
+        public static int Base_TextAppearance_AppCompat_Large=0x7f0b005a;
+        public static int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b0027;
+        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b005b;
+        public static int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b005c;
+        public static int Base_TextAppearance_AppCompat_Medium=0x7f0b005d;
+        public static int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0028;
+        public static int Base_TextAppearance_AppCompat_Menu=0x7f0b005e;
+        public static int Base_TextAppearance_AppCompat_SearchResult=0x7f0b00ab;
+        public static int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b005f;
+        public static int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0060;
+        public static int Base_TextAppearance_AppCompat_Small=0x7f0b0061;
+        public static int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0029;
+        public static int Base_TextAppearance_AppCompat_Subhead=0x7f0b0062;
+        public static int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b002a;
+        public static int Base_TextAppearance_AppCompat_Title=0x7f0b0063;
+        public static int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b002b;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b009a;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0064;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0065;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0066;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0067;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0068;
+        public static int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0069;
+        public static int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b006a;
+        public static int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b009b;
+        public static int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00ac;
+        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b006b;
+        public static int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b006c;
+        public static int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b006d;
+        public static int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b006e;
+        public static int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00ad;
+        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b006f;
+        public static int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0070;
+        public static int Base_Theme_AppCompat=0x7f0b0071;
+        public static int Base_Theme_AppCompat_CompactMenu=0x7f0b00ae;
+        public static int Base_Theme_AppCompat_Dialog=0x7f0b002c;
+        public static int Base_Theme_AppCompat_Dialog_Alert=0x7f0b00af;
+        public static int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00b0;
+        public static int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b00b1;
+        public static int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b001c;
+        public static int Base_Theme_AppCompat_Light=0x7f0b0072;
+        public static int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00b2;
+        public static int Base_Theme_AppCompat_Light_Dialog=0x7f0b002d;
+        public static int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b00b3;
+        public static int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00b4;
+        public static int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00b5;
+        public static int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b001d;
+        public static int Base_ThemeOverlay_AppCompat=0x7f0b00b6;
+        public static int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00b7;
+        public static int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00b8;
+        public static int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00b9;
+        public static int Base_ThemeOverlay_AppCompat_Light=0x7f0b00ba;
+        public static int Base_V11_Theme_AppCompat_Dialog=0x7f0b002e;
+        public static int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b002f;
+        public static int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0037;
+        public static int Base_V12_Widget_AppCompat_EditText=0x7f0b0038;
+        public static int Base_V21_Theme_AppCompat=0x7f0b0073;
+        public static int Base_V21_Theme_AppCompat_Dialog=0x7f0b0074;
+        public static int Base_V21_Theme_AppCompat_Light=0x7f0b0075;
+        public static int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0076;
+        public static int Base_V22_Theme_AppCompat=0x7f0b0098;
+        public static int Base_V22_Theme_AppCompat_Light=0x7f0b0099;
+        public static int Base_V23_Theme_AppCompat=0x7f0b009c;
+        public static int Base_V23_Theme_AppCompat_Light=0x7f0b009d;
+        public static int Base_V7_Theme_AppCompat=0x7f0b00bb;
+        public static int Base_V7_Theme_AppCompat_Dialog=0x7f0b00bc;
+        public static int Base_V7_Theme_AppCompat_Light=0x7f0b00bd;
+        public static int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00be;
+        public static int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00bf;
+        public static int Base_V7_Widget_AppCompat_EditText=0x7f0b00c0;
+        public static int Base_Widget_AppCompat_ActionBar=0x7f0b00c1;
+        public static int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00c2;
+        public static int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00c3;
+        public static int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0077;
+        public static int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0078;
+        public static int Base_Widget_AppCompat_ActionButton=0x7f0b0079;
+        public static int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b007a;
+        public static int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b007b;
+        public static int Base_Widget_AppCompat_ActionMode=0x7f0b00c4;
+        public static int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00c5;
+        public static int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0039;
+        public static int Base_Widget_AppCompat_Button=0x7f0b007c;
+        public static int Base_Widget_AppCompat_Button_Borderless=0x7f0b007d;
+        public static int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b007e;
+        public static int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00c6;
+        public static int Base_Widget_AppCompat_Button_Colored=0x7f0b009e;
+        public static int Base_Widget_AppCompat_Button_Small=0x7f0b007f;
+        public static int Base_Widget_AppCompat_ButtonBar=0x7f0b0080;
+        public static int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00c7;
+        public static int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0081;
+        public static int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0082;
+        public static int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00c8;
+        public static int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b001b;
+        public static int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00c9;
+        public static int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0083;
+        public static int Base_Widget_AppCompat_EditText=0x7f0b003a;
+        public static int Base_Widget_AppCompat_ImageButton=0x7f0b0084;
+        public static int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00ca;
+        public static int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00cb;
+        public static int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00cc;
+        public static int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0085;
+        public static int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0086;
+        public static int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0087;
+        public static int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0088;
+        public static int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0089;
+        public static int Base_Widget_AppCompat_ListPopupWindow=0x7f0b008a;
+        public static int Base_Widget_AppCompat_ListView=0x7f0b008b;
+        public static int Base_Widget_AppCompat_ListView_DropDown=0x7f0b008c;
+        public static int Base_Widget_AppCompat_ListView_Menu=0x7f0b008d;
+        public static int Base_Widget_AppCompat_PopupMenu=0x7f0b008e;
+        public static int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b008f;
+        public static int Base_Widget_AppCompat_PopupWindow=0x7f0b00cd;
+        public static int Base_Widget_AppCompat_ProgressBar=0x7f0b0030;
+        public static int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0031;
+        public static int Base_Widget_AppCompat_RatingBar=0x7f0b0090;
+        public static int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b009f;
+        public static int Base_Widget_AppCompat_RatingBar_Small=0x7f0b00a0;
+        public static int Base_Widget_AppCompat_SearchView=0x7f0b00ce;
+        public static int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00cf;
+        public static int Base_Widget_AppCompat_SeekBar=0x7f0b0091;
+        public static int Base_Widget_AppCompat_Spinner=0x7f0b0092;
+        public static int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b001e;
+        public static int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0093;
+        public static int Base_Widget_AppCompat_Toolbar=0x7f0b00d0;
+        public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0094;
+        public static int Base_Widget_Design_TabLayout=0x7f0b015b;
+        public static int CalendarCell=0x7f0b0172;
+        public static int CalendarCell_CalendarDate=0x7f0b0173;
+        public static int CalendarCell_DayHeader=0x7f0b0174;
+        public static int CalendarTitle=0x7f0b0175;
         public static int CardView=0x7f0b0017;
-        public static int CardView_Dark=0x7f0b0018;
-        public static int CardView_Light=0x7f0b0019;
-        public static int Platform_AppCompat=0x7f0b002a;
-        public static int Platform_AppCompat_Light=0x7f0b002b;
-        public static int Platform_ThemeOverlay_AppCompat=0x7f0b008e;
-        public static int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b008f;
-        public static int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0090;
-        public static int Platform_V11_AppCompat=0x7f0b002c;
-        public static int Platform_V11_AppCompat_Light=0x7f0b002d;
-        public static int Platform_V14_AppCompat=0x7f0b0034;
-        public static int Platform_V14_AppCompat_Light=0x7f0b0035;
-        public static int Platform_Widget_AppCompat_Spinner=0x7f0b002e;
-        public static int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b003b;
-        public static int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b003c;
-        public static int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b003d;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b003e;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b003f;
-        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0040;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0041;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0042;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0043;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0044;
-        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0045;
-        public static int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0046;
-        public static int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b0047;
-        public static int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0048;
-        public static int StandardTheme=0x7f0b015e;
-        public static int TextAppearance_AppCompat=0x7f0b00c7;
-        public static int TextAppearance_AppCompat_Body1=0x7f0b00c8;
-        public static int TextAppearance_AppCompat_Body2=0x7f0b00c9;
-        public static int TextAppearance_AppCompat_Button=0x7f0b00ca;
-        public static int TextAppearance_AppCompat_Caption=0x7f0b00cb;
-        public static int TextAppearance_AppCompat_Display1=0x7f0b00cc;
-        public static int TextAppearance_AppCompat_Display2=0x7f0b00cd;
-        public static int TextAppearance_AppCompat_Display3=0x7f0b00ce;
-        public static int TextAppearance_AppCompat_Display4=0x7f0b00cf;
-        public static int TextAppearance_AppCompat_Headline=0x7f0b00d0;
-        public static int TextAppearance_AppCompat_Inverse=0x7f0b00d1;
-        public static int TextAppearance_AppCompat_Large=0x7f0b00d2;
-        public static int TextAppearance_AppCompat_Large_Inverse=0x7f0b00d3;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00d4;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00d5;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00d6;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00d7;
-        public static int TextAppearance_AppCompat_Medium=0x7f0b00d8;
-        public static int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00d9;
-        public static int TextAppearance_AppCompat_Menu=0x7f0b00da;
-        public static int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00db;
-        public static int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00dc;
-        public static int TextAppearance_AppCompat_Small=0x7f0b00dd;
-        public static int TextAppearance_AppCompat_Small_Inverse=0x7f0b00de;
-        public static int TextAppearance_AppCompat_Subhead=0x7f0b00df;
-        public static int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00e0;
-        public static int TextAppearance_AppCompat_Title=0x7f0b00e1;
-        public static int TextAppearance_AppCompat_Title_Inverse=0x7f0b00e2;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00e3;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00e4;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00e5;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00e6;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00e7;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00e8;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00e9;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00ea;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00eb;
-        public static int TextAppearance_AppCompat_Widget_Button=0x7f0b00ec;
-        public static int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00ed;
-        public static int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00ee;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00ef;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00f0;
-        public static int TextAppearance_AppCompat_Widget_Switch=0x7f0b00f1;
-        public static int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00f2;
-        public static int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b014f;
-        public static int TextAppearance_Design_Counter=0x7f0b0150;
-        public static int TextAppearance_Design_Counter_Overflow=0x7f0b0151;
-        public static int TextAppearance_Design_Error=0x7f0b0152;
-        public static int TextAppearance_Design_Hint=0x7f0b0153;
-        public static int TextAppearance_Design_Snackbar_Message=0x7f0b0154;
-        public static int TextAppearance_Design_Tab=0x7f0b0155;
-        public static int TextAppearance_StatusBar_EventContent=0x7f0b0036;
-        public static int TextAppearance_StatusBar_EventContent_Info=0x7f0b0037;
-        public static int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0038;
-        public static int TextAppearance_StatusBar_EventContent_Time=0x7f0b0039;
-        public static int TextAppearance_StatusBar_EventContent_Title=0x7f0b003a;
-        public static int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00f3;
-        public static int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00f4;
-        public static int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00f5;
-        public static int Theme_AppCompat=0x7f0b00f6;
-        public static int Theme_AppCompat_CompactMenu=0x7f0b00f7;
-        public static int Theme_AppCompat_Dialog=0x7f0b00f8;
-        public static int Theme_AppCompat_Dialog_Alert=0x7f0b00f9;
-        public static int Theme_AppCompat_Dialog_MinWidth=0x7f0b00fa;
-        public static int Theme_AppCompat_DialogWhenLarge=0x7f0b00fb;
-        public static int Theme_AppCompat_Light=0x7f0b00fc;
-        public static int Theme_AppCompat_Light_DarkActionBar=0x7f0b00fd;
-        public static int Theme_AppCompat_Light_Dialog=0x7f0b00fe;
-        public static int Theme_AppCompat_Light_Dialog_Alert=0x7f0b00ff;
-        public static int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0100;
-        public static int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0101;
-        public static int Theme_AppCompat_Light_NoActionBar=0x7f0b0102;
-        public static int Theme_AppCompat_NoActionBar=0x7f0b0103;
+        public static int CardView_Dark=0x7f0b0019;
+        public static int CardView_Light=0x7f0b001a;
+        public static int Platform_AppCompat=0x7f0b0032;
+        public static int Platform_AppCompat_Light=0x7f0b0033;
+        public static int Platform_ThemeOverlay_AppCompat=0x7f0b0095;
+        public static int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0096;
+        public static int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0097;
+        public static int Platform_V11_AppCompat=0x7f0b0034;
+        public static int Platform_V11_AppCompat_Light=0x7f0b0035;
+        public static int Platform_V14_AppCompat=0x7f0b003c;
+        public static int Platform_V14_AppCompat_Light=0x7f0b003d;
+        public static int Platform_Widget_AppCompat_Spinner=0x7f0b0036;
+        public static int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0043;
+        public static int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0044;
+        public static int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0045;
+        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0046;
+        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0047;
+        public static int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0048;
+        public static int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0049;
+        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b004a;
+        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b004b;
+        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b004c;
+        public static int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b004d;
+        public static int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b004e;
+        public static int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b004f;
+        public static int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0050;
+        public static int StandardTheme=0x7f0b0176;
+        public static int TextAppearance_AppCompat=0x7f0b00d1;
+        public static int TextAppearance_AppCompat_Body1=0x7f0b00d2;
+        public static int TextAppearance_AppCompat_Body2=0x7f0b00d3;
+        public static int TextAppearance_AppCompat_Button=0x7f0b00d4;
+        public static int TextAppearance_AppCompat_Caption=0x7f0b00d5;
+        public static int TextAppearance_AppCompat_Display1=0x7f0b00d6;
+        public static int TextAppearance_AppCompat_Display2=0x7f0b00d7;
+        public static int TextAppearance_AppCompat_Display3=0x7f0b00d8;
+        public static int TextAppearance_AppCompat_Display4=0x7f0b00d9;
+        public static int TextAppearance_AppCompat_Headline=0x7f0b00da;
+        public static int TextAppearance_AppCompat_Inverse=0x7f0b00db;
+        public static int TextAppearance_AppCompat_Large=0x7f0b00dc;
+        public static int TextAppearance_AppCompat_Large_Inverse=0x7f0b00dd;
+        public static int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00de;
+        public static int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00df;
+        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00e0;
+        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00e1;
+        public static int TextAppearance_AppCompat_Medium=0x7f0b00e2;
+        public static int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00e3;
+        public static int TextAppearance_AppCompat_Menu=0x7f0b00e4;
+        public static int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00e5;
+        public static int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00e6;
+        public static int TextAppearance_AppCompat_Small=0x7f0b00e7;
+        public static int TextAppearance_AppCompat_Small_Inverse=0x7f0b00e8;
+        public static int TextAppearance_AppCompat_Subhead=0x7f0b00e9;
+        public static int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00ea;
+        public static int TextAppearance_AppCompat_Title=0x7f0b00eb;
+        public static int TextAppearance_AppCompat_Title_Inverse=0x7f0b00ec;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00ed;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00ee;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00ef;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00f0;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00f1;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00f2;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00f3;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00f4;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00f5;
+        public static int TextAppearance_AppCompat_Widget_Button=0x7f0b00f6;
+        public static int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00f7;
+        public static int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00f8;
+        public static int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00f9;
+        public static int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00fa;
+        public static int TextAppearance_AppCompat_Widget_Switch=0x7f0b00fb;
+        public static int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00fc;
+        public static int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b015c;
+        public static int TextAppearance_Design_Counter=0x7f0b015d;
+        public static int TextAppearance_Design_Counter_Overflow=0x7f0b015e;
+        public static int TextAppearance_Design_Error=0x7f0b015f;
+        public static int TextAppearance_Design_Hint=0x7f0b0160;
+        public static int TextAppearance_Design_Snackbar_Message=0x7f0b0161;
+        public static int TextAppearance_Design_Tab=0x7f0b0162;
+        public static int TextAppearance_StatusBar_EventContent=0x7f0b003e;
+        public static int TextAppearance_StatusBar_EventContent_Info=0x7f0b003f;
+        public static int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0040;
+        public static int TextAppearance_StatusBar_EventContent_Time=0x7f0b0041;
+        public static int TextAppearance_StatusBar_EventContent_Title=0x7f0b0042;
+        public static int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00fd;
+        public static int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00fe;
+        public static int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00ff;
+        public static int Theme_AppCompat=0x7f0b0100;
+        public static int Theme_AppCompat_CompactMenu=0x7f0b0101;
+        public static int Theme_AppCompat_DayNight=0x7f0b001f;
+        public static int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0020;
+        public static int Theme_AppCompat_DayNight_Dialog=0x7f0b0021;
+        public static int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b0022;
+        public static int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0023;
+        public static int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b0024;
+        public static int Theme_AppCompat_DayNight_NoActionBar=0x7f0b0025;
+        public static int Theme_AppCompat_Dialog=0x7f0b0102;
+        public static int Theme_AppCompat_Dialog_Alert=0x7f0b0103;
+        public static int Theme_AppCompat_Dialog_MinWidth=0x7f0b0104;
+        public static int Theme_AppCompat_DialogWhenLarge=0x7f0b0105;
+        public static int Theme_AppCompat_Light=0x7f0b0106;
+        public static int Theme_AppCompat_Light_DarkActionBar=0x7f0b0107;
+        public static int Theme_AppCompat_Light_Dialog=0x7f0b0108;
+        public static int Theme_AppCompat_Light_Dialog_Alert=0x7f0b0109;
+        public static int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b010a;
+        public static int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b010b;
+        public static int Theme_AppCompat_Light_NoActionBar=0x7f0b010c;
+        public static int Theme_AppCompat_NoActionBar=0x7f0b010d;
+        public static int Theme_Design=0x7f0b0163;
+        public static int Theme_Design_BottomSheetDialog=0x7f0b0164;
+        public static int Theme_Design_Light=0x7f0b0165;
+        public static int Theme_Design_Light_BottomSheetDialog=0x7f0b0166;
+        public static int Theme_Design_Light_NoActionBar=0x7f0b0167;
+        public static int Theme_Design_NoActionBar=0x7f0b0168;
         public static int Theme_MediaRouter=0x7f0b0000;
         public static int Theme_MediaRouter_Light=0x7f0b0001;
         public static int Theme_MediaRouter_Light_DarkControlPanel=0x7f0b0002;
         public static int Theme_MediaRouter_LightControlPanel=0x7f0b0003;
-        public static int ThemeOverlay_AppCompat=0x7f0b0104;
-        public static int ThemeOverlay_AppCompat_ActionBar=0x7f0b0105;
-        public static int ThemeOverlay_AppCompat_Dark=0x7f0b0106;
-        public static int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0107;
-        public static int ThemeOverlay_AppCompat_Light=0x7f0b0108;
-        public static int Widget_AppCompat_ActionBar=0x7f0b0109;
-        public static int Widget_AppCompat_ActionBar_Solid=0x7f0b010a;
-        public static int Widget_AppCompat_ActionBar_TabBar=0x7f0b010b;
-        public static int Widget_AppCompat_ActionBar_TabText=0x7f0b010c;
-        public static int Widget_AppCompat_ActionBar_TabView=0x7f0b010d;
-        public static int Widget_AppCompat_ActionButton=0x7f0b010e;
-        public static int Widget_AppCompat_ActionButton_CloseMode=0x7f0b010f;
-        public static int Widget_AppCompat_ActionButton_Overflow=0x7f0b0110;
-        public static int Widget_AppCompat_ActionMode=0x7f0b0111;
-        public static int Widget_AppCompat_ActivityChooserView=0x7f0b0112;
-        public static int Widget_AppCompat_AutoCompleteTextView=0x7f0b0113;
-        public static int Widget_AppCompat_Button=0x7f0b0114;
-        public static int Widget_AppCompat_Button_Borderless=0x7f0b0115;
-        public static int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0116;
-        public static int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0117;
-        public static int Widget_AppCompat_Button_Colored=0x7f0b0118;
-        public static int Widget_AppCompat_Button_Small=0x7f0b0119;
-        public static int Widget_AppCompat_ButtonBar=0x7f0b011a;
-        public static int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b011b;
-        public static int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b011c;
-        public static int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b011d;
-        public static int Widget_AppCompat_CompoundButton_Switch=0x7f0b011e;
-        public static int Widget_AppCompat_DrawerArrowToggle=0x7f0b011f;
-        public static int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0120;
-        public static int Widget_AppCompat_EditText=0x7f0b0121;
-        public static int Widget_AppCompat_ImageButton=0x7f0b0122;
-        public static int Widget_AppCompat_Light_ActionBar=0x7f0b0123;
-        public static int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0124;
-        public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0125;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0126;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0127;
-        public static int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0128;
-        public static int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0129;
-        public static int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b012a;
-        public static int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b012b;
-        public static int Widget_AppCompat_Light_ActionButton=0x7f0b012c;
-        public static int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b012d;
-        public static int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b012e;
-        public static int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b012f;
-        public static int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0130;
-        public static int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0131;
-        public static int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0132;
-        public static int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0133;
-        public static int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0134;
-        public static int Widget_AppCompat_Light_PopupMenu=0x7f0b0135;
-        public static int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0136;
-        public static int Widget_AppCompat_Light_SearchView=0x7f0b0137;
-        public static int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0138;
-        public static int Widget_AppCompat_ListPopupWindow=0x7f0b0139;
-        public static int Widget_AppCompat_ListView=0x7f0b013a;
-        public static int Widget_AppCompat_ListView_DropDown=0x7f0b013b;
-        public static int Widget_AppCompat_ListView_Menu=0x7f0b013c;
-        public static int Widget_AppCompat_PopupMenu=0x7f0b013d;
-        public static int Widget_AppCompat_PopupMenu_Overflow=0x7f0b013e;
-        public static int Widget_AppCompat_PopupWindow=0x7f0b013f;
-        public static int Widget_AppCompat_ProgressBar=0x7f0b0140;
-        public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0141;
-        public static int Widget_AppCompat_RatingBar=0x7f0b0142;
-        public static int Widget_AppCompat_SearchView=0x7f0b0143;
-        public static int Widget_AppCompat_SearchView_ActionBar=0x7f0b0144;
-        public static int Widget_AppCompat_SeekBar=0x7f0b0145;
-        public static int Widget_AppCompat_Spinner=0x7f0b0146;
-        public static int Widget_AppCompat_Spinner_DropDown=0x7f0b0147;
-        public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0148;
-        public static int Widget_AppCompat_Spinner_Underlined=0x7f0b0149;
-        public static int Widget_AppCompat_TextView_SpinnerItem=0x7f0b014a;
-        public static int Widget_AppCompat_Toolbar=0x7f0b014b;
-        public static int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b014c;
-        public static int Widget_Design_AppBarLayout=0x7f0b0156;
-        public static int Widget_Design_CollapsingToolbar=0x7f0b0157;
-        public static int Widget_Design_CoordinatorLayout=0x7f0b0158;
-        public static int Widget_Design_FloatingActionButton=0x7f0b0159;
-        public static int Widget_Design_NavigationView=0x7f0b015a;
-        public static int Widget_Design_ScrimInsetsFrameLayout=0x7f0b015b;
-        public static int Widget_Design_Snackbar=0x7f0b015c;
-        public static int Widget_Design_TabLayout=0x7f0b014d;
-        public static int Widget_Design_TextInputLayout=0x7f0b015d;
+        public static int ThemeOverlay_AppCompat=0x7f0b010e;
+        public static int ThemeOverlay_AppCompat_ActionBar=0x7f0b010f;
+        public static int ThemeOverlay_AppCompat_Dark=0x7f0b0110;
+        public static int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0111;
+        public static int ThemeOverlay_AppCompat_Light=0x7f0b0112;
+        public static int Widget_AppCompat_ActionBar=0x7f0b0113;
+        public static int Widget_AppCompat_ActionBar_Solid=0x7f0b0114;
+        public static int Widget_AppCompat_ActionBar_TabBar=0x7f0b0115;
+        public static int Widget_AppCompat_ActionBar_TabText=0x7f0b0116;
+        public static int Widget_AppCompat_ActionBar_TabView=0x7f0b0117;
+        public static int Widget_AppCompat_ActionButton=0x7f0b0118;
+        public static int Widget_AppCompat_ActionButton_CloseMode=0x7f0b0119;
+        public static int Widget_AppCompat_ActionButton_Overflow=0x7f0b011a;
+        public static int Widget_AppCompat_ActionMode=0x7f0b011b;
+        public static int Widget_AppCompat_ActivityChooserView=0x7f0b011c;
+        public static int Widget_AppCompat_AutoCompleteTextView=0x7f0b011d;
+        public static int Widget_AppCompat_Button=0x7f0b011e;
+        public static int Widget_AppCompat_Button_Borderless=0x7f0b011f;
+        public static int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0120;
+        public static int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0121;
+        public static int Widget_AppCompat_Button_Colored=0x7f0b0122;
+        public static int Widget_AppCompat_Button_Small=0x7f0b0123;
+        public static int Widget_AppCompat_ButtonBar=0x7f0b0124;
+        public static int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0125;
+        public static int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0126;
+        public static int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0127;
+        public static int Widget_AppCompat_CompoundButton_Switch=0x7f0b0128;
+        public static int Widget_AppCompat_DrawerArrowToggle=0x7f0b0129;
+        public static int Widget_AppCompat_DropDownItem_Spinner=0x7f0b012a;
+        public static int Widget_AppCompat_EditText=0x7f0b012b;
+        public static int Widget_AppCompat_ImageButton=0x7f0b012c;
+        public static int Widget_AppCompat_Light_ActionBar=0x7f0b012d;
+        public static int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b012e;
+        public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b012f;
+        public static int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0130;
+        public static int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0131;
+        public static int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0132;
+        public static int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0133;
+        public static int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0134;
+        public static int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0135;
+        public static int Widget_AppCompat_Light_ActionButton=0x7f0b0136;
+        public static int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0137;
+        public static int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0138;
+        public static int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b0139;
+        public static int Widget_AppCompat_Light_ActivityChooserView=0x7f0b013a;
+        public static int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b013b;
+        public static int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b013c;
+        public static int Widget_AppCompat_Light_ListPopupWindow=0x7f0b013d;
+        public static int Widget_AppCompat_Light_ListView_DropDown=0x7f0b013e;
+        public static int Widget_AppCompat_Light_PopupMenu=0x7f0b013f;
+        public static int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0140;
+        public static int Widget_AppCompat_Light_SearchView=0x7f0b0141;
+        public static int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0142;
+        public static int Widget_AppCompat_ListPopupWindow=0x7f0b0143;
+        public static int Widget_AppCompat_ListView=0x7f0b0144;
+        public static int Widget_AppCompat_ListView_DropDown=0x7f0b0145;
+        public static int Widget_AppCompat_ListView_Menu=0x7f0b0146;
+        public static int Widget_AppCompat_PopupMenu=0x7f0b0147;
+        public static int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0148;
+        public static int Widget_AppCompat_PopupWindow=0x7f0b0149;
+        public static int Widget_AppCompat_ProgressBar=0x7f0b014a;
+        public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b014b;
+        public static int Widget_AppCompat_RatingBar=0x7f0b014c;
+        public static int Widget_AppCompat_RatingBar_Indicator=0x7f0b014d;
+        public static int Widget_AppCompat_RatingBar_Small=0x7f0b014e;
+        public static int Widget_AppCompat_SearchView=0x7f0b014f;
+        public static int Widget_AppCompat_SearchView_ActionBar=0x7f0b0150;
+        public static int Widget_AppCompat_SeekBar=0x7f0b0151;
+        public static int Widget_AppCompat_Spinner=0x7f0b0152;
+        public static int Widget_AppCompat_Spinner_DropDown=0x7f0b0153;
+        public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0154;
+        public static int Widget_AppCompat_Spinner_Underlined=0x7f0b0155;
+        public static int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0156;
+        public static int Widget_AppCompat_Toolbar=0x7f0b0157;
+        public static int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0158;
+        public static int Widget_Design_AppBarLayout=0x7f0b0169;
+        public static int Widget_Design_BottomSheet_Modal=0x7f0b016a;
+        public static int Widget_Design_CollapsingToolbar=0x7f0b016b;
+        public static int Widget_Design_CoordinatorLayout=0x7f0b016c;
+        public static int Widget_Design_FloatingActionButton=0x7f0b016d;
+        public static int Widget_Design_NavigationView=0x7f0b016e;
+        public static int Widget_Design_ScrimInsetsFrameLayout=0x7f0b016f;
+        public static int Widget_Design_Snackbar=0x7f0b0170;
+        public static int Widget_Design_TabLayout=0x7f0b0159;
+        public static int Widget_Design_TextInputLayout=0x7f0b0171;
         public static int Widget_MediaRouter_ChooserText=0x7f0b0004;
         public static int Widget_MediaRouter_ChooserText_Primary=0x7f0b0005;
         public static int Widget_MediaRouter_ChooserText_Primary_Dark=0x7f0b0006;
@@ -3434,7 +3682,7 @@ containing a value of this type.
             0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
             0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
             0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
-            0x7f010046, 0x7f010047, 0x7f0100a8
+            0x7f010046, 0x7f010047, 0x7f010080
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#background}
@@ -4059,7 +4307,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x7f010046, 0x7f0100fa
+            0x010100d4, 0x7f010046, 0x7f0100fd
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -4110,7 +4358,7 @@ containing a value of this type.
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
          */
         public static final int[] AppBarLayout_LayoutParams = {
-            0x7f0100fb, 0x7f0100fc
+            0x7f0100fe, 0x7f0100ff
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#layout_scrollFlags}
@@ -4142,6 +4390,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android.support.v7.recyclerview:layout_scrollInterpolator
         */
         public static int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
+        /** Attributes that can be used with a AppCompatImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat android.support.v7.recyclerview:srcCompat}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatImageView_android_src
+           @see #AppCompatImageView_srcCompat
+         */
+        public static final int[] AppCompatImageView = {
+            0x01010119, 0x7f010050
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#src}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+          @attr name android:src
+        */
+        public static int AppCompatImageView_android_src = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#srcCompat}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:srcCompat
+        */
+        public static int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4155,7 +4434,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f010050
+            0x01010034, 0x7f010051
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4174,6 +4453,1609 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android.support.v7.recyclerview:textAllCaps
         */
         public static int AppCompatTextView_textAllCaps = 1;
+        /** Attributes that can be used with a AppCompatTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider android.support.v7.recyclerview:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground android.support.v7.recyclerview:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme android.support.v7.recyclerview:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize android.support.v7.recyclerview:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle android.support.v7.recyclerview:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle android.support.v7.recyclerview:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle android.support.v7.recyclerview:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle android.support.v7.recyclerview:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle android.support.v7.recyclerview:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme android.support.v7.recyclerview:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme android.support.v7.recyclerview:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle android.support.v7.recyclerview:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle android.support.v7.recyclerview:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance android.support.v7.recyclerview:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor android.support.v7.recyclerview:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground android.support.v7.recyclerview:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle android.support.v7.recyclerview:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable android.support.v7.recyclerview:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable android.support.v7.recyclerview:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable android.support.v7.recyclerview:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable android.support.v7.recyclerview:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable android.support.v7.recyclerview:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle android.support.v7.recyclerview:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable android.support.v7.recyclerview:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable android.support.v7.recyclerview:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground android.support.v7.recyclerview:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle android.support.v7.recyclerview:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable android.support.v7.recyclerview:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle android.support.v7.recyclerview:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle android.support.v7.recyclerview:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle android.support.v7.recyclerview:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle android.support.v7.recyclerview:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons android.support.v7.recyclerview:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle android.support.v7.recyclerview:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme android.support.v7.recyclerview:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle android.support.v7.recyclerview:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle android.support.v7.recyclerview:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle android.support.v7.recyclerview:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle android.support.v7.recyclerview:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle android.support.v7.recyclerview:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle android.support.v7.recyclerview:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle android.support.v7.recyclerview:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle android.support.v7.recyclerview:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall android.support.v7.recyclerview:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle android.support.v7.recyclerview:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle android.support.v7.recyclerview:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent android.support.v7.recyclerview:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal android.support.v7.recyclerview:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated android.support.v7.recyclerview:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight android.support.v7.recyclerview:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal android.support.v7.recyclerview:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary android.support.v7.recyclerview:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark android.support.v7.recyclerview:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal android.support.v7.recyclerview:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground android.support.v7.recyclerview:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding android.support.v7.recyclerview:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme android.support.v7.recyclerview:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal android.support.v7.recyclerview:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical android.support.v7.recyclerview:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle android.support.v7.recyclerview:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight android.support.v7.recyclerview:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground android.support.v7.recyclerview:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor android.support.v7.recyclerview:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle android.support.v7.recyclerview:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator android.support.v7.recyclerview:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle android.support.v7.recyclerview:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator android.support.v7.recyclerview:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog android.support.v7.recyclerview:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle android.support.v7.recyclerview:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight android.support.v7.recyclerview:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge android.support.v7.recyclerview:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall android.support.v7.recyclerview:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft android.support.v7.recyclerview:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight android.support.v7.recyclerview:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground android.support.v7.recyclerview:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme android.support.v7.recyclerview:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth android.support.v7.recyclerview:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle android.support.v7.recyclerview:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle android.support.v7.recyclerview:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle android.support.v7.recyclerview:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle android.support.v7.recyclerview:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator android.support.v7.recyclerview:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall android.support.v7.recyclerview:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle android.support.v7.recyclerview:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle android.support.v7.recyclerview:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground android.support.v7.recyclerview:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless android.support.v7.recyclerview:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle android.support.v7.recyclerview:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle android.support.v7.recyclerview:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle android.support.v7.recyclerview:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu android.support.v7.recyclerview:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem android.support.v7.recyclerview:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall android.support.v7.recyclerview:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle android.support.v7.recyclerview:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle android.support.v7.recyclerview:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu android.support.v7.recyclerview:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem android.support.v7.recyclerview:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl android.support.v7.recyclerview:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle android.support.v7.recyclerview:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle android.support.v7.recyclerview:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar android.support.v7.recyclerview:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay android.support.v7.recyclerview:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay android.support.v7.recyclerview:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor android.support.v7.recyclerview:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor android.support.v7.recyclerview:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor android.support.v7.recyclerview:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor android.support.v7.recyclerview:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor android.support.v7.recyclerview:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor android.support.v7.recyclerview:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle android.support.v7.recyclerview:windowNoTitle}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatTheme_actionBarDivider
+           @see #AppCompatTheme_actionBarItemBackground
+           @see #AppCompatTheme_actionBarPopupTheme
+           @see #AppCompatTheme_actionBarSize
+           @see #AppCompatTheme_actionBarSplitStyle
+           @see #AppCompatTheme_actionBarStyle
+           @see #AppCompatTheme_actionBarTabBarStyle
+           @see #AppCompatTheme_actionBarTabStyle
+           @see #AppCompatTheme_actionBarTabTextStyle
+           @see #AppCompatTheme_actionBarTheme
+           @see #AppCompatTheme_actionBarWidgetTheme
+           @see #AppCompatTheme_actionButtonStyle
+           @see #AppCompatTheme_actionDropDownStyle
+           @see #AppCompatTheme_actionMenuTextAppearance
+           @see #AppCompatTheme_actionMenuTextColor
+           @see #AppCompatTheme_actionModeBackground
+           @see #AppCompatTheme_actionModeCloseButtonStyle
+           @see #AppCompatTheme_actionModeCloseDrawable
+           @see #AppCompatTheme_actionModeCopyDrawable
+           @see #AppCompatTheme_actionModeCutDrawable
+           @see #AppCompatTheme_actionModeFindDrawable
+           @see #AppCompatTheme_actionModePasteDrawable
+           @see #AppCompatTheme_actionModePopupWindowStyle
+           @see #AppCompatTheme_actionModeSelectAllDrawable
+           @see #AppCompatTheme_actionModeShareDrawable
+           @see #AppCompatTheme_actionModeSplitBackground
+           @see #AppCompatTheme_actionModeStyle
+           @see #AppCompatTheme_actionModeWebSearchDrawable
+           @see #AppCompatTheme_actionOverflowButtonStyle
+           @see #AppCompatTheme_actionOverflowMenuStyle
+           @see #AppCompatTheme_activityChooserViewStyle
+           @see #AppCompatTheme_alertDialogButtonGroupStyle
+           @see #AppCompatTheme_alertDialogCenterButtons
+           @see #AppCompatTheme_alertDialogStyle
+           @see #AppCompatTheme_alertDialogTheme
+           @see #AppCompatTheme_android_windowAnimationStyle
+           @see #AppCompatTheme_android_windowIsFloating
+           @see #AppCompatTheme_autoCompleteTextViewStyle
+           @see #AppCompatTheme_borderlessButtonStyle
+           @see #AppCompatTheme_buttonBarButtonStyle
+           @see #AppCompatTheme_buttonBarNegativeButtonStyle
+           @see #AppCompatTheme_buttonBarNeutralButtonStyle
+           @see #AppCompatTheme_buttonBarPositiveButtonStyle
+           @see #AppCompatTheme_buttonBarStyle
+           @see #AppCompatTheme_buttonStyle
+           @see #AppCompatTheme_buttonStyleSmall
+           @see #AppCompatTheme_checkboxStyle
+           @see #AppCompatTheme_checkedTextViewStyle
+           @see #AppCompatTheme_colorAccent
+           @see #AppCompatTheme_colorButtonNormal
+           @see #AppCompatTheme_colorControlActivated
+           @see #AppCompatTheme_colorControlHighlight
+           @see #AppCompatTheme_colorControlNormal
+           @see #AppCompatTheme_colorPrimary
+           @see #AppCompatTheme_colorPrimaryDark
+           @see #AppCompatTheme_colorSwitchThumbNormal
+           @see #AppCompatTheme_controlBackground
+           @see #AppCompatTheme_dialogPreferredPadding
+           @see #AppCompatTheme_dialogTheme
+           @see #AppCompatTheme_dividerHorizontal
+           @see #AppCompatTheme_dividerVertical
+           @see #AppCompatTheme_dropDownListViewStyle
+           @see #AppCompatTheme_dropdownListPreferredItemHeight
+           @see #AppCompatTheme_editTextBackground
+           @see #AppCompatTheme_editTextColor
+           @see #AppCompatTheme_editTextStyle
+           @see #AppCompatTheme_homeAsUpIndicator
+           @see #AppCompatTheme_imageButtonStyle
+           @see #AppCompatTheme_listChoiceBackgroundIndicator
+           @see #AppCompatTheme_listDividerAlertDialog
+           @see #AppCompatTheme_listPopupWindowStyle
+           @see #AppCompatTheme_listPreferredItemHeight
+           @see #AppCompatTheme_listPreferredItemHeightLarge
+           @see #AppCompatTheme_listPreferredItemHeightSmall
+           @see #AppCompatTheme_listPreferredItemPaddingLeft
+           @see #AppCompatTheme_listPreferredItemPaddingRight
+           @see #AppCompatTheme_panelBackground
+           @see #AppCompatTheme_panelMenuListTheme
+           @see #AppCompatTheme_panelMenuListWidth
+           @see #AppCompatTheme_popupMenuStyle
+           @see #AppCompatTheme_popupWindowStyle
+           @see #AppCompatTheme_radioButtonStyle
+           @see #AppCompatTheme_ratingBarStyle
+           @see #AppCompatTheme_ratingBarStyleIndicator
+           @see #AppCompatTheme_ratingBarStyleSmall
+           @see #AppCompatTheme_searchViewStyle
+           @see #AppCompatTheme_seekBarStyle
+           @see #AppCompatTheme_selectableItemBackground
+           @see #AppCompatTheme_selectableItemBackgroundBorderless
+           @see #AppCompatTheme_spinnerDropDownItemStyle
+           @see #AppCompatTheme_spinnerStyle
+           @see #AppCompatTheme_switchStyle
+           @see #AppCompatTheme_textAppearanceLargePopupMenu
+           @see #AppCompatTheme_textAppearanceListItem
+           @see #AppCompatTheme_textAppearanceListItemSmall
+           @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+           @see #AppCompatTheme_textAppearanceSearchResultTitle
+           @see #AppCompatTheme_textAppearanceSmallPopupMenu
+           @see #AppCompatTheme_textColorAlertDialogListItem
+           @see #AppCompatTheme_textColorSearchUrl
+           @see #AppCompatTheme_toolbarNavigationButtonStyle
+           @see #AppCompatTheme_toolbarStyle
+           @see #AppCompatTheme_windowActionBar
+           @see #AppCompatTheme_windowActionBarOverlay
+           @see #AppCompatTheme_windowActionModeOverlay
+           @see #AppCompatTheme_windowFixedHeightMajor
+           @see #AppCompatTheme_windowFixedHeightMinor
+           @see #AppCompatTheme_windowFixedWidthMajor
+           @see #AppCompatTheme_windowFixedWidthMinor
+           @see #AppCompatTheme_windowMinWidthMajor
+           @see #AppCompatTheme_windowMinWidthMinor
+           @see #AppCompatTheme_windowNoTitle
+         */
+        public static final int[] AppCompatTheme = {
+            0x01010057, 0x010100ae, 0x7f010052, 0x7f010053,
+            0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057,
+            0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b,
+            0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f,
+            0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063,
+            0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067,
+            0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b,
+            0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f,
+            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
+            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
+            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
+            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
+            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
+            0x7f010084, 0x7f010085, 0x7f010086, 0x7f010087,
+            0x7f010088, 0x7f010089, 0x7f01008a, 0x7f01008b,
+            0x7f01008c, 0x7f01008d, 0x7f01008e, 0x7f01008f,
+            0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093,
+            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
+            0x7f010098, 0x7f010099, 0x7f01009a, 0x7f01009b,
+            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
+            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
+            0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7,
+            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
+            0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af,
+            0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3,
+            0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7,
+            0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb,
+            0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarDivider}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarDivider
+        */
+        public static int AppCompatTheme_actionBarDivider = 23;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarItemBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarItemBackground
+        */
+        public static int AppCompatTheme_actionBarItemBackground = 24;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarPopupTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarPopupTheme
+        */
+        public static int AppCompatTheme_actionBarPopupTheme = 17;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarSize}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.recyclerview:actionBarSize
+        */
+        public static int AppCompatTheme_actionBarSize = 22;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarSplitStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarSplitStyle
+        */
+        public static int AppCompatTheme_actionBarSplitStyle = 19;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarStyle
+        */
+        public static int AppCompatTheme_actionBarStyle = 18;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarTabBarStyle
+        */
+        public static int AppCompatTheme_actionBarTabBarStyle = 13;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarTabStyle
+        */
+        public static int AppCompatTheme_actionBarTabStyle = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabTextStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarTabTextStyle
+        */
+        public static int AppCompatTheme_actionBarTabTextStyle = 14;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarTheme
+        */
+        public static int AppCompatTheme_actionBarTheme = 20;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarWidgetTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionBarWidgetTheme
+        */
+        public static int AppCompatTheme_actionBarWidgetTheme = 21;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionButtonStyle
+        */
+        public static int AppCompatTheme_actionButtonStyle = 49;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionDropDownStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionDropDownStyle
+        */
+        public static int AppCompatTheme_actionDropDownStyle = 45;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionMenuTextAppearance}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionMenuTextAppearance
+        */
+        public static int AppCompatTheme_actionMenuTextAppearance = 25;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionMenuTextColor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android.support.v7.recyclerview:actionMenuTextColor
+        */
+        public static int AppCompatTheme_actionMenuTextColor = 26;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeBackground
+        */
+        public static int AppCompatTheme_actionModeBackground = 29;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCloseButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeCloseButtonStyle
+        */
+        public static int AppCompatTheme_actionModeCloseButtonStyle = 28;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCloseDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeCloseDrawable
+        */
+        public static int AppCompatTheme_actionModeCloseDrawable = 31;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCopyDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeCopyDrawable
+        */
+        public static int AppCompatTheme_actionModeCopyDrawable = 33;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCutDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeCutDrawable
+        */
+        public static int AppCompatTheme_actionModeCutDrawable = 32;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeFindDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeFindDrawable
+        */
+        public static int AppCompatTheme_actionModeFindDrawable = 37;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModePasteDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModePasteDrawable
+        */
+        public static int AppCompatTheme_actionModePasteDrawable = 34;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModePopupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModePopupWindowStyle
+        */
+        public static int AppCompatTheme_actionModePopupWindowStyle = 39;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeSelectAllDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeSelectAllDrawable
+        */
+        public static int AppCompatTheme_actionModeSelectAllDrawable = 35;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeShareDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeShareDrawable
+        */
+        public static int AppCompatTheme_actionModeShareDrawable = 36;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeSplitBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeSplitBackground
+        */
+        public static int AppCompatTheme_actionModeSplitBackground = 30;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeStyle
+        */
+        public static int AppCompatTheme_actionModeStyle = 27;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeWebSearchDrawable}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionModeWebSearchDrawable
+        */
+        public static int AppCompatTheme_actionModeWebSearchDrawable = 38;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionOverflowButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionOverflowButtonStyle
+        */
+        public static int AppCompatTheme_actionOverflowButtonStyle = 15;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionOverflowMenuStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:actionOverflowMenuStyle
+        */
+        public static int AppCompatTheme_actionOverflowMenuStyle = 16;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#activityChooserViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:activityChooserViewStyle
+        */
+        public static int AppCompatTheme_activityChooserViewStyle = 57;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:alertDialogButtonGroupStyle
+        */
+        public static int AppCompatTheme_alertDialogButtonGroupStyle = 92;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:alertDialogCenterButtons
+        */
+        public static int AppCompatTheme_alertDialogCenterButtons = 93;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:alertDialogStyle
+        */
+        public static int AppCompatTheme_alertDialogStyle = 91;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:alertDialogTheme
+        */
+        public static int AppCompatTheme_alertDialogTheme = 94;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static int AppCompatTheme_android_windowAnimationStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+          @attr name android:windowIsFloating
+        */
+        public static int AppCompatTheme_android_windowIsFloating = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#autoCompleteTextViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:autoCompleteTextViewStyle
+        */
+        public static int AppCompatTheme_autoCompleteTextViewStyle = 99;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#borderlessButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:borderlessButtonStyle
+        */
+        public static int AppCompatTheme_borderlessButtonStyle = 54;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonBarButtonStyle
+        */
+        public static int AppCompatTheme_buttonBarButtonStyle = 51;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarNegativeButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonBarNegativeButtonStyle
+        */
+        public static int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarNeutralButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonBarNeutralButtonStyle
+        */
+        public static int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarPositiveButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonBarPositiveButtonStyle
+        */
+        public static int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonBarStyle
+        */
+        public static int AppCompatTheme_buttonBarStyle = 50;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonStyle
+        */
+        public static int AppCompatTheme_buttonStyle = 100;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonStyleSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:buttonStyleSmall
+        */
+        public static int AppCompatTheme_buttonStyleSmall = 101;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#checkboxStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:checkboxStyle
+        */
+        public static int AppCompatTheme_checkboxStyle = 102;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#checkedTextViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:checkedTextViewStyle
+        */
+        public static int AppCompatTheme_checkedTextViewStyle = 103;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorAccent}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorAccent
+        */
+        public static int AppCompatTheme_colorAccent = 84;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorButtonNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorButtonNormal
+        */
+        public static int AppCompatTheme_colorButtonNormal = 88;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlActivated}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorControlActivated
+        */
+        public static int AppCompatTheme_colorControlActivated = 86;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlHighlight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorControlHighlight
+        */
+        public static int AppCompatTheme_colorControlHighlight = 87;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorControlNormal
+        */
+        public static int AppCompatTheme_colorControlNormal = 85;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorPrimary}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorPrimary
+        */
+        public static int AppCompatTheme_colorPrimary = 82;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorPrimaryDark}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorPrimaryDark
+        */
+        public static int AppCompatTheme_colorPrimaryDark = 83;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorSwitchThumbNormal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:colorSwitchThumbNormal
+        */
+        public static int AppCompatTheme_colorSwitchThumbNormal = 89;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#controlBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:controlBackground
+        */
+        public static int AppCompatTheme_controlBackground = 90;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dialogPreferredPadding}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:dialogPreferredPadding
+        */
+        public static int AppCompatTheme_dialogPreferredPadding = 43;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dialogTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:dialogTheme
+        */
+        public static int AppCompatTheme_dialogTheme = 42;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dividerHorizontal}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:dividerHorizontal
+        */
+        public static int AppCompatTheme_dividerHorizontal = 56;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dividerVertical}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:dividerVertical
+        */
+        public static int AppCompatTheme_dividerVertical = 55;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dropDownListViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:dropDownListViewStyle
+        */
+        public static int AppCompatTheme_dropDownListViewStyle = 74;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dropdownListPreferredItemHeight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:dropdownListPreferredItemHeight
+        */
+        public static int AppCompatTheme_dropdownListPreferredItemHeight = 46;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:editTextBackground
+        */
+        public static int AppCompatTheme_editTextBackground = 63;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextColor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android.support.v7.recyclerview:editTextColor
+        */
+        public static int AppCompatTheme_editTextColor = 62;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:editTextStyle
+        */
+        public static int AppCompatTheme_editTextStyle = 104;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#homeAsUpIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:homeAsUpIndicator
+        */
+        public static int AppCompatTheme_homeAsUpIndicator = 48;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#imageButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:imageButtonStyle
+        */
+        public static int AppCompatTheme_imageButtonStyle = 64;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listChoiceBackgroundIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:listChoiceBackgroundIndicator
+        */
+        public static int AppCompatTheme_listChoiceBackgroundIndicator = 81;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listDividerAlertDialog}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:listDividerAlertDialog
+        */
+        public static int AppCompatTheme_listDividerAlertDialog = 44;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:listPopupWindowStyle
+        */
+        public static int AppCompatTheme_listPopupWindowStyle = 75;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:listPreferredItemHeight
+        */
+        public static int AppCompatTheme_listPreferredItemHeight = 69;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeightLarge}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:listPreferredItemHeightLarge
+        */
+        public static int AppCompatTheme_listPreferredItemHeightLarge = 71;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeightSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:listPreferredItemHeightSmall
+        */
+        public static int AppCompatTheme_listPreferredItemHeightSmall = 70;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemPaddingLeft}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:listPreferredItemPaddingLeft
+        */
+        public static int AppCompatTheme_listPreferredItemPaddingLeft = 72;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemPaddingRight}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:listPreferredItemPaddingRight
+        */
+        public static int AppCompatTheme_listPreferredItemPaddingRight = 73;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:panelBackground
+        */
+        public static int AppCompatTheme_panelBackground = 78;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelMenuListTheme}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:panelMenuListTheme
+        */
+        public static int AppCompatTheme_panelMenuListTheme = 80;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelMenuListWidth}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:panelMenuListWidth
+        */
+        public static int AppCompatTheme_panelMenuListWidth = 79;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#popupMenuStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:popupMenuStyle
+        */
+        public static int AppCompatTheme_popupMenuStyle = 60;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#popupWindowStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:popupWindowStyle
+        */
+        public static int AppCompatTheme_popupWindowStyle = 61;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#radioButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:radioButtonStyle
+        */
+        public static int AppCompatTheme_radioButtonStyle = 105;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#ratingBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:ratingBarStyle
+        */
+        public static int AppCompatTheme_ratingBarStyle = 106;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#ratingBarStyleIndicator}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:ratingBarStyleIndicator
+        */
+        public static int AppCompatTheme_ratingBarStyleIndicator = 107;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#ratingBarStyleSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:ratingBarStyleSmall
+        */
+        public static int AppCompatTheme_ratingBarStyleSmall = 108;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#searchViewStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:searchViewStyle
+        */
+        public static int AppCompatTheme_searchViewStyle = 68;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#seekBarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:seekBarStyle
+        */
+        public static int AppCompatTheme_seekBarStyle = 109;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#selectableItemBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:selectableItemBackground
+        */
+        public static int AppCompatTheme_selectableItemBackground = 52;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#selectableItemBackgroundBorderless}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:selectableItemBackgroundBorderless
+        */
+        public static int AppCompatTheme_selectableItemBackgroundBorderless = 53;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#spinnerDropDownItemStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:spinnerDropDownItemStyle
+        */
+        public static int AppCompatTheme_spinnerDropDownItemStyle = 47;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#spinnerStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:spinnerStyle
+        */
+        public static int AppCompatTheme_spinnerStyle = 110;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#switchStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:switchStyle
+        */
+        public static int AppCompatTheme_switchStyle = 111;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceLargePopupMenu}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceLargePopupMenu
+        */
+        public static int AppCompatTheme_textAppearanceLargePopupMenu = 40;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceListItem}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceListItem
+        */
+        public static int AppCompatTheme_textAppearanceListItem = 76;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceListItemSmall}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceListItemSmall
+        */
+        public static int AppCompatTheme_textAppearanceListItemSmall = 77;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSearchResultSubtitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceSearchResultSubtitle
+        */
+        public static int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSearchResultTitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceSearchResultTitle
+        */
+        public static int AppCompatTheme_textAppearanceSearchResultTitle = 65;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSmallPopupMenu}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:textAppearanceSmallPopupMenu
+        */
+        public static int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textColorAlertDialogListItem}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android.support.v7.recyclerview:textColorAlertDialogListItem
+        */
+        public static int AppCompatTheme_textColorAlertDialogListItem = 95;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textColorSearchUrl}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name android.support.v7.recyclerview:textColorSearchUrl
+        */
+        public static int AppCompatTheme_textColorSearchUrl = 67;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#toolbarNavigationButtonStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:toolbarNavigationButtonStyle
+        */
+        public static int AppCompatTheme_toolbarNavigationButtonStyle = 59;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#toolbarStyle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:toolbarStyle
+        */
+        public static int AppCompatTheme_toolbarStyle = 58;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionBar}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowActionBar
+        */
+        public static int AppCompatTheme_windowActionBar = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionBarOverlay}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowActionBarOverlay
+        */
+        public static int AppCompatTheme_windowActionBarOverlay = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionModeOverlay}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowActionModeOverlay
+        */
+        public static int AppCompatTheme_windowActionModeOverlay = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedHeightMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowFixedHeightMajor
+        */
+        public static int AppCompatTheme_windowFixedHeightMajor = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedHeightMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowFixedHeightMinor
+        */
+        public static int AppCompatTheme_windowFixedHeightMinor = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedWidthMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowFixedWidthMajor
+        */
+        public static int AppCompatTheme_windowFixedWidthMajor = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedWidthMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowFixedWidthMinor
+        */
+        public static int AppCompatTheme_windowFixedWidthMinor = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowMinWidthMajor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowMinWidthMajor
+        */
+        public static int AppCompatTheme_windowMinWidthMajor = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowMinWidthMinor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowMinWidthMinor
+        */
+        public static int AppCompatTheme_windowMinWidthMinor = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowNoTitle}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:windowNoTitle
+        */
+        public static int AppCompatTheme_windowNoTitle = 3;
+        /** Attributes that can be used with a BottomSheetBehavior_Params.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable android.support.v7.recyclerview:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight android.support.v7.recyclerview:behavior_peekHeight}</code></td><td></td></tr>
+           </table>
+           @see #BottomSheetBehavior_Params_behavior_hideable
+           @see #BottomSheetBehavior_Params_behavior_peekHeight
+         */
+        public static final int[] BottomSheetBehavior_Params = {
+            0x7f010100, 0x7f010101
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#behavior_hideable}
+          attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:behavior_hideable
+        */
+        public static int BottomSheetBehavior_Params_behavior_hideable = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#behavior_peekHeight}
+          attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:behavior_peekHeight
+        */
+        public static int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -4185,7 +6067,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f010051
+            0x7f0100c0
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#allowStacking}
@@ -4201,12 +6083,130 @@ containing a value of this type.
           @attr name android.support.v7.recyclerview:allowStacking
         */
         public static int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CalendarPickerView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CalendarPickerView_android_background android:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_dayBackground android.support.v7.recyclerview:tsquare_dayBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_dayTextColor android.support.v7.recyclerview:tsquare_dayTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_displayHeader android.support.v7.recyclerview:tsquare_displayHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_dividerColor android.support.v7.recyclerview:tsquare_dividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_headerTextColor android.support.v7.recyclerview:tsquare_headerTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarPickerView_tsquare_titleTextColor android.support.v7.recyclerview:tsquare_titleTextColor}</code></td><td></td></tr>
+           </table>
+           @see #CalendarPickerView_android_background
+           @see #CalendarPickerView_tsquare_dayBackground
+           @see #CalendarPickerView_tsquare_dayTextColor
+           @see #CalendarPickerView_tsquare_displayHeader
+           @see #CalendarPickerView_tsquare_dividerColor
+           @see #CalendarPickerView_tsquare_headerTextColor
+           @see #CalendarPickerView_tsquare_titleTextColor
+         */
+        public static final int[] CalendarPickerView = {
+            0x010100d4, 0x7f010142, 0x7f010143, 0x7f010144,
+            0x7f010145, 0x7f010146, 0x7f010147
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#background}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+          @attr name android:background
+        */
+        public static int CalendarPickerView_android_background = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_dayBackground}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:tsquare_dayBackground
+        */
+        public static int CalendarPickerView_tsquare_dayBackground = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_dayTextColor}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_dayTextColor
+        */
+        public static int CalendarPickerView_tsquare_dayTextColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_displayHeader}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_displayHeader
+        */
+        public static int CalendarPickerView_tsquare_displayHeader = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_dividerColor}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_dividerColor
+        */
+        public static int CalendarPickerView_tsquare_dividerColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_headerTextColor}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_headerTextColor
+        */
+        public static int CalendarPickerView_tsquare_headerTextColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_titleTextColor}
+          attribute's value can be found in the {@link #CalendarPickerView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_titleTextColor
+        */
+        public static int CalendarPickerView_tsquare_titleTextColor = 4;
         /** Attributes that can be used with a CardView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_cardBackgroundColor android.support.v7.recyclerview:cardBackgroundColor}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_cardCornerRadius android.support.v7.recyclerview:cardCornerRadius}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_cardElevation android.support.v7.recyclerview:cardElevation}</code></td><td></td></tr>
@@ -4219,6 +6219,8 @@ containing a value of this type.
            <tr><td><code>{@link #CardView_contentPaddingRight android.support.v7.recyclerview:contentPaddingRight}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_contentPaddingTop android.support.v7.recyclerview:contentPaddingTop}</code></td><td></td></tr>
            </table>
+           @see #CardView_android_minHeight
+           @see #CardView_android_minWidth
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
            @see #CardView_cardElevation
@@ -4232,10 +6234,23 @@ containing a value of this type.
            @see #CardView_contentPaddingTop
          */
         public static final int[] CardView = {
-            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024,
-            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
-            0x7f010029, 0x7f01002a, 0x7f01002b
+            0x0101013f, 0x01010140, 0x7f010021, 0x7f010022,
+            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
+            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
+            0x7f01002b
         };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minHeight
+        */
+        public static int CardView_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minWidth
+        */
+        public static int CardView_android_minWidth = 0;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
@@ -4250,7 +6265,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardBackgroundColor
         */
-        public static int CardView_cardBackgroundColor = 0;
+        public static int CardView_cardBackgroundColor = 2;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
@@ -4266,7 +6281,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardCornerRadius
         */
-        public static int CardView_cardCornerRadius = 1;
+        public static int CardView_cardCornerRadius = 3;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
@@ -4282,7 +6297,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardElevation
         */
-        public static int CardView_cardElevation = 2;
+        public static int CardView_cardElevation = 4;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
@@ -4298,7 +6313,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardMaxElevation
         */
-        public static int CardView_cardMaxElevation = 3;
+        public static int CardView_cardMaxElevation = 5;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
@@ -4312,7 +6327,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardPreventCornerOverlap
         */
-        public static int CardView_cardPreventCornerOverlap = 5;
+        public static int CardView_cardPreventCornerOverlap = 7;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
@@ -4326,7 +6341,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:cardUseCompatPadding
         */
-        public static int CardView_cardUseCompatPadding = 4;
+        public static int CardView_cardUseCompatPadding = 6;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
@@ -4342,7 +6357,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:contentPadding
         */
-        public static int CardView_contentPadding = 6;
+        public static int CardView_contentPadding = 8;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
@@ -4358,7 +6373,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:contentPaddingBottom
         */
-        public static int CardView_contentPaddingBottom = 10;
+        public static int CardView_contentPaddingBottom = 12;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
@@ -4374,7 +6389,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:contentPaddingLeft
         */
-        public static int CardView_contentPaddingLeft = 7;
+        public static int CardView_contentPaddingLeft = 9;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
@@ -4390,7 +6405,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:contentPaddingRight
         */
-        public static int CardView_contentPaddingRight = 8;
+        public static int CardView_contentPaddingRight = 10;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
@@ -4406,7 +6421,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:contentPaddingTop
         */
-        public static int CardView_contentPaddingTop = 9;
+        public static int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
            <p>Includes the following attributes:</p>
            <table>
@@ -4420,7 +6435,7 @@ containing a value of this type.
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingAppBarLayout_LayoutParams = {
-            0x7f0100fd, 0x7f0100fe
+            0x7f010102, 0x7f010103
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#layout_collapseMode}
@@ -4491,10 +6506,10 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f01002f, 0x7f0100ff, 0x7f010100, 0x7f010101,
-            0x7f010102, 0x7f010103, 0x7f010104, 0x7f010105,
-            0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109,
-            0x7f01010a, 0x7f01010b
+            0x7f01002f, 0x7f010104, 0x7f010105, 0x7f010106,
+            0x7f010107, 0x7f010108, 0x7f010109, 0x7f01010a,
+            0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e,
+            0x7f01010f, 0x7f010110
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#collapsedTitleGravity}
@@ -4729,7 +6744,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f010052, 0x7f010053
+            0x01010107, 0x7f0100c1, 0x7f0100c2
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -4785,7 +6800,7 @@ containing a value of this type.
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f01010c, 0x7f01010d
+            0x7f010111, 0x7f010112
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#keylines}
@@ -4826,8 +6841,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_LayoutParams_layout_keyline
          */
         public static final int[] CoordinatorLayout_LayoutParams = {
-            0x010100b3, 0x7f01010e, 0x7f01010f, 0x7f010110,
-            0x7f010111
+            0x010100b3, 0x7f010113, 0x7f010114, 0x7f010115,
+            0x7f010116
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -4902,6 +6917,58 @@ containing a value of this type.
           @attr name android.support.v7.recyclerview:layout_keyline
         */
         public static int CoordinatorLayout_LayoutParams_layout_keyline = 3;
+        /** Attributes that can be used with a DesignTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme android.support.v7.recyclerview:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle android.support.v7.recyclerview:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError android.support.v7.recyclerview:textColorError}</code></td><td></td></tr>
+           </table>
+           @see #DesignTheme_bottomSheetDialogTheme
+           @see #DesignTheme_bottomSheetStyle
+           @see #DesignTheme_textColorError
+         */
+        public static final int[] DesignTheme = {
+            0x7f010117, 0x7f010118, 0x7f010119
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#bottomSheetDialogTheme}
+          attribute's value can be found in the {@link #DesignTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:bottomSheetDialogTheme
+        */
+        public static int DesignTheme_bottomSheetDialogTheme = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#bottomSheetStyle}
+          attribute's value can be found in the {@link #DesignTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.recyclerview:bottomSheetStyle
+        */
+        public static int DesignTheme_bottomSheetStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textColorError}
+          attribute's value can be found in the {@link #DesignTheme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:textColorError
+        */
+        public static int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
            <p>Includes the following attributes:</p>
            <table>
@@ -4927,8 +6994,8 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057,
-            0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b
+            0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6,
+            0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#arrowHeadLength}
@@ -5068,6 +7135,7 @@ containing a value of this type.
            <tr><td><code>{@link #FloatingActionButton_fabSize android.support.v7.recyclerview:fabSize}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ android.support.v7.recyclerview:pressedTranslationZ}</code></td><td></td></tr>
            <tr><td><code>{@link #FloatingActionButton_rippleColor android.support.v7.recyclerview:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding android.support.v7.recyclerview:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -5076,10 +7144,11 @@ containing a value of this type.
            @see #FloatingActionButton_fabSize
            @see #FloatingActionButton_pressedTranslationZ
            @see #FloatingActionButton_rippleColor
+           @see #FloatingActionButton_useCompatPadding
          */
         public static final int[] FloatingActionButton = {
-            0x7f010046, 0x7f0100f8, 0x7f0100f9, 0x7f010112,
-            0x7f010113, 0x7f010114, 0x7f010115
+            0x7f010046, 0x7f0100fb, 0x7f0100fc, 0x7f01011a,
+            0x7f01011b, 0x7f01011c, 0x7f01011d, 0x7f01011e
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#backgroundTint}
@@ -5196,6 +7265,20 @@ containing a value of this type.
           @attr name android.support.v7.recyclerview:rippleColor
         */
         public static int FloatingActionButton_rippleColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#useCompatPadding}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:useCompatPadding
+        */
+        public static int FloatingActionButton_useCompatPadding = 7;
         /** Attributes that can be used with a ForegroundLinearLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -5211,7 +7294,7 @@ containing a value of this type.
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f010116
+            0x01010109, 0x01010200, 0x7f01011f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -5267,8 +7350,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010037, 0x7f01005c, 0x7f01005d,
-            0x7f01005e
+            0x01010128, 0x7f010037, 0x7f0100cb, 0x7f0100cc,
+            0x7f0100cd
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -5654,8 +7737,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f01005f, 0x7f010060, 0x7f010061,
-            0x7f010062
+            0x0101026f, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
+            0x7f0100d1
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionLayout}
@@ -5819,7 +7902,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f010063
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100d2
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -5907,8 +7990,8 @@ containing a value of this type.
          */
         public static final int[] NavigationView = {
             0x010100d4, 0x010100dd, 0x0101011f, 0x7f010046,
-            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
-            0x7f01011b, 0x7f01011c
+            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123,
+            0x7f010124, 0x7f010125
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6027,7 +8110,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010064
+            0x01010176, 0x7f0100d3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -6060,7 +8143,7 @@ containing a value of this type.
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010065
+            0x7f0100d4
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#state_above_anchor}
@@ -6171,7 +8254,7 @@ containing a value of this type.
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f01011d
+            0x7f010126
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#insetForeground}
@@ -6196,7 +8279,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f01011e
+            0x7f010127
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#behavior_overlapTop}
@@ -6258,10 +8341,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010066, 0x7f010067, 0x7f010068, 0x7f010069,
-            0x7f01006a, 0x7f01006b, 0x7f01006c, 0x7f01006d,
-            0x7f01006e, 0x7f01006f, 0x7f010070, 0x7f010071,
-            0x7f010072
+            0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8,
+            0x7f0100d9, 0x7f0100da, 0x7f0100db, 0x7f0100dc,
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6516,7 +8599,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f010046, 0x7f01011f
+            0x0101011f, 0x7f010046, 0x7f010128
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -6563,36 +8646,45 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_popupTheme android.support.v7.recyclerview:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
+           @see #Spinner_android_entries
            @see #Spinner_android_popupBackground
            @see #Spinner_android_prompt
            @see #Spinner_popupTheme
          */
         public static final int[] Spinner = {
-            0x01010176, 0x0101017b, 0x01010262, 0x7f010047
+            0x010100b2, 0x01010176, 0x0101017b, 0x01010262,
+            0x7f010047
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:dropDownWidth
         */
-        public static int Spinner_android_dropDownWidth = 2;
+        public static int Spinner_android_dropDownWidth = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#entries}
+          attribute's value can be found in the {@link #Spinner} array.
+          @attr name android:entries
+        */
+        public static int Spinner_android_entries = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:popupBackground
         */
-        public static int Spinner_android_popupBackground = 0;
+        public static int Spinner_android_popupBackground = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
           @attr name android:prompt
         */
-        public static int Spinner_android_prompt = 1;
+        public static int Spinner_android_prompt = 2;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
@@ -6602,7 +8694,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name android.support.v7.recyclerview:popupTheme
         */
-        public static int Spinner_popupTheme = 3;
+        public static int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -6632,9 +8724,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010073,
-            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
-            0x7f010078, 0x7f010079
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100e2,
+            0x7f0100e3, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
+            0x7f0100e7, 0x7f0100e8
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -6750,6 +8842,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android.support.v7.recyclerview:track
         */
         public static int SwitchCompat_track = 3;
+        /** Attributes that can be used with a TabItem.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TabItem_android_icon android:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabItem_android_layout android:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabItem_android_text android:text}</code></td><td></td></tr>
+           </table>
+           @see #TabItem_android_icon
+           @see #TabItem_android_layout
+           @see #TabItem_android_text
+         */
+        public static final int[] TabItem = {
+            0x01010002, 0x010100f2, 0x0101014f
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#icon}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:icon
+        */
+        public static int TabItem_android_icon = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:layout
+        */
+        public static int TabItem_android_layout = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#text}
+          attribute's value can be found in the {@link #TabItem} array.
+          @attr name android:text
+        */
+        public static int TabItem_android_text = 2;
         /** Attributes that can be used with a TabLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -6791,10 +8918,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123,
-            0x7f010124, 0x7f010125, 0x7f010126, 0x7f010127,
-            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b,
-            0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f
+            0x7f010129, 0x7f01012a, 0x7f01012b, 0x7f01012c,
+            0x7f01012d, 0x7f01012e, 0x7f01012f, 0x7f010130,
+            0x7f010131, 0x7f010132, 0x7f010133, 0x7f010134,
+            0x7f010135, 0x7f010136, 0x7f010137, 0x7f010138
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tabBackground}
@@ -7068,7 +9195,7 @@ containing a value of this type.
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
             0x01010161, 0x01010162, 0x01010163, 0x01010164,
-            0x7f010050
+            0x7f010051
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -7144,6 +9271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #TextInputLayout_errorEnabled android.support.v7.recyclerview:errorEnabled}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_errorTextAppearance android.support.v7.recyclerview:errorTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled android.support.v7.recyclerview:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled android.support.v7.recyclerview:hintEnabled}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_hintTextAppearance android.support.v7.recyclerview:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
@@ -7155,12 +9283,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_errorEnabled
            @see #TextInputLayout_errorTextAppearance
            @see #TextInputLayout_hintAnimationEnabled
+           @see #TextInputLayout_hintEnabled
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010130, 0x7f010131,
-            0x7f010132, 0x7f010133, 0x7f010134, 0x7f010135,
-            0x7f010136, 0x7f010137
+            0x0101009a, 0x01010150, 0x7f010139, 0x7f01013a,
+            0x7f01013b, 0x7f01013c, 0x7f01013d, 0x7f01013e,
+            0x7f01013f, 0x7f010140, 0x7f010141
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -7187,7 +9316,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:counterEnabled
         */
-        public static int TextInputLayout_counterEnabled = 5;
+        public static int TextInputLayout_counterEnabled = 6;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7201,7 +9330,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:counterMaxLength
         */
-        public static int TextInputLayout_counterMaxLength = 6;
+        public static int TextInputLayout_counterMaxLength = 7;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7211,7 +9340,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name android.support.v7.recyclerview:counterOverflowTextAppearance
         */
-        public static int TextInputLayout_counterOverflowTextAppearance = 8;
+        public static int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7221,7 +9350,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name android.support.v7.recyclerview:counterTextAppearance
         */
-        public static int TextInputLayout_counterTextAppearance = 7;
+        public static int TextInputLayout_counterTextAppearance = 8;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7235,7 +9364,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:errorEnabled
         */
-        public static int TextInputLayout_errorEnabled = 3;
+        public static int TextInputLayout_errorEnabled = 4;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7245,7 +9374,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name android.support.v7.recyclerview:errorTextAppearance
         */
-        public static int TextInputLayout_errorTextAppearance = 4;
+        public static int TextInputLayout_errorTextAppearance = 5;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7259,7 +9388,21 @@ theme attribute (in the form
 containing a value of this type.
           @attr name android.support.v7.recyclerview:hintAnimationEnabled
         */
-        public static int TextInputLayout_hintAnimationEnabled = 9;
+        public static int TextInputLayout_hintAnimationEnabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#hintEnabled}
+          attribute's value can be found in the {@link #TextInputLayout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:hintEnabled
+        */
+        public static int TextInputLayout_hintEnabled = 3;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
@@ -7270,1540 +9413,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android.support.v7.recyclerview:hintTextAppearance
         */
         public static int TextInputLayout_hintTextAppearance = 2;
-        /** Attributes that can be used with a Theme.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider android.support.v7.recyclerview:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground android.support.v7.recyclerview:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme android.support.v7.recyclerview:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize android.support.v7.recyclerview:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle android.support.v7.recyclerview:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle android.support.v7.recyclerview:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle android.support.v7.recyclerview:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle android.support.v7.recyclerview:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle android.support.v7.recyclerview:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme android.support.v7.recyclerview:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme android.support.v7.recyclerview:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle android.support.v7.recyclerview:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle android.support.v7.recyclerview:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance android.support.v7.recyclerview:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor android.support.v7.recyclerview:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground android.support.v7.recyclerview:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle android.support.v7.recyclerview:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable android.support.v7.recyclerview:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable android.support.v7.recyclerview:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable android.support.v7.recyclerview:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable android.support.v7.recyclerview:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable android.support.v7.recyclerview:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle android.support.v7.recyclerview:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable android.support.v7.recyclerview:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable android.support.v7.recyclerview:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground android.support.v7.recyclerview:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle android.support.v7.recyclerview:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable android.support.v7.recyclerview:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle android.support.v7.recyclerview:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle android.support.v7.recyclerview:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle android.support.v7.recyclerview:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle android.support.v7.recyclerview:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons android.support.v7.recyclerview:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle android.support.v7.recyclerview:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme android.support.v7.recyclerview:alertDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle android.support.v7.recyclerview:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle android.support.v7.recyclerview:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle android.support.v7.recyclerview:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle android.support.v7.recyclerview:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle android.support.v7.recyclerview:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle android.support.v7.recyclerview:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle android.support.v7.recyclerview:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle android.support.v7.recyclerview:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall android.support.v7.recyclerview:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle android.support.v7.recyclerview:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle android.support.v7.recyclerview:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent android.support.v7.recyclerview:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal android.support.v7.recyclerview:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated android.support.v7.recyclerview:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight android.support.v7.recyclerview:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal android.support.v7.recyclerview:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary android.support.v7.recyclerview:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark android.support.v7.recyclerview:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal android.support.v7.recyclerview:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground android.support.v7.recyclerview:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding android.support.v7.recyclerview:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme android.support.v7.recyclerview:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal android.support.v7.recyclerview:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical android.support.v7.recyclerview:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle android.support.v7.recyclerview:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight android.support.v7.recyclerview:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground android.support.v7.recyclerview:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor android.support.v7.recyclerview:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle android.support.v7.recyclerview:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator android.support.v7.recyclerview:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle android.support.v7.recyclerview:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator android.support.v7.recyclerview:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog android.support.v7.recyclerview:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle android.support.v7.recyclerview:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight android.support.v7.recyclerview:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge android.support.v7.recyclerview:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall android.support.v7.recyclerview:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft android.support.v7.recyclerview:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight android.support.v7.recyclerview:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground android.support.v7.recyclerview:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme android.support.v7.recyclerview:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth android.support.v7.recyclerview:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle android.support.v7.recyclerview:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle android.support.v7.recyclerview:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle android.support.v7.recyclerview:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle android.support.v7.recyclerview:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle android.support.v7.recyclerview:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle android.support.v7.recyclerview:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground android.support.v7.recyclerview:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless android.support.v7.recyclerview:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle android.support.v7.recyclerview:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle android.support.v7.recyclerview:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle android.support.v7.recyclerview:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu android.support.v7.recyclerview:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem android.support.v7.recyclerview:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall android.support.v7.recyclerview:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle android.support.v7.recyclerview:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle android.support.v7.recyclerview:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu android.support.v7.recyclerview:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem android.support.v7.recyclerview:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl android.support.v7.recyclerview:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle android.support.v7.recyclerview:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle android.support.v7.recyclerview:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar android.support.v7.recyclerview:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay android.support.v7.recyclerview:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay android.support.v7.recyclerview:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor android.support.v7.recyclerview:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor android.support.v7.recyclerview:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor android.support.v7.recyclerview:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor android.support.v7.recyclerview:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor android.support.v7.recyclerview:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor android.support.v7.recyclerview:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle android.support.v7.recyclerview:windowNoTitle}</code></td><td></td></tr>
-           </table>
-           @see #Theme_actionBarDivider
-           @see #Theme_actionBarItemBackground
-           @see #Theme_actionBarPopupTheme
-           @see #Theme_actionBarSize
-           @see #Theme_actionBarSplitStyle
-           @see #Theme_actionBarStyle
-           @see #Theme_actionBarTabBarStyle
-           @see #Theme_actionBarTabStyle
-           @see #Theme_actionBarTabTextStyle
-           @see #Theme_actionBarTheme
-           @see #Theme_actionBarWidgetTheme
-           @see #Theme_actionButtonStyle
-           @see #Theme_actionDropDownStyle
-           @see #Theme_actionMenuTextAppearance
-           @see #Theme_actionMenuTextColor
-           @see #Theme_actionModeBackground
-           @see #Theme_actionModeCloseButtonStyle
-           @see #Theme_actionModeCloseDrawable
-           @see #Theme_actionModeCopyDrawable
-           @see #Theme_actionModeCutDrawable
-           @see #Theme_actionModeFindDrawable
-           @see #Theme_actionModePasteDrawable
-           @see #Theme_actionModePopupWindowStyle
-           @see #Theme_actionModeSelectAllDrawable
-           @see #Theme_actionModeShareDrawable
-           @see #Theme_actionModeSplitBackground
-           @see #Theme_actionModeStyle
-           @see #Theme_actionModeWebSearchDrawable
-           @see #Theme_actionOverflowButtonStyle
-           @see #Theme_actionOverflowMenuStyle
-           @see #Theme_activityChooserViewStyle
-           @see #Theme_alertDialogButtonGroupStyle
-           @see #Theme_alertDialogCenterButtons
-           @see #Theme_alertDialogStyle
-           @see #Theme_alertDialogTheme
-           @see #Theme_android_windowAnimationStyle
-           @see #Theme_android_windowIsFloating
-           @see #Theme_autoCompleteTextViewStyle
-           @see #Theme_borderlessButtonStyle
-           @see #Theme_buttonBarButtonStyle
-           @see #Theme_buttonBarNegativeButtonStyle
-           @see #Theme_buttonBarNeutralButtonStyle
-           @see #Theme_buttonBarPositiveButtonStyle
-           @see #Theme_buttonBarStyle
-           @see #Theme_buttonStyle
-           @see #Theme_buttonStyleSmall
-           @see #Theme_checkboxStyle
-           @see #Theme_checkedTextViewStyle
-           @see #Theme_colorAccent
-           @see #Theme_colorButtonNormal
-           @see #Theme_colorControlActivated
-           @see #Theme_colorControlHighlight
-           @see #Theme_colorControlNormal
-           @see #Theme_colorPrimary
-           @see #Theme_colorPrimaryDark
-           @see #Theme_colorSwitchThumbNormal
-           @see #Theme_controlBackground
-           @see #Theme_dialogPreferredPadding
-           @see #Theme_dialogTheme
-           @see #Theme_dividerHorizontal
-           @see #Theme_dividerVertical
-           @see #Theme_dropDownListViewStyle
-           @see #Theme_dropdownListPreferredItemHeight
-           @see #Theme_editTextBackground
-           @see #Theme_editTextColor
-           @see #Theme_editTextStyle
-           @see #Theme_homeAsUpIndicator
-           @see #Theme_imageButtonStyle
-           @see #Theme_listChoiceBackgroundIndicator
-           @see #Theme_listDividerAlertDialog
-           @see #Theme_listPopupWindowStyle
-           @see #Theme_listPreferredItemHeight
-           @see #Theme_listPreferredItemHeightLarge
-           @see #Theme_listPreferredItemHeightSmall
-           @see #Theme_listPreferredItemPaddingLeft
-           @see #Theme_listPreferredItemPaddingRight
-           @see #Theme_panelBackground
-           @see #Theme_panelMenuListTheme
-           @see #Theme_panelMenuListWidth
-           @see #Theme_popupMenuStyle
-           @see #Theme_popupWindowStyle
-           @see #Theme_radioButtonStyle
-           @see #Theme_ratingBarStyle
-           @see #Theme_searchViewStyle
-           @see #Theme_seekBarStyle
-           @see #Theme_selectableItemBackground
-           @see #Theme_selectableItemBackgroundBorderless
-           @see #Theme_spinnerDropDownItemStyle
-           @see #Theme_spinnerStyle
-           @see #Theme_switchStyle
-           @see #Theme_textAppearanceLargePopupMenu
-           @see #Theme_textAppearanceListItem
-           @see #Theme_textAppearanceListItemSmall
-           @see #Theme_textAppearanceSearchResultSubtitle
-           @see #Theme_textAppearanceSearchResultTitle
-           @see #Theme_textAppearanceSmallPopupMenu
-           @see #Theme_textColorAlertDialogListItem
-           @see #Theme_textColorSearchUrl
-           @see #Theme_toolbarNavigationButtonStyle
-           @see #Theme_toolbarStyle
-           @see #Theme_windowActionBar
-           @see #Theme_windowActionBarOverlay
-           @see #Theme_windowActionModeOverlay
-           @see #Theme_windowFixedHeightMajor
-           @see #Theme_windowFixedHeightMinor
-           @see #Theme_windowFixedWidthMajor
-           @see #Theme_windowFixedWidthMinor
-           @see #Theme_windowMinWidthMajor
-           @see #Theme_windowMinWidthMinor
-           @see #Theme_windowNoTitle
-         */
-        public static final int[] Theme = {
-            0x01010057, 0x010100ae, 0x7f01007a, 0x7f01007b,
-            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
-            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
-            0x7f010084, 0x7f010085, 0x7f010086, 0x7f010087,
-            0x7f010088, 0x7f010089, 0x7f01008a, 0x7f01008b,
-            0x7f01008c, 0x7f01008d, 0x7f01008e, 0x7f01008f,
-            0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093,
-            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
-            0x7f010098, 0x7f010099, 0x7f01009a, 0x7f01009b,
-            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
-            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
-            0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7,
-            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
-            0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af,
-            0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3,
-            0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7,
-            0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb,
-            0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf,
-            0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3,
-            0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7,
-            0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb,
-            0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
-            0x7f0100d0, 0x7f0100d1, 0x7f0100d2, 0x7f0100d3,
-            0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
-            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
-            0x7f0100dc, 0x7f0100dd, 0x7f0100de, 0x7f0100df,
-            0x7f0100e0, 0x7f0100e1, 0x7f0100e2, 0x7f0100e3,
-            0x7f0100e4, 0x7f0100e5
-        };
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarDivider}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarDivider
-        */
-        public static int Theme_actionBarDivider = 23;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarItemBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarItemBackground
-        */
-        public static int Theme_actionBarItemBackground = 24;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarPopupTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarPopupTheme
-        */
-        public static int Theme_actionBarPopupTheme = 17;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarSize}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
-</table>
-          @attr name android.support.v7.recyclerview:actionBarSize
-        */
-        public static int Theme_actionBarSize = 22;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarSplitStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarSplitStyle
-        */
-        public static int Theme_actionBarSplitStyle = 19;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarStyle
-        */
-        public static int Theme_actionBarStyle = 18;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarTabBarStyle
-        */
-        public static int Theme_actionBarTabBarStyle = 13;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarTabStyle
-        */
-        public static int Theme_actionBarTabStyle = 12;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTabTextStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarTabTextStyle
-        */
-        public static int Theme_actionBarTabTextStyle = 14;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarTheme
-        */
-        public static int Theme_actionBarTheme = 20;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionBarWidgetTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionBarWidgetTheme
-        */
-        public static int Theme_actionBarWidgetTheme = 21;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionButtonStyle
-        */
-        public static int Theme_actionButtonStyle = 49;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionDropDownStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionDropDownStyle
-        */
-        public static int Theme_actionDropDownStyle = 45;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionMenuTextAppearance}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionMenuTextAppearance
-        */
-        public static int Theme_actionMenuTextAppearance = 25;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionMenuTextColor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.v7.recyclerview:actionMenuTextColor
-        */
-        public static int Theme_actionMenuTextColor = 26;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeBackground
-        */
-        public static int Theme_actionModeBackground = 29;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCloseButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeCloseButtonStyle
-        */
-        public static int Theme_actionModeCloseButtonStyle = 28;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCloseDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeCloseDrawable
-        */
-        public static int Theme_actionModeCloseDrawable = 31;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCopyDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeCopyDrawable
-        */
-        public static int Theme_actionModeCopyDrawable = 33;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeCutDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeCutDrawable
-        */
-        public static int Theme_actionModeCutDrawable = 32;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeFindDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeFindDrawable
-        */
-        public static int Theme_actionModeFindDrawable = 37;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModePasteDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModePasteDrawable
-        */
-        public static int Theme_actionModePasteDrawable = 34;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModePopupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModePopupWindowStyle
-        */
-        public static int Theme_actionModePopupWindowStyle = 39;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeSelectAllDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeSelectAllDrawable
-        */
-        public static int Theme_actionModeSelectAllDrawable = 35;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeShareDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeShareDrawable
-        */
-        public static int Theme_actionModeShareDrawable = 36;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeSplitBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeSplitBackground
-        */
-        public static int Theme_actionModeSplitBackground = 30;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeStyle
-        */
-        public static int Theme_actionModeStyle = 27;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionModeWebSearchDrawable}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionModeWebSearchDrawable
-        */
-        public static int Theme_actionModeWebSearchDrawable = 38;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionOverflowButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionOverflowButtonStyle
-        */
-        public static int Theme_actionOverflowButtonStyle = 15;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#actionOverflowMenuStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:actionOverflowMenuStyle
-        */
-        public static int Theme_actionOverflowMenuStyle = 16;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#activityChooserViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:activityChooserViewStyle
-        */
-        public static int Theme_activityChooserViewStyle = 57;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogButtonGroupStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:alertDialogButtonGroupStyle
-        */
-        public static int Theme_alertDialogButtonGroupStyle = 92;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogCenterButtons}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:alertDialogCenterButtons
-        */
-        public static int Theme_alertDialogCenterButtons = 93;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:alertDialogStyle
-        */
-        public static int Theme_alertDialogStyle = 91;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#alertDialogTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:alertDialogTheme
-        */
-        public static int Theme_alertDialogTheme = 94;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowAnimationStyle
-        */
-        public static int Theme_android_windowAnimationStyle = 1;
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-          attribute's value can be found in the {@link #Theme} array.
-          @attr name android:windowIsFloating
-        */
-        public static int Theme_android_windowIsFloating = 0;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#autoCompleteTextViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:autoCompleteTextViewStyle
-        */
-        public static int Theme_autoCompleteTextViewStyle = 99;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#borderlessButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:borderlessButtonStyle
-        */
-        public static int Theme_borderlessButtonStyle = 54;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonBarButtonStyle
-        */
-        public static int Theme_buttonBarButtonStyle = 51;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarNegativeButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonBarNegativeButtonStyle
-        */
-        public static int Theme_buttonBarNegativeButtonStyle = 97;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarNeutralButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonBarNeutralButtonStyle
-        */
-        public static int Theme_buttonBarNeutralButtonStyle = 98;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarPositiveButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonBarPositiveButtonStyle
-        */
-        public static int Theme_buttonBarPositiveButtonStyle = 96;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonBarStyle
-        */
-        public static int Theme_buttonBarStyle = 50;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonStyle
-        */
-        public static int Theme_buttonStyle = 100;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#buttonStyleSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:buttonStyleSmall
-        */
-        public static int Theme_buttonStyleSmall = 101;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#checkboxStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:checkboxStyle
-        */
-        public static int Theme_checkboxStyle = 102;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#checkedTextViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:checkedTextViewStyle
-        */
-        public static int Theme_checkedTextViewStyle = 103;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorAccent}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorAccent
-        */
-        public static int Theme_colorAccent = 84;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorButtonNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorButtonNormal
-        */
-        public static int Theme_colorButtonNormal = 88;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlActivated}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorControlActivated
-        */
-        public static int Theme_colorControlActivated = 86;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlHighlight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorControlHighlight
-        */
-        public static int Theme_colorControlHighlight = 87;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorControlNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorControlNormal
-        */
-        public static int Theme_colorControlNormal = 85;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorPrimary}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorPrimary
-        */
-        public static int Theme_colorPrimary = 82;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorPrimaryDark}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorPrimaryDark
-        */
-        public static int Theme_colorPrimaryDark = 83;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#colorSwitchThumbNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:colorSwitchThumbNormal
-        */
-        public static int Theme_colorSwitchThumbNormal = 89;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#controlBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:controlBackground
-        */
-        public static int Theme_controlBackground = 90;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dialogPreferredPadding}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:dialogPreferredPadding
-        */
-        public static int Theme_dialogPreferredPadding = 43;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dialogTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:dialogTheme
-        */
-        public static int Theme_dialogTheme = 42;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dividerHorizontal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:dividerHorizontal
-        */
-        public static int Theme_dividerHorizontal = 56;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dividerVertical}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:dividerVertical
-        */
-        public static int Theme_dividerVertical = 55;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dropDownListViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:dropDownListViewStyle
-        */
-        public static int Theme_dropDownListViewStyle = 74;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#dropdownListPreferredItemHeight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:dropdownListPreferredItemHeight
-        */
-        public static int Theme_dropdownListPreferredItemHeight = 46;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:editTextBackground
-        */
-        public static int Theme_editTextBackground = 63;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextColor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.v7.recyclerview:editTextColor
-        */
-        public static int Theme_editTextColor = 62;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#editTextStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:editTextStyle
-        */
-        public static int Theme_editTextStyle = 104;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#homeAsUpIndicator}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:homeAsUpIndicator
-        */
-        public static int Theme_homeAsUpIndicator = 48;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#imageButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:imageButtonStyle
-        */
-        public static int Theme_imageButtonStyle = 64;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listChoiceBackgroundIndicator}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:listChoiceBackgroundIndicator
-        */
-        public static int Theme_listChoiceBackgroundIndicator = 81;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listDividerAlertDialog}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:listDividerAlertDialog
-        */
-        public static int Theme_listDividerAlertDialog = 44;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPopupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:listPopupWindowStyle
-        */
-        public static int Theme_listPopupWindowStyle = 75;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:listPreferredItemHeight
-        */
-        public static int Theme_listPreferredItemHeight = 69;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeightLarge}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:listPreferredItemHeightLarge
-        */
-        public static int Theme_listPreferredItemHeightLarge = 71;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemHeightSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:listPreferredItemHeightSmall
-        */
-        public static int Theme_listPreferredItemHeightSmall = 70;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemPaddingLeft}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:listPreferredItemPaddingLeft
-        */
-        public static int Theme_listPreferredItemPaddingLeft = 72;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#listPreferredItemPaddingRight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:listPreferredItemPaddingRight
-        */
-        public static int Theme_listPreferredItemPaddingRight = 73;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:panelBackground
-        */
-        public static int Theme_panelBackground = 78;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelMenuListTheme}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:panelMenuListTheme
-        */
-        public static int Theme_panelMenuListTheme = 80;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#panelMenuListWidth}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:panelMenuListWidth
-        */
-        public static int Theme_panelMenuListWidth = 79;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#popupMenuStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:popupMenuStyle
-        */
-        public static int Theme_popupMenuStyle = 60;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#popupWindowStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:popupWindowStyle
-        */
-        public static int Theme_popupWindowStyle = 61;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#radioButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:radioButtonStyle
-        */
-        public static int Theme_radioButtonStyle = 105;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#ratingBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:ratingBarStyle
-        */
-        public static int Theme_ratingBarStyle = 106;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#searchViewStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:searchViewStyle
-        */
-        public static int Theme_searchViewStyle = 68;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#seekBarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:seekBarStyle
-        */
-        public static int Theme_seekBarStyle = 107;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#selectableItemBackground}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:selectableItemBackground
-        */
-        public static int Theme_selectableItemBackground = 52;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#selectableItemBackgroundBorderless}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:selectableItemBackgroundBorderless
-        */
-        public static int Theme_selectableItemBackgroundBorderless = 53;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#spinnerDropDownItemStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:spinnerDropDownItemStyle
-        */
-        public static int Theme_spinnerDropDownItemStyle = 47;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#spinnerStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:spinnerStyle
-        */
-        public static int Theme_spinnerStyle = 108;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#switchStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:switchStyle
-        */
-        public static int Theme_switchStyle = 109;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceLargePopupMenu}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceLargePopupMenu
-        */
-        public static int Theme_textAppearanceLargePopupMenu = 40;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceListItem}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceListItem
-        */
-        public static int Theme_textAppearanceListItem = 76;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceListItemSmall}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceListItemSmall
-        */
-        public static int Theme_textAppearanceListItemSmall = 77;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSearchResultSubtitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceSearchResultSubtitle
-        */
-        public static int Theme_textAppearanceSearchResultSubtitle = 66;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSearchResultTitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceSearchResultTitle
-        */
-        public static int Theme_textAppearanceSearchResultTitle = 65;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textAppearanceSmallPopupMenu}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:textAppearanceSmallPopupMenu
-        */
-        public static int Theme_textAppearanceSmallPopupMenu = 41;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textColorAlertDialogListItem}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.v7.recyclerview:textColorAlertDialogListItem
-        */
-        public static int Theme_textColorAlertDialogListItem = 95;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#textColorSearchUrl}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android.support.v7.recyclerview:textColorSearchUrl
-        */
-        public static int Theme_textColorSearchUrl = 67;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#toolbarNavigationButtonStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:toolbarNavigationButtonStyle
-        */
-        public static int Theme_toolbarNavigationButtonStyle = 59;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#toolbarStyle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android.support.v7.recyclerview:toolbarStyle
-        */
-        public static int Theme_toolbarStyle = 58;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionBar}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowActionBar
-        */
-        public static int Theme_windowActionBar = 2;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionBarOverlay}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowActionBarOverlay
-        */
-        public static int Theme_windowActionBarOverlay = 4;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowActionModeOverlay}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowActionModeOverlay
-        */
-        public static int Theme_windowActionModeOverlay = 5;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedHeightMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowFixedHeightMajor
-        */
-        public static int Theme_windowFixedHeightMajor = 9;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedHeightMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowFixedHeightMinor
-        */
-        public static int Theme_windowFixedHeightMinor = 7;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedWidthMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowFixedWidthMajor
-        */
-        public static int Theme_windowFixedWidthMajor = 6;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowFixedWidthMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowFixedWidthMinor
-        */
-        public static int Theme_windowFixedWidthMinor = 8;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowMinWidthMajor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowMinWidthMajor
-        */
-        public static int Theme_windowMinWidthMajor = 10;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowMinWidthMinor}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowMinWidthMinor
-        */
-        public static int Theme_windowMinWidthMinor = 11;
-        /**
-          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#windowNoTitle}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android.support.v7.recyclerview:windowNoTitle
-        */
-        public static int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -8865,11 +9474,11 @@ containing a value of this type.
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f01002f, 0x7f010032,
             0x7f010036, 0x7f010042, 0x7f010043, 0x7f010044,
-            0x7f010045, 0x7f010047, 0x7f0100e6, 0x7f0100e7,
-            0x7f0100e8, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb,
-            0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef,
-            0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3,
-            0x7f0100f4
+            0x7f010045, 0x7f010047, 0x7f0100e9, 0x7f0100ea,
+            0x7f0100eb, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee,
+            0x7f0100ef, 0x7f0100f0, 0x7f0100f1, 0x7f0100f2,
+            0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
+            0x7f0100f7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -9222,8 +9831,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f0100f5, 0x7f0100f6,
-            0x7f0100f7
+            0x01010000, 0x010100da, 0x7f0100f8, 0x7f0100f9,
+            0x7f0100fa
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9294,7 +9903,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f0100f8, 0x7f0100f9
+            0x010100d4, 0x7f0100fb, 0x7f0100fc
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9372,5 +9981,129 @@ containing a value of this type.
           @attr name android:layout
         */
         public static int ViewStubCompat_android_layout = 1;
+        /** Attributes that can be used with a calendar_cell.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_current_month android.support.v7.recyclerview:tsquare_state_current_month}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_highlighted android.support.v7.recyclerview:tsquare_state_highlighted}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_range_first android.support.v7.recyclerview:tsquare_state_range_first}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_range_last android.support.v7.recyclerview:tsquare_state_range_last}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_range_middle android.support.v7.recyclerview:tsquare_state_range_middle}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_selectable android.support.v7.recyclerview:tsquare_state_selectable}</code></td><td></td></tr>
+           <tr><td><code>{@link #calendar_cell_tsquare_state_today android.support.v7.recyclerview:tsquare_state_today}</code></td><td></td></tr>
+           </table>
+           @see #calendar_cell_tsquare_state_current_month
+           @see #calendar_cell_tsquare_state_highlighted
+           @see #calendar_cell_tsquare_state_range_first
+           @see #calendar_cell_tsquare_state_range_last
+           @see #calendar_cell_tsquare_state_range_middle
+           @see #calendar_cell_tsquare_state_selectable
+           @see #calendar_cell_tsquare_state_today
+         */
+        public static final int[] calendar_cell = {
+            0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b,
+            0x7f01014c, 0x7f01014d, 0x7f01014e
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_current_month}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_current_month
+        */
+        public static int calendar_cell_tsquare_state_current_month = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_highlighted}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_highlighted
+        */
+        public static int calendar_cell_tsquare_state_highlighted = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_range_first}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_range_first
+        */
+        public static int calendar_cell_tsquare_state_range_first = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_range_last}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_range_last
+        */
+        public static int calendar_cell_tsquare_state_range_last = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_range_middle}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_range_middle
+        */
+        public static int calendar_cell_tsquare_state_range_middle = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_selectable}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_selectable
+        */
+        public static int calendar_cell_tsquare_state_selectable = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.recyclerview.R.attr#tsquare_state_today}
+          attribute's value can be found in the {@link #calendar_cell} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.recyclerview:tsquare_state_today
+        */
+        public static int calendar_cell_tsquare_state_today = 2;
     };
 }

@@ -88,6 +88,7 @@ namespace HausbauBuch.Controls
                     activity.ModifiedAt = DateTime.Now;
                     Dashboard.Amounts.ActivitiesAmount--;
                     await App.ActivityController.Update(activity);
+                    ParentListView?.BeginRefresh();
                 }
             };
 

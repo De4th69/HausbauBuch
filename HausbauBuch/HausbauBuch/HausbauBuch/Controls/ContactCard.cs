@@ -15,7 +15,7 @@ namespace HausbauBuch.Controls
 {
     public class ContactCard : ViewCell
     {
-        public ContactCard()
+        public ContactCard(ListView parentListView = null)
         {
             var nameLabel = new DefaultLabel
             {
@@ -73,6 +73,7 @@ namespace HausbauBuch.Controls
                     contact.ModifiedAt = DateTime.Now;
                     Dashboard.Amounts.ContactsAmount--;
                     await App.ContactsController.Update(contact);
+                    parentListView?.BeginRefresh();
                 }
             };
 

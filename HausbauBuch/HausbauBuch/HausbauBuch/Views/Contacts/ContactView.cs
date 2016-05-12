@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using HausbauBuch.Controls;
 using HausbauBuch.Views.Home;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Views.Contacts
@@ -54,6 +56,21 @@ namespace HausbauBuch.Views.Contacts
             var internetAddressEntry = new DefaultEntry {Placeholder = "www", Keyboard = Keyboard.Url};
             internetAddressEntry.SetBinding(Entry.TextProperty, new Binding("InternetAddress"));
 
+            var photoToolbarItem = new ToolbarItem
+            {
+                Icon = "camera.png",
+                Command = new Command(ShowActionSheet)
+            };
+
+            var saveToolbarItem = new ToolbarItem
+            {
+                Icon = "finish.png",
+                Command = new Command(SaveContact)
+            };
+
+            ToolbarItems.Add(photoToolbarItem);
+            ToolbarItems.Add(saveToolbarItem);
+
             var mainStack = new StackLayout
             {
                 Children =
@@ -74,16 +91,8 @@ namespace HausbauBuch.Views.Contacts
                     internetAddressEntry
                 }
             };
-
-            //TODO: Add imageselection
-
+            
             Content = new ScrollView {Content = mainStack};
-        }
-
-        protected override void OnDisappearing()
-        {
-            SaveContact();
-            base.OnDisappearing();
         }
 
         private async void SaveContact()
@@ -91,14 +100,75 @@ namespace HausbauBuch.Views.Contacts
             Contact.FullName = Contact.FirstName + " " + Contact.LastName;
             if (Contact.Id == null)
             {
+                
                 Contact.Id = await App.ContactsController.Insert(Contact);
                 Dashboard.EntityLists.ContactItems.Add(Contact);
                 Dashboard.Amounts.ContactsAmount++;
+                MessagingCenter.Send(this, "update");
             }
             else
             {
                 Contact.ModifiedAt = DateTime.Now;
                 await App.ContactsController.Update(Contact);
+            }
+            await Navigation.PopAsync();
+        }
+
+        private async void ShowActionSheet()
+        {
+            await CrossMedia.Current.Initialize();
+
+            var answer = await DisplayActionSheet("Foto", "Abbrechen", null, "Auswählen", "Aufnehmen");
+
+            switch (answer)
+            {
+                case "Auswählen":
+                    PickPhoto();
+                    break;
+                case "Aufnehmen":
+                    TakePhoto();
+                    break;
+            }
+        }
+
+        private async void PickPhoto()
+        {
+            if (CrossMedia.Current.IsPickPhotoSupported)
+            {
+                var photo = await CrossMedia.Current.PickPhotoAsync();
+                if (photo != null)
+                {
+                    Contact.ImagePath = photo.Path;
+                }
+            }
+            else
+            {
+                await DisplayAlert("Fehler", "Kann keine Fotos auswählen", "Ok");
+            }
+        }
+
+        private async void TakePhoto()
+        {
+            if (CrossMedia.Current.IsTakePhotoSupported)
+            {
+                var photo =
+                    await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+                    {
+                        DefaultCamera = CameraDevice.Rear,
+                        Directory = "Photos",
+                        SaveToAlbum = true,
+                        Name = "hausbaubuch" + DateTime.Now,
+                        PhotoSize = PhotoSize.Small
+                    });
+
+                if (photo != null)
+                {
+                    Contact.ImagePath = photo.Path;
+                }
+            }
+            else
+            {
+                await DisplayAlert("Fehler", "Kann keine Fotos aufnehmen.", "Ok");
             }
         }
     }

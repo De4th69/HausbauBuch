@@ -12,16 +12,19 @@ namespace HausbauBuch.Views.Appointments
     {
         public AppointmentsView()
         {
-            Content = new StackLayout
-            {
-                Children =
-                {
-                    new DefaultLabel
-                    {
-                        Text = "Placeholder"
-                    }
-                }
-            };
+            DateSelected += OnDateSelected;
         }
+
+        private async void OnDateSelected(object sender, DateTime dateTime)
+        {
+            await DisplayAlert("Date", dateTime.ToString(), "ok");
+        }
+
+        public void NotifyDateSelected(DateTime dateSelected)
+        {
+            DateSelected?.Invoke(this, dateSelected);
+        }
+
+        public event EventHandler<DateTime> DateSelected;
     }
 }
