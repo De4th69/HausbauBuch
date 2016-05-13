@@ -1,29 +1,20 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+using System.ComponentModel;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using HausbauBuch.Droid;
-using HausbauBuch.Views.Appointments;
 using Square.TimesSquare;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using View = Xamarin.Forms.View;
+using CalendarView = HausbauBuch.Controls.CalendarView;
 
-[assembly: ExportRenderer(typeof(AppointmentsView), typeof(CalendarViewRenderer))]
+[assembly: ExportRenderer(typeof(CalendarView), typeof(CalendarViewRenderer))]
 
 namespace HausbauBuch.Droid
 {
-    public class CalendarViewRenderer : PageRenderer
+    public class CalendarViewRenderer : ViewRenderer<CalendarView, Android.Views.View>
     {
-        private const string TAG = "Xamarin.Forms.Calendar";
-        
         private CalendarPickerView _pickerView;
 
         private Android.Views.View _view;
@@ -32,37 +23,29 @@ namespace HausbauBuch.Droid
         {
             
         }
-
-        protected override void OnElementChanged(ElementChangedEventArgs<Page> e)
+        
+        protected override void OnElementChanged(ElementChangedEventArgs<CalendarView> e)
         {
             base.OnElementChanged(e);
 
-            if (Element != null)
+            if (e.OldElement == null)
             {
-                var element = (AppointmentsView) Element;
                 var inflatorService = (LayoutInflater) Context.GetSystemService(Context.LayoutInflaterService);
                 _view = (LinearLayout) inflatorService.Inflate(Resource.Layout.CalendarView, null, false);
 
                 _pickerView = _view.FindViewById<CalendarPickerView>(Resource.Id.calendar_view);
-
-                var highlightedDates = new List<DateTime>
-                {
-                    new DateTime(2016, 5, 12),
-                    new DateTime(2016, 6, 13)
-                };
-
+                
                 _pickerView.Init(DateTime.Now.AddYears(-2), DateTime.Now.AddYears(2))
                     .WithSelectedDate(DateTime.Today)
-                    .InMode(CalendarPickerView.SelectionMode.Single)
-                    .WithHighlightedDates(highlightedDates);
+                    .InMode(CalendarPickerView.SelectionMode.Single);
                 _pickerView.DateSelected += (sender, args) =>
                 {
-                    element.NotifyDateSelected(args.Date);
-                    highlightedDates.Add(args.Date);
-                    HighlightedDatesChanged(highlightedDates);
+                    Element.SelectedDate = args.Date;
+                    Element.NotifyDateSelected(args.Date);
                 };
-                
-                AddView(_view);
+                _pickerView.HighlightDates(Element.HighlightedDays);
+
+                SetNativeControl(_view);
             }
         }
 
@@ -70,17 +53,21 @@ namespace HausbauBuch.Droid
         {
             base.OnLayout(changed, l, t, r, b);
 
-            var msw = MeasureSpec.MakeMeasureSpec(r - l, MeasureSpecMode.Exactly);
-            var msh = MeasureSpec.MakeMeasureSpec(b - t, MeasureSpecMode.Exactly);
+            var width = MeasureSpec.MakeMeasureSpec(r - l, MeasureSpecMode.Exactly);
+            var height = MeasureSpec.MakeMeasureSpec(b - t, MeasureSpecMode.Exactly);
 
-            _view.Measure(msw, msh);
+            _view.Measure(width, height);
             _view.Layout(0, 0, r - l, b - t);
         }
 
-        public void HighlightedDatesChanged(List<DateTime> highlightedDates)
+        protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            _pickerView.HighlightDates(highlightedDates);
+            //TODO: Isn't called when dates added
+            base.OnElementPropertyChanged(sender, e);
+            if (e.PropertyName == CalendarView.HighlightedDaysProperty.PropertyName)
+            {
+                _pickerView.HighlightDates(Element.HighlightedDays);
+            }
         }
-
     }
 }

@@ -7,7 +7,8 @@ public class CalendarPickerView_OnInvalidDateSelectedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.squareup.timessquare.CalendarPickerView.OnInvalidDateSelectedListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onInvalidDateSelected:(Ljava/util/Date;)V:GetOnInvalidDateSelected_Ljava_util_Date_Handler:Square.TimesSquare.CalendarPickerView/IOnInvalidDateSelectedListenerInvoker, Square.AndroidTimesSquare\n" +
@@ -31,7 +32,7 @@ public class CalendarPickerView_OnInvalidDateSelectedListenerImplementor
 
 	private native void n_onInvalidDateSelected (java.util.Date p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

@@ -151,7 +151,7 @@ namespace HausbauBuch.Views.Contacts
             Dashboard.EntityLists.ContactItems.Add(_contactToSave);
             Dashboard.Amounts.ContactsAmount++;
             MessagingCenter.Send(this, "update");
-            await Navigation.PopAsync();
+            await DisplayAlert("Erfolg", "Kontakt erfolgreich importiert", "Ok");
         }
     }
 }

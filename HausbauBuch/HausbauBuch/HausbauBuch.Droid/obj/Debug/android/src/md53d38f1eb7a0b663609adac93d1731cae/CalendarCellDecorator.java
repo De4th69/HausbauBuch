@@ -7,7 +7,8 @@ public abstract class CalendarCellDecorator
 		mono.android.IGCUserPeer,
 		com.squareup.timessquare.CalendarCellDecorator
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_decorate:(Lcom/squareup/timessquare/CalendarCellView;Ljava/util/Date;)V:GetDecorate_Lcom_squareup_timessquare_CalendarCellView_Ljava_util_Date_Handler:Square.TimesSquare.ICalendarCellDecoratorInvoker, Square.AndroidTimesSquare\n" +
@@ -31,7 +32,7 @@ public abstract class CalendarCellDecorator
 
 	private native void n_decorate (com.squareup.timessquare.CalendarCellView p0, java.util.Date p1);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

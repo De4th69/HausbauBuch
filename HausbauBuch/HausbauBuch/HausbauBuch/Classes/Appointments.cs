@@ -51,39 +51,7 @@ namespace HausbauBuch.Classes
                 OnPropertyChanged();
             }
         }
-
-        private DateTime _startDate;
-
-        public DateTime StartDate
-        {
-            get { return _startDate; }
-            set
-            {
-                if (value.Equals(_startDate))
-                {
-                    return;
-                }
-                _startDate = value;
-                OnPropertyChanged();
-            }
-        }
-
-        private DateTime _endDate;
-
-        public DateTime EndDate
-        {
-            get { return _endDate; }
-            set
-            {
-                if (value.Equals(_endDate))
-                {
-                    return;
-                }
-                _endDate = value;
-                OnPropertyChanged();
-            }
-        }
-
+        
         private DateTime _startTime;
 
         public DateTime StartTime
@@ -114,6 +82,15 @@ namespace HausbauBuch.Classes
                 _endTime = value;
                 OnPropertyChanged();
             }
+        }
+
+        public Appointments()
+        {
+            Title = "";
+            Detail = "";
+            Place = "";
+            StartTime = DateTime.Now;
+            EndTime = DateTime.Now.AddHours(1);
         }
     }
 }

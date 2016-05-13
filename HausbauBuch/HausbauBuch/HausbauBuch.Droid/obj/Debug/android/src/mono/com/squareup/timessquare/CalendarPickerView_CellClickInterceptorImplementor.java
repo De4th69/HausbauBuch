@@ -7,7 +7,8 @@ public class CalendarPickerView_CellClickInterceptorImplementor
 		mono.android.IGCUserPeer,
 		com.squareup.timessquare.CalendarPickerView.CellClickInterceptor
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onCellClicked:(Ljava/util/Date;)Z:GetOnCellClicked_Ljava_util_Date_Handler:Square.TimesSquare.CalendarPickerView/ICellClickInterceptorInvoker, Square.AndroidTimesSquare\n" +
@@ -31,7 +32,7 @@ public class CalendarPickerView_CellClickInterceptorImplementor
 
 	private native boolean n_onCellClicked (java.util.Date p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

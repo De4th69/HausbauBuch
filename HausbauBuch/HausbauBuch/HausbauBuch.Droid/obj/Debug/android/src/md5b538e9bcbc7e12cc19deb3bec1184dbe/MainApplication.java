@@ -2,12 +2,13 @@ package md5b538e9bcbc7e12cc19deb3bec1184dbe;
 
 
 public class MainApplication
-	extends mono.android.app.Application
+	extends android.app.Application
 	implements
 		mono.android.IGCUserPeer,
 		android.app.Application.ActivityLifecycleCallbacks
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onCreate:()V:GetOnCreateHandler\n" +
@@ -28,9 +29,9 @@ public class MainApplication
 		super ();
 	}
 
+
 	public void onCreate ()
 	{
-		mono.android.Runtime.register ("HausbauBuch.Droid.MainApplication, HausbauBuch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainApplication.class, __md_methods);
 		n_onCreate ();
 	}
 
@@ -100,7 +101,7 @@ public class MainApplication
 
 	private native void n_onActivityStopped (android.app.Activity p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

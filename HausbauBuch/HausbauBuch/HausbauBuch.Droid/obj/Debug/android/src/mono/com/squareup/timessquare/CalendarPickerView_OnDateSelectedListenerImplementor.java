@@ -7,7 +7,8 @@ public class CalendarPickerView_OnDateSelectedListenerImplementor
 		mono.android.IGCUserPeer,
 		com.squareup.timessquare.CalendarPickerView.OnDateSelectedListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onDateSelected:(Ljava/util/Date;)V:GetOnDateSelected_Ljava_util_Date_Handler:Square.TimesSquare.CalendarPickerView/IOnDateSelectedListenerInvoker, Square.AndroidTimesSquare\n" +
@@ -40,7 +41,7 @@ public class CalendarPickerView_OnDateSelectedListenerImplementor
 
 	private native void n_onDateUnselected (java.util.Date p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

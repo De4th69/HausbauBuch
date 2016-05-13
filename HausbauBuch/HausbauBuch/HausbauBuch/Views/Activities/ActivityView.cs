@@ -90,6 +90,14 @@ namespace HausbauBuch.Views.Activities
                 }
             };
 
+            var finishToolbarItem = new ToolbarItem
+            {
+                Icon = "finish.png",
+                Command = new Command(SaveActivity)
+            };
+
+            ToolbarItems.Add(finishToolbarItem);
+
             var stack = new StackLayout
             {
                 Children =
@@ -106,12 +114,6 @@ namespace HausbauBuch.Views.Activities
 
             Content = stack;
         }
-
-        protected override void OnDisappearing()
-        {
-            SaveActivity();
-            base.OnDisappearing();
-        }
         
         private async void SaveActivity()
         {
@@ -127,6 +129,7 @@ namespace HausbauBuch.Views.Activities
                 Activity.ModifiedAt = DateTime.Now;
                 await App.ActivityController.Update(Activity);
             }
+            await DisplayAlert("Erfolg", "Aufgabe erfolgreich gespeichert", "Ok");
         }
     }
 }

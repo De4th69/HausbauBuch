@@ -7,7 +7,8 @@ public abstract class CalendarPickerView_DateSelectableFilter
 		mono.android.IGCUserPeer,
 		com.squareup.timessquare.CalendarPickerView.DateSelectableFilter
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_isDateSelectable:(Ljava/util/Date;)Z:GetIsDateSelectable_Ljava_util_Date_Handler:Square.TimesSquare.CalendarPickerView/IDateSelectableFilterInvoker, Square.AndroidTimesSquare\n" +
@@ -31,7 +32,7 @@ public abstract class CalendarPickerView_DateSelectableFilter
 
 	private native boolean n_isDateSelectable (java.util.Date p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

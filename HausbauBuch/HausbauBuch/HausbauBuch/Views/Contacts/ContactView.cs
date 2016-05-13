@@ -111,7 +111,7 @@ namespace HausbauBuch.Views.Contacts
                 Contact.ModifiedAt = DateTime.Now;
                 await App.ContactsController.Update(Contact);
             }
-            await Navigation.PopAsync();
+            await DisplayAlert("Erfolg", "Kontakt erfolgreich gespeichert", "Ok");
         }
 
         private async void ShowActionSheet()

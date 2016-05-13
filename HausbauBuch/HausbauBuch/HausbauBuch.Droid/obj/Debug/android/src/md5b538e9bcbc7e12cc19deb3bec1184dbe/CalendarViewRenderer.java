@@ -2,11 +2,12 @@ package md5b538e9bcbc7e12cc19deb3bec1184dbe;
 
 
 public class CalendarViewRenderer
-	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.PageRenderer
+	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
@@ -46,7 +47,7 @@ public class CalendarViewRenderer
 
 	private native void n_onLayout (boolean p0, int p1, int p2, int p3, int p4);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)
