@@ -2347,67 +2347,6 @@ MainPage = new CarouselPage {
             <returns>A page that is titled with the string value of <paramref name="item" />.</returns>
             <remarks>This returns a new <see cref="T:Xamarin.Forms.Page" /> object that has its <see cref="P:Xamarin.Forms.Page.Title" /> property set to the value of <see cref="M:Object.ToString" /> when called on <paramref name="item" />.</remarks>
         </member>
-        <member name="T:Xamarin.Forms.CarouselView">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="C:Xamarin.Forms.CarouselView">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="P:Xamarin.Forms.CarouselView.Item">
-            <summary>To be added.</summary>
-            <value>To be added.</value>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="F:Xamarin.Forms.CarouselView.ItemProperty">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="E:Xamarin.Forms.CarouselView.ItemSelected">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.CarouselView.OnMeasure(System.Double,System.Double)">
-            <param name="widthConstraint">To be added.</param>
-            <param name="heightConstraint">To be added.</param>
-            <summary>To be added.</summary>
-            <returns>To be added.</returns>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="P:Xamarin.Forms.CarouselView.Position">
-            <summary>To be added.</summary>
-            <value>To be added.</value>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="F:Xamarin.Forms.CarouselView.PositionProperty">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="E:Xamarin.Forms.CarouselView.PositionSelected">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.CarouselView.Xamarin#Forms#ICarouselViewController#SendPositionAppearing(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.CarouselView.Xamarin#Forms#ICarouselViewController#SendPositionDisappearing(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.CarouselView.Xamarin#Forms#ICarouselViewController#SendSelectedItemChanged(System.Object)">
-            <param name="item">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.CarouselView.Xamarin#Forms#ICarouselViewController#SendSelectedPositionChanged(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
         <member name="T:Xamarin.Forms.Cell">
             <summary>Provides base class and capabilities for all Forms cells. Cells are elements meant to be added to <see cref="T:Xamarin.Forms.ListView" /> or <see cref="T:Xamarin.Forms.TableView" />.</summary>
             <remarks>
@@ -6281,30 +6220,6 @@ namespace FormsGallery
             <summary>Implement this method to commit a batch of animations so that they can be run with the <see cref="M:Xamarin.Forms.IAnimatable.BatchBegin" /> method.</summary>
             <remarks>To be added.</remarks>
         </member>
-        <member name="T:Xamarin.Forms.ICarouselViewController">
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.ICarouselViewController.SendPositionAppearing(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.ICarouselViewController.SendPositionDisappearing(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.ICarouselViewController.SendSelectedItemChanged(System.Object)">
-            <param name="item">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
-        <member name="M:Xamarin.Forms.ICarouselViewController.SendSelectedPositionChanged(System.Int32)">
-            <param name="position">To be added.</param>
-            <summary>To be added.</summary>
-            <remarks>To be added.</remarks>
-        </member>
         <member name="T:Xamarin.Forms.IApplicationController">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -6383,6 +6298,11 @@ namespace FormsGallery
             <param name="view">To be added.</param>
             <param name="item">To be added.</param>
             <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.IItemViewController.Count">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.IItemViewController.CreateView(System.Object)">
@@ -6965,11 +6885,6 @@ Debug.WriteLine (Object.ReferenceEquals (modalPage, poppedPage)); //prints "true
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
-        <member name="P:Xamarin.Forms.ItemsView.Count">
-            <summary>To be added.</summary>
-            <value>To be added.</value>
-            <remarks>To be added.</remarks>
-        </member>
         <member name="P:Xamarin.Forms.ItemsView.ItemsSource">
             <summary>To be added.</summary>
             <value>To be added.</value>
@@ -6997,6 +6912,11 @@ Debug.WriteLine (Object.ReferenceEquals (modalPage, poppedPage)); //prints "true
             <param name="view">To be added.</param>
             <param name="item">To be added.</param>
             <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ItemsView.Xamarin#Forms#IItemViewController#Count">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.ItemsView.Xamarin#Forms#IItemViewController#CreateView(System.Object)">

@@ -19,10 +19,7 @@ namespace HausbauBuch.Helper
                 DateTime.TryParse(date, out parsedDateTime);
                 return parsedDateTime != DateTime.MinValue ? parsedDateTime.ToString("dd.MM.yyyy") : string.Empty;
             }
-            else
-            {
-                return string.Empty;
-            }
+            return string.Empty;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo cultureInfo)

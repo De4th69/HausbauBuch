@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 using HausbauBuch.Classes;
-using HausbauBuch.Views;
 using SQLite;
 
 namespace HausbauBuch.Business
 {
-    public interface IController<T> where T : Entity, new()
+    public interface IEntityController<T> where T : Entity, new()
     {
         Task<List<T>> Get();
         Task<T> Get(int id);
@@ -31,7 +28,7 @@ namespace HausbauBuch.Business
         Task<int> Count(Expression<Func<T, bool>> predicate = null);
     }
 
-    public class EntityController<T> : IController<T> where T : Entity, new()
+    public class EntityController<T> : IEntityController<T> where T : Entity, new()
     {
         private SQLiteAsyncConnection _db;
 
@@ -43,11 +40,6 @@ namespace HausbauBuch.Business
         public AsyncTableQuery<T> AsQueryable()
         {
             return _db.Table<T>();
-        }
-
-        public async Task<int> Delete(T entity)
-        {
-            return await _db.DeleteAsync(entity);
         }
 
         public async Task<int> Count(Expression<Func<T, bool>> predicate = null)
@@ -62,6 +54,11 @@ namespace HausbauBuch.Business
             return await query.CountAsync();
         }
 
+        public async Task<int> Delete(T entity)
+        {
+            return await _db.DeleteAsync(entity);
+        }
+        
         public async Task<List<T>> Get()
         {
             return await _db.Table<T>().ToListAsync();

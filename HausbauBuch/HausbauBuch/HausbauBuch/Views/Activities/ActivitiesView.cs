@@ -1,4 +1,5 @@
-﻿using HausbauBuch.Controls;
+﻿using System.Linq;
+using HausbauBuch.Controls;
 using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
@@ -16,12 +17,13 @@ namespace HausbauBuch.Views.Activities
             {
                 ItemTemplate = new DataTemplate(() =>
                 {
-                    var activityCell = new ActivitiesCell(null);
+                    var activityCell = new ActivitiesCell(_activitiesListView);
                     return activityCell;
                 }),
                 HasUnevenRows = true
             };
             _activitiesListView.ItemTapped += ActivitiesListViewOnItemTapped;
+            _activitiesListView.Refreshing += (sender, args) => { SetListViewItems(); _activitiesListView.EndRefresh(); };
             SetListViewItems();
 
             var stack = new StackLayout();
@@ -43,8 +45,15 @@ namespace HausbauBuch.Views.Activities
 
         protected override void OnAppearing()
         {
-            SetListViewItems();
+            //SetListViewItems();
+            MessagingCenter.Subscribe<ActivityView>(this, "update", view => SetListViewItems());
             base.OnAppearing();
+        }
+
+        protected override void OnDisappearing()
+        {
+            MessagingCenter.Unsubscribe<ActivityView>(this, "update");
+            base.OnDisappearing();
         }
 
         private async void ActivitiesListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
@@ -56,7 +65,7 @@ namespace HausbauBuch.Views.Activities
 
         private void SetListViewItems()
         {
-            _activitiesListView.ItemsSource = Dashboard.EntityLists.ActivityItems;
+            _activitiesListView.ItemsSource = Dashboard.EntityLists.ActivityItems.Where(a => !a.Deleted);
         }
     }
 }

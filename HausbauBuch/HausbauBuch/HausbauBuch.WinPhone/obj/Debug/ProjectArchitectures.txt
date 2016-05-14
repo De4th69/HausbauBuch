@@ -1,2 +1,0 @@
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.WinPhone\HausbauBuch.WinPhone.csproj;neutral
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.csproj;neutral

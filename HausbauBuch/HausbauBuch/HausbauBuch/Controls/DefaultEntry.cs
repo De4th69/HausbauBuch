@@ -15,6 +15,7 @@ namespace HausbauBuch.Controls
             FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label));
             TextColor = Colors.PrimaryTextColor;
             BackgroundColor = Colors.Primary;
+            Keyboard = Keyboard.Text;
         }
     }
 }

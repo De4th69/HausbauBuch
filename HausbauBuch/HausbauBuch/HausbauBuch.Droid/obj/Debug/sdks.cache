@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>23</AndroidApiLevel>
-  <AndroidApiLevelName>23</AndroidApiLevelName>
+  <AndroidApiLevel>24</AndroidApiLevel>
+  <AndroidApiLevelName>N</AndroidApiLevelName>
   <AndroidNdkPath>C:\Users\schindler.MRP\Documents\Android\ndk\android-ndk-r10d</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.1</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.1</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkBuildToolsPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.0</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.0</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk</AndroidSdkPath>
   <JavaSdkPath>C:\Program Files (x86)\Java\jdk1.7.0_71</JavaSdkPath>
   <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
@@ -12,9 +12,9 @@
   <ReferenceAssemblyPaths>
     <ReferenceAssemblyPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
-  <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
-  <ZipAlignPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.1</ZipAlignPath>
+  <TargetFrameworkVersion>v6.0.99</TargetFrameworkVersion>
+  <ZipAlignPath>C:\Users\schindler.MRP\AppData\Local\Android\android-sdk\build-tools\23.0.0</ZipAlignPath>
   <MonoAndroidIncludePath />
-  <SupportedApiLevel>23</SupportedApiLevel>
+  <SupportedApiLevel>24</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
 </Sdk>
