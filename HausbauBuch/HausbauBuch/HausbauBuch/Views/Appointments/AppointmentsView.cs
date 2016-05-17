@@ -11,6 +11,8 @@ namespace HausbauBuch.Views.Appointments
 {
     public class AppointmentsView : DefaultContentPage
     {
+        private ListView _appointmentList;
+
         public AppointmentsView()
         {
             var calendarView = new CalendarView
@@ -21,27 +23,22 @@ namespace HausbauBuch.Views.Appointments
             };
             calendarView.DateSelected += OnDateSelected;
 
-            var titleLabel = new DefaultLabel
-            {
-                Text = "Appointments"
-            };
-
-            var appointmentList = new ListView
+            _appointmentList = new ListView
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 HasUnevenRows = true,
                 ItemTemplate = new DataTemplate(typeof(AppointmentCell)),
-                ItemsSource = Dashboard.EntityLists.AppointmentItems
+                ItemsSource = Dashboard.EntityLists.AppointmentItems.Where(a => a.StartDate == calendarView.SelectedDate)
             };
+            _appointmentList.ItemTapped += AppointmentListOnItemTapped;
 
             var mainStack = new StackLayout
             {
                 Children =
                 {
                     calendarView,
-                    titleLabel,
-                    appointmentList
+                    _appointmentList
                 }
             };
 
@@ -60,9 +57,16 @@ namespace HausbauBuch.Views.Appointments
             Content = mainStack;
         }
 
-        private async void OnDateSelected(object sender, DateTime dateTime)
+        private async void AppointmentListOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
         {
-            await DisplayAlert("Date", dateTime.ToString(), "ok");
+            var appointment = itemTappedEventArgs.Item as Classes.Appointments;
+            ((ListView) sender).SelectedItem = null;
+            await Navigation.PushAsync(new AppointmentView(appointment));
+        }
+
+        private void OnDateSelected(object sender, DateTime dateTime)
+        {
+            _appointmentList.ItemsSource = Dashboard.EntityLists.AppointmentItems.Where(a => a.StartDate == dateTime);
         }
     }
 }

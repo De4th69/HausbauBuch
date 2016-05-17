@@ -61,6 +61,7 @@
     <Compile Include="Controls\DefaultContentPage.cs" />
     <Compile Include="Controls\DefaultEntry.cs" />
     <Compile Include="Controls\DefaultLabel.cs" />
+    <Compile Include="Controls\DefaultTimePicker.cs" />
     <Compile Include="Helper\CardPage.cs" />
     <Compile Include="Helper\Colors.cs" />
     <Compile Include="Helper\DateTimeConverter.cs" />

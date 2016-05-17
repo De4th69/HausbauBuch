@@ -37,19 +37,18 @@ namespace HausbauBuch.Views.Appointments
             var placeLabel = new DefaultLabel {Text = "Ort"};
             var placeEntry = new DefaultEntry {Placeholder = "Ort"};
             placeEntry.SetBinding(Entry.TextProperty, new Binding("Place"));
-
-            //TODO: Add new properties for time.
-            var startTimePicker = new TimePicker {Format = "HH:mm"};
+            
+            var startTimePicker = new DefaultTimePicker {Format = "HH:mm"};
             startTimePicker.SetBinding(TimePicker.TimeProperty, new Binding("StartTime"));
 
-            var endTimePicker = new TimePicker {Format = "HH:mm"};
+            var endTimePicker = new DefaultTimePicker {Format = "HH:mm"};
             endTimePicker.SetBinding(TimePicker.TimeProperty, new Binding("EndTime"));
 
             var startDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
-            startDatePicker.SetBinding(DatePicker.DateProperty, new Binding("StartTime"));
+            startDatePicker.SetBinding(DatePicker.DateProperty, new Binding("StartDate"));
 
             var endDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
-            endDatePicker.SetBinding(DatePicker.DateProperty, new Binding("EndTime"));
+            endDatePicker.SetBinding(DatePicker.DateProperty, new Binding("EndDate"));
 
             var finishToolbarItem = new ToolbarItem
             {
@@ -99,6 +98,8 @@ namespace HausbauBuch.Views.Appointments
 
         private async void SaveAppointment()
         {
+            Appointment.CombinedStartdate = new DateTime(Appointment.StartDate.Year, Appointment.StartDate.Month, Appointment.StartDate.Day, Appointment.StartTime.Hour, Appointment.StartTime.Minute, Appointment.StartTime.Second);
+            Appointment.CombinedEndDate = new DateTime(Appointment.EndDate.Year, Appointment.EndDate.Month, Appointment.EndDate.Day, Appointment.EndTime.Hour, Appointment.EndTime.Minute, Appointment.EndTime.Second);
             if (Appointment.Id == null)
             {
                 Appointment.Id = await App.AppointmentsController.Insert(Appointment);

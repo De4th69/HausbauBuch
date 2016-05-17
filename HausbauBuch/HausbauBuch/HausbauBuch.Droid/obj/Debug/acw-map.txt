@@ -10,6 +10,10 @@ HausbauBuch.Droid.MainApplication, HausbauBuch.Droid;md5b538e9bcbc7e12cc19deb3be
 HausbauBuch.Droid.MainApplication, HausbauBuch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
 HausbauBuch.Droid.MainApplication;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
 hausbaubuch.droid.MainApplication;md5b538e9bcbc7e12cc19deb3bec1184dbe.MainApplication
+HausbauBuch.Droid.TimePickerRenderer, HausbauBuch.Droid;md5b538e9bcbc7e12cc19deb3bec1184dbe.TimePickerRenderer
+HausbauBuch.Droid.TimePickerRenderer, HausbauBuch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b538e9bcbc7e12cc19deb3bec1184dbe.TimePickerRenderer
+HausbauBuch.Droid.TimePickerRenderer;md5b538e9bcbc7e12cc19deb3bec1184dbe.TimePickerRenderer
+hausbaubuch.droid.TimePickerRenderer;md5b538e9bcbc7e12cc19deb3bec1184dbe.TimePickerRenderer
 Plugin.Media.MediaPickerActivity, Plugin.Media;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
 Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.2.0.0, Culture=neutral, PublicKeyToken=null;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
 Plugin.Media.MediaPickerActivity;md588a879adf152f547778e5147cb2024ef.MediaPickerActivity
