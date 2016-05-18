@@ -1,94 +1,9 @@
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.pdb
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.apk
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid-Signed.apk
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.pdb
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.xml
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.csprojResolveAssemblyReference.cache
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.pdb
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\bin\HausbauBuch.Droid.apk
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable\icon.png
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-hdpi\icon.png
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\R.cs.flag
-c:\users\schindler.mrp\documents\visual studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\uploadflags.txt
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.AppIndexing.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.pdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.pdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\tablayout.xml
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\toolbar.xml
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\values\styles.xml
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.dll.mdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\activities.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\add.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\appointments.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\contacts.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\documents.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\enviroment.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xxhdpi\garden.png
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll.mdb
-c:\Users\schindler.MRP\Documents\Visual Studio 2015\Projects\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\com.RS.hausbaubuch.apk
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\com.RS.hausbaubuch-Signed.apk
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLite-net.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLitePCL.raw.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.AppIndexing.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLite-net.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.csprojResolveAssemblyReference.cache
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.pdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\bin\com.RS.hausbaubuch.apk
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\tablayout.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\toolbar.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\values\styles.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\R.cs.flag
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\uploadflags.txt
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\PCLStorage.Abstractions.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\PCLStorage.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.Abstractions.dll
@@ -100,32 +15,73 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLite-net.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLitePCL.raw.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Square.AndroidTimesSquare.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.AppIndexing.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\PCLStorage.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\PCLStorage.Abstractions.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.Abstractions.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.Abstractions.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.Abstractions.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.CurrentActivity.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.Abstractions.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.Abstractions.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.Abstractions.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.Abstractions.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.Abstractions.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.Abstractions.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.Abstractions.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\contactdefault.png
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Contacts.Abstractions.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\SQLite-net.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.csprojResolveAssemblyReference.cache
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.pdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\bin\com.RS.hausbaubuch.apk
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\tablayout.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\calendarview.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\values\styles.xml
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\contactdefault.png
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\browse.png
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\call.png
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\delete.png
@@ -139,35 +95,22 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\documents.png
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\enviroment.png
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\garden.png
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\drawable-xhdpi\camera.png
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Plugin.Media.Abstractions.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Square.AndroidTimesSquare.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\res\layout\calendarview.xml
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\R.cs.flag
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\uploadflags.txt
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.dllHausbauBuch.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dllHausbauBuch.Droid.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.dll.mdb
+C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\mscorlib.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.ComponentModel.DataAnnotations.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Core.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Net.Http.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Numerics.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.ServiceModel.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Xml.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\HausbauBuch.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\HausbauBuch.Droid.dll.mdb

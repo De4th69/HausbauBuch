@@ -9,5 +9,12 @@ namespace HausbauBuch.Controls
 {
     public class DefaultTimePicker : TimePicker
     {
+        public static readonly BindableProperty SelectedTimeProperty = BindableProperty.Create("SelectedTime", typeof(DateTime), typeof(DefaultTimePicker), DateTime.Now);
+
+        public DateTime SelectedTime
+        {
+            get { return (DateTime) GetValue(SelectedTimeProperty); }
+            set { SetValue(SelectedTimeProperty, value);}
+        }
     }
 }

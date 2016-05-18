@@ -39,16 +39,38 @@ namespace HausbauBuch.Views.Appointments
             placeEntry.SetBinding(Entry.TextProperty, new Binding("Place"));
             
             var startTimePicker = new DefaultTimePicker {Format = "HH:mm"};
-            startTimePicker.SetBinding(TimePicker.TimeProperty, new Binding("StartTime"));
+            startTimePicker.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
+                {
+                    Appointment.StartTime = ((DefaultTimePicker) sender).SelectedTime;
+                }
+            };
+            startTimePicker.Time = new TimeSpan(Appointment.StartTime.Hour, Appointment.StartTime.Minute,0);
 
             var endTimePicker = new DefaultTimePicker {Format = "HH:mm"};
-            endTimePicker.SetBinding(TimePicker.TimeProperty, new Binding("EndTime"));
+            endTimePicker.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
+                {
+                    Appointment.EndTime = ((DefaultTimePicker) sender).SelectedTime;
+                }
+            };
+            endTimePicker.Time = new TimeSpan(Appointment.EndTime.Hour, Appointment.EndTime.Minute, 0);
 
             var startDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
             startDatePicker.SetBinding(DatePicker.DateProperty, new Binding("StartDate"));
+            startDatePicker.DateSelected += (sender, e) =>
+            {
+                Appointment.StartDate = e.NewDate;
+            };
 
             var endDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
             endDatePicker.SetBinding(DatePicker.DateProperty, new Binding("EndDate"));
+            endDatePicker.DateSelected += (sender, e) =>
+            {
+                Appointment.EndDate = e.NewDate;
+            };
 
             var finishToolbarItem = new ToolbarItem
             {
@@ -95,10 +117,10 @@ namespace HausbauBuch.Views.Appointments
 
             Content = new ScrollView {Content = mainStack};
         }
-
+        
         private async void SaveAppointment()
         {
-            Appointment.CombinedStartdate = new DateTime(Appointment.StartDate.Year, Appointment.StartDate.Month, Appointment.StartDate.Day, Appointment.StartTime.Hour, Appointment.StartTime.Minute, Appointment.StartTime.Second);
+            Appointment.CombinedStartDate = new DateTime(Appointment.StartDate.Year, Appointment.StartDate.Month, Appointment.StartDate.Day, Appointment.StartTime.Hour, Appointment.StartTime.Minute, Appointment.StartTime.Second);
             Appointment.CombinedEndDate = new DateTime(Appointment.EndDate.Year, Appointment.EndDate.Month, Appointment.EndDate.Day, Appointment.EndTime.Hour, Appointment.EndTime.Minute, Appointment.EndTime.Second);
             if (Appointment.Id == null)
             {
@@ -112,6 +134,7 @@ namespace HausbauBuch.Views.Appointments
                 await App.AppointmentsController.Update(Appointment);
             }
             await DisplayAlert("Erfolg", "Termin erfolgreich hinzugefügt", "Ok");
+            MessagingCenter.Send(this, "update");
         }
     }
 }

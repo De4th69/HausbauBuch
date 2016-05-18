@@ -62,7 +62,6 @@ namespace HausbauBuch.Droid
 
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            //TODO: Isn't called when dates added
             base.OnElementPropertyChanged(sender, e);
             if (e.PropertyName == CalendarView.HighlightedDaysProperty.PropertyName)
             {

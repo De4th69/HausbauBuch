@@ -16,13 +16,13 @@ namespace HausbauBuch.Controls
             {
                 HorizontalOptions = LayoutOptions.StartAndExpand
             };
-            startTimeLabel.SetBinding(Label.TextProperty, new Binding("CombinedStartTime", BindingMode.Default, new TimeConverter()));
+            startTimeLabel.SetBinding(Label.TextProperty, new Binding("CombinedStartDate", BindingMode.Default, new TimeConverter()));
 
             var endTimeLabel = new DefaultLabel
             {
                 HorizontalOptions = LayoutOptions.EndAndExpand
             };
-            endTimeLabel.SetBinding(Label.TextProperty, new Binding("CombinedEndTime", BindingMode.Default, new TimeConverter()));
+            endTimeLabel.SetBinding(Label.TextProperty, new Binding("CombinedEndDate", BindingMode.Default, new TimeConverter()));
 
             var placeHolderLabel = new DefaultLabel {Text = " - "};
 

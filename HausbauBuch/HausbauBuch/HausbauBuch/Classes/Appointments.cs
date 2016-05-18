@@ -118,7 +118,7 @@ namespace HausbauBuch.Classes
 
         private DateTime _combinedStartDate;
 
-        public DateTime CombinedStartdate
+        public DateTime CombinedStartDate
         {
             get { return _combinedStartDate; }
             set
@@ -155,8 +155,6 @@ namespace HausbauBuch.Classes
             Place = "";
             StartTime = DateTime.Now;
             EndTime = DateTime.Now.AddHours(1);
-            StartDate = DateTime.Today;
-            EndDate = DateTime.Today;
         }
     }
 }

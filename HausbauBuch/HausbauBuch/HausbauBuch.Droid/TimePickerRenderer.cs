@@ -24,7 +24,6 @@ namespace HausbauBuch.Droid
 
         protected override void OnElementChanged(ElementChangedEventArgs<TimePicker> e)
         {
-            base.OnElementChanged(e);
             SetNativeControl(new Android.Widget.EditText(Forms.Context));
             Control.Click += ControlOnClick;
             var time = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, Element.Time.Hours, Element.Time.Minutes, 0);
@@ -60,6 +59,7 @@ namespace HausbauBuch.Droid
             var time = new TimeSpan(hourOfDay, minute, 0);
             Element.SetValue(TimePicker.TimeProperty, time);
             var timeDate = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, hourOfDay, minute, 0);
+            Element.SetValue(DefaultTimePicker.SelectedTimeProperty, timeDate);
             Control.Text = timeDate.ToString("HH:mm");
         }
     }

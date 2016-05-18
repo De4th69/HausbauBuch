@@ -19,9 +19,10 @@ namespace HausbauBuch.Views.Appointments
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
-                HighlightedDays = Dashboard.EntityLists.AppointmentItems.Select(a => a.StartTime).ToList()
+                HighlightedDays = Dashboard.EntityLists.AppointmentItems.Select(a => a.StartDate).ToList()
             };
             calendarView.DateSelected += OnDateSelected;
+            calendarView.SelectedDate = DateTime.Today;
 
             _appointmentList = new ListView
             {
@@ -47,10 +48,21 @@ namespace HausbauBuch.Views.Appointments
                 Icon = "add.png",
                 Command = new Command(async () =>
                 {
-                    var appointment = new Classes.Appointments {StartTime = calendarView.SelectedDate, EndTime = calendarView.SelectedDate.AddHours(1)};
+                    var appointment = new Classes.Appointments
+                    {
+                        StartTime = calendarView.SelectedDate,
+                        EndTime = calendarView.SelectedDate.AddHours(1),
+                        StartDate = calendarView.SelectedDate,
+                        EndDate = calendarView.SelectedDate
+                    };
                     await Navigation.PushAsync(new AppointmentView(appointment));
                 })
             };
+
+            MessagingCenter.Subscribe<AppointmentView>(this, "update", (sender) => 
+            {
+                calendarView.HighlightedDays = Dashboard.EntityLists.AppointmentItems.Select(a => a.StartDate).ToList();
+            });
 
             ToolbarItems.Add(addToolbarItem);
 
