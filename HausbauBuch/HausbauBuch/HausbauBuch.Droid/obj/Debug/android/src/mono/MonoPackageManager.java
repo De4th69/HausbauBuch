@@ -98,6 +98,8 @@ class MonoPackageManager_Resources {
 		"Plugin.Contacts.Abstractions.dll",
 		"Plugin.Contacts.dll",
 		"Plugin.CurrentActivity.dll",
+		"Plugin.LocalNotifications.Abstractions.dll",
+		"Plugin.LocalNotifications.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
 		"Plugin.Messaging.Abstractions.dll",

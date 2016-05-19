@@ -148,13 +148,27 @@ namespace HausbauBuch.Classes
             }
         }
 
+        private double _reminder;
+
+        public double Reminder
+        {
+            get { return _reminder; }
+            set
+            {
+                if (value.Equals(_reminder))
+                {
+                    return;
+                }
+                _reminder = value;
+                OnPropertyChanged();
+            }
+        }
+
         public Appointments()
         {
             Title = "";
             Detail = "";
             Place = "";
-            StartTime = DateTime.Now;
-            EndTime = DateTime.Now.AddHours(1);
         }
     }
 }

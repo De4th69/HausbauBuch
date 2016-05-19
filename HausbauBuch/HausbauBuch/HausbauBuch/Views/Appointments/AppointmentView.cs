@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HausbauBuch.Controls;
+using HausbauBuch.Helper;
 using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
@@ -19,58 +20,44 @@ namespace HausbauBuch.Views.Appointments
             set { SetValue(AppointmentProperty, value);}
         }
 
+        private RemindMeValues _remindMeValues = new RemindMeValues();
+
         public AppointmentView(Classes.Appointments appointment)
         {
             Appointment = appointment;
             BindingContext = Appointment;
 
             var titleLabel = new DefaultLabel { Text = "Terminname" };
-
             var titleEntry = new DefaultEntry {Placeholder = "Terminname"};
             titleEntry.SetBinding(Entry.TextProperty, new Binding("Title"));
 
             var detailLabel = new DefaultLabel { Text = "Details" };
-
             var detailEntry = new DefaultEntry {Placeholder = "Details"};
             detailEntry.SetBinding(Entry.TextProperty, new Binding("Detail"));
 
             var placeLabel = new DefaultLabel {Text = "Ort"};
             var placeEntry = new DefaultEntry {Placeholder = "Ort"};
             placeEntry.SetBinding(Entry.TextProperty, new Binding("Place"));
-            
-            var startTimePicker = new DefaultTimePicker {Format = "HH:mm"};
-            startTimePicker.PropertyChanged += (sender, e) =>
-            {
-                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
-                {
-                    Appointment.StartTime = ((DefaultTimePicker) sender).SelectedTime;
-                }
-            };
-            startTimePicker.Time = new TimeSpan(Appointment.StartTime.Hour, Appointment.StartTime.Minute,0);
 
-            var endTimePicker = new DefaultTimePicker {Format = "HH:mm"};
-            endTimePicker.PropertyChanged += (sender, e) =>
-            {
-                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
-                {
-                    Appointment.EndTime = ((DefaultTimePicker) sender).SelectedTime;
-                }
-            };
-            endTimePicker.Time = new TimeSpan(Appointment.EndTime.Hour, Appointment.EndTime.Minute, 0);
+            var startTimeLabel = new DefaultLabel {Text = "Von"};
+            var startTimePicker = new DefaultTimePicker {Format = "HH:mm", HorizontalOptions = LayoutOptions.CenterAndExpand};
 
-            var startDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
+            var endTimeLabel = new DefaultLabel {Text = "Bis"};
+            var endTimePicker = new DefaultTimePicker {Format = "HH:mm", HorizontalOptions = LayoutOptions.CenterAndExpand};
+
+            var startDatePicker = new DatePicker {Format = "dd.MM.yyyy", HorizontalOptions = LayoutOptions.CenterAndExpand};
             startDatePicker.SetBinding(DatePicker.DateProperty, new Binding("StartDate"));
-            startDatePicker.DateSelected += (sender, e) =>
-            {
-                Appointment.StartDate = e.NewDate;
-            };
 
-            var endDatePicker = new DatePicker {Format = "dd.MM.yyyy"};
+            var endDatePicker = new DatePicker {Format = "dd.MM.yyyy", HorizontalOptions = LayoutOptions.CenterAndExpand};
             endDatePicker.SetBinding(DatePicker.DateProperty, new Binding("EndDate"));
-            endDatePicker.DateSelected += (sender, e) =>
+
+            var remindMeLabel = new DefaultLabel {Text = "Erinnerung"};
+            var remindMePicker = new Picker {Title = "Erinnerung"};
+            foreach (var remindMe in _remindMeValues.RemindMe)
             {
-                Appointment.EndDate = e.NewDate;
-            };
+                remindMePicker.Items.Add(remindMe.Key);
+            }
+            remindMePicker.SelectedIndexChanged += RemindMePickerOnSelectedIndexChanged;
 
             var finishToolbarItem = new ToolbarItem
             {
@@ -78,10 +65,41 @@ namespace HausbauBuch.Views.Appointments
                 Command = new Command(SaveAppointment)
             };
 
+            startTimePicker.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
+                {
+                    Appointment.StartTime = ((DefaultTimePicker)sender).SelectedTime;
+                    endTimePicker.Time = new TimeSpan(((DefaultTimePicker) sender).Time.Hours + 1, 0, 0);
+                }
+            };
+            startTimePicker.Time = new TimeSpan(Appointment.StartTime.Hour, Appointment.StartTime.Minute, 0);
+            
+            endTimePicker.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == DefaultTimePicker.SelectedTimeProperty.PropertyName)
+                {
+                    Appointment.EndTime = ((DefaultTimePicker)sender).SelectedTime;
+                }
+            };
+            endTimePicker.Time = new TimeSpan(Appointment.EndTime.Hour, Appointment.EndTime.Minute, 0);
+
+            startDatePicker.DateSelected += (sender, e) =>
+            {
+                Appointment.StartDate = e.NewDate;
+                endDatePicker.Date = e.NewDate;
+            };
+
+            endDatePicker.DateSelected += (sender, e) =>
+            {
+                Appointment.EndDate = e.NewDate;
+            };
+
             ToolbarItems.Add(finishToolbarItem);
 
             var startTimeStack = new StackLayout
             {
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
                 Orientation = StackOrientation.Horizontal,
                 Children =
                 {
@@ -92,6 +110,7 @@ namespace HausbauBuch.Views.Appointments
 
             var endTimeStack = new StackLayout
             {
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
                 Orientation = StackOrientation.Horizontal,
                 Children =
                 {
@@ -108,8 +127,12 @@ namespace HausbauBuch.Views.Appointments
                     titleEntry,
                     placeLabel,
                     placeEntry,
+                    startTimeLabel,
                     startTimeStack,
+                    endTimeLabel,
                     endTimeStack,
+                    remindMeLabel,
+                    remindMePicker,
                     detailLabel,
                     detailEntry
                 }
@@ -117,7 +140,19 @@ namespace HausbauBuch.Views.Appointments
 
             Content = new ScrollView {Content = mainStack};
         }
-        
+
+        private void RemindMePickerOnSelectedIndexChanged(object sender, EventArgs eventArgs)
+        {
+            var picker = (Picker) sender;
+            if (picker.SelectedIndex != -1)
+            {
+                foreach(var remindMeValue in _remindMeValues.RemindMe.Where(r => r.Key == picker.Items[picker.SelectedIndex]))
+                {
+                    Appointment.Reminder = remindMeValue.Value;
+                }
+            }
+        }
+
         private async void SaveAppointment()
         {
             Appointment.CombinedStartDate = new DateTime(Appointment.StartDate.Year, Appointment.StartDate.Month, Appointment.StartDate.Day, Appointment.StartTime.Hour, Appointment.StartTime.Minute, Appointment.StartTime.Second);
@@ -133,6 +168,12 @@ namespace HausbauBuch.Views.Appointments
                 Appointment.ModifiedAt = DateTime.Now;
                 await App.AppointmentsController.Update(Appointment);
             }
+
+            if (Appointment.Reminder != 0)
+            {
+                Plugin.LocalNotifications.CrossLocalNotifications.Current.Show("Termin", $"Termin um {Appointment.CombinedStartDate}", int.Parse(Appointment.Id.ToString()), Appointment.CombinedStartDate.AddMinutes(-Appointment.Reminder));
+            }
+
             await DisplayAlert("Erfolg", "Termin erfolgreich hinzugefügt", "Ok");
             MessagingCenter.Send(this, "update");
         }

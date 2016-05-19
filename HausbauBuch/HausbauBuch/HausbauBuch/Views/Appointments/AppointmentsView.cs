@@ -62,6 +62,7 @@ namespace HausbauBuch.Views.Appointments
             MessagingCenter.Subscribe<AppointmentView>(this, "update", (sender) => 
             {
                 calendarView.HighlightedDays = Dashboard.EntityLists.AppointmentItems.Select(a => a.StartDate).ToList();
+                calendarView.NotifyDateSelected(calendarView.SelectedDate);
             });
 
             ToolbarItems.Add(addToolbarItem);
