@@ -169,10 +169,12 @@ namespace HausbauBuch.Views.Appointments
                 await App.AppointmentsController.Update(Appointment);
             }
 
-            if (Appointment.Reminder != 0)
-            {
-                Plugin.LocalNotifications.CrossLocalNotifications.Current.Show("Termin", $"Termin um {Appointment.CombinedStartDate}", int.Parse(Appointment.Id.ToString()), Appointment.CombinedStartDate.AddMinutes(-Appointment.Reminder));
-            }
+            //if (Appointment.Reminder != 0)
+            //{
+            //    var notificationService = Plugin.LocalNotifications.CrossLocalNotifications.Current;
+            //    notificationService.Vibration = true;
+            //    notificationService.Show("Termin", $"Termin um {Appointment.CombinedStartDate}", int.Parse(Appointment.Id.ToString()), Appointment.CombinedStartDate.AddMinutes(-Appointment.Reminder));
+            //}
 
             await DisplayAlert("Erfolg", "Termin erfolgreich hinzugefügt", "Ok");
             MessagingCenter.Send(this, "update");
