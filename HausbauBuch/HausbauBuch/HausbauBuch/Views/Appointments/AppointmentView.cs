@@ -20,7 +20,7 @@ namespace HausbauBuch.Views.Appointments
             set { SetValue(AppointmentProperty, value);}
         }
 
-        private RemindMeValues _remindMeValues = new RemindMeValues();
+        private readonly RemindMeValues _remindMeValues = new RemindMeValues();
 
         public AppointmentView(Classes.Appointments appointment)
         {
@@ -157,6 +157,20 @@ namespace HausbauBuch.Views.Appointments
         {
             Appointment.CombinedStartDate = new DateTime(Appointment.StartDate.Year, Appointment.StartDate.Month, Appointment.StartDate.Day, Appointment.StartTime.Hour, Appointment.StartTime.Minute, Appointment.StartTime.Second);
             Appointment.CombinedEndDate = new DateTime(Appointment.EndDate.Year, Appointment.EndDate.Month, Appointment.EndDate.Day, Appointment.EndTime.Hour, Appointment.EndTime.Minute, Appointment.EndTime.Second);
+            
+            if (Appointment.Reminder != 0)
+            {
+                var notificationService = Acr.Notifications.Notifications.Instance;
+                var notification = new Acr.Notifications.Notification
+                {
+                    Date = Appointment.CombinedStartDate.AddMinutes(-Appointment.Reminder),
+                    Message = $"Termin um {Appointment.CombinedStartDate}. {Appointment.Detail}",
+                    Title = Appointment.Title,
+                    Sound = "plop.mp3"
+                };
+                Appointment.NotificationId = notificationService.Send(notification);
+            }
+
             if (Appointment.Id == null)
             {
                 Appointment.Id = await App.AppointmentsController.Insert(Appointment);
@@ -168,13 +182,6 @@ namespace HausbauBuch.Views.Appointments
                 Appointment.ModifiedAt = DateTime.Now;
                 await App.AppointmentsController.Update(Appointment);
             }
-
-            //if (Appointment.Reminder != 0)
-            //{
-            //    var notificationService = Plugin.LocalNotifications.CrossLocalNotifications.Current;
-            //    notificationService.Vibration = true;
-            //    notificationService.Show("Termin", $"Termin um {Appointment.CombinedStartDate}", int.Parse(Appointment.Id.ToString()), Appointment.CombinedStartDate.AddMinutes(-Appointment.Reminder));
-            //}
 
             await DisplayAlert("Erfolg", "Termin erfolgreich hinzugefügt", "Ok");
             MessagingCenter.Send(this, "update");

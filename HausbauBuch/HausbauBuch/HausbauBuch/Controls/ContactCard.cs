@@ -15,6 +15,11 @@ namespace HausbauBuch.Controls
 {
     public class ContactCard : ViewCell
     {
+        public ContactCard()
+        {
+            
+        }
+
         public ContactCard(ListView parentListView = null)
         {
             var nameLabel = new DefaultLabel

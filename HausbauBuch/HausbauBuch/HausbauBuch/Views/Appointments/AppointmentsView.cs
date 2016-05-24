@@ -11,7 +11,7 @@ namespace HausbauBuch.Views.Appointments
 {
     public class AppointmentsView : DefaultContentPage
     {
-        private ListView _appointmentList;
+        private readonly ListView _appointmentList;
 
         public AppointmentsView()
         {

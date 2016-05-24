@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HausbauBuch.Classes;
 using HausbauBuch.Helper;
+using HausbauBuch.Views;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Controls
@@ -59,6 +62,27 @@ namespace HausbauBuch.Controls
                 }
             };
 
+            var deleteAction = new MenuItem {Icon = "delete.png"};
+            deleteAction.SetBinding(MenuItem.CommandParameterProperty, new Binding("."));
+            deleteAction.Clicked += async (sender, e) =>
+            {
+                var appointment = ((MenuItem) sender).CommandParameter as Appointments;
+                if (appointment != null)
+                {
+                    appointment.Deleted = true;
+                    appointment.ModifiedAt = DateTime.Now;
+                    if (appointment.Reminder != 0)
+                    {
+                        Acr.Notifications.Notifications.Instance.Cancel(appointment.NotificationId);
+                    }
+                    Dashboard.EntityLists.AppointmentItems.Remove(appointment);
+                    Dashboard.Amounts.AppointmentsAmount--;
+                    await App.AppointmentsController.Update(appointment);
+                }
+            };
+
+            ContextActions.Add(deleteAction);
+
             var mainStack = new StackLayout
             {
                 BackgroundColor = Colors.Primary,
@@ -66,9 +90,10 @@ namespace HausbauBuch.Controls
                 {
                     upperStack,
                     lowerStack
-                }
+                },
+                Padding = 5
             };
-
+            
             View = mainStack;
         }
     }

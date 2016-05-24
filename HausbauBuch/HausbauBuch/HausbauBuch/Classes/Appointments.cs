@@ -51,7 +51,23 @@ namespace HausbauBuch.Classes
                 OnPropertyChanged();
             }
         }
-        
+
+        private string _notificationId;
+
+        public string NotificationId
+        {
+            get { return _notificationId; }
+            set
+            {
+                if (value.Equals(_notificationId))
+                {
+                    return;
+                }
+                _notificationId = value;
+                OnPropertyChanged();
+            }
+        }
+
         private DateTime _startTime;
 
         public DateTime StartTime
@@ -148,9 +164,9 @@ namespace HausbauBuch.Classes
             }
         }
 
-        private double _reminder;
+        private int _reminder;
 
-        public double Reminder
+        public int Reminder
         {
             get { return _reminder; }
             set

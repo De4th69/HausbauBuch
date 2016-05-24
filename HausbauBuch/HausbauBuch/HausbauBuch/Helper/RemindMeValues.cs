@@ -8,7 +8,7 @@ namespace HausbauBuch.Helper
 {
     public class RemindMeValues
     {
-        public Dictionary<string, double> RemindMe => new Dictionary<string, double>
+        public Dictionary<string, int> RemindMe => new Dictionary<string, int>
         {
             {"Keine", 0},
             {"Fünf Minuten", 5},

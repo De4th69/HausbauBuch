@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DLToolkit.Forms.Controls;
 using HausbauBuch.Controls;
+using HausbauBuch.Views.Home;
 using Xamarin.Forms;
 
 namespace HausbauBuch.Views.Documents
@@ -12,16 +14,34 @@ namespace HausbauBuch.Views.Documents
     {
         public DocumentsView()
         {
-            Content = new StackLayout
+            var flowListView = new FlowListView
             {
-                Children =
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                HasUnevenRows = true,
+                FlowColumnsTemplates = new List<FlowColumnTemplateSelector>
                 {
-                    new DefaultLabel
-                    {
-                        Text = "Placeholder"
-                    }
-                }
+                    new FlowColumnSimpleTemplateSelector {ViewType = typeof (TestView)},
+                    new FlowColumnSimpleTemplateSelector {ViewType = typeof (TestView)},
+                    new FlowColumnSimpleTemplateSelector {ViewType = typeof (TestView)}
+                },
+                FlowItemsSource = Dashboard.EntityLists.ContactItems
             };
+
+            Content = flowListView;
+        }
+    }
+
+    class TestView : ContentView
+    {
+        public TestView()
+        {
+            HorizontalOptions = LayoutOptions.FillAndExpand;
+            VerticalOptions = LayoutOptions.FillAndExpand;
+            var titleLabel = new Label();
+            titleLabel.SetBinding(Label.TextProperty, new Binding("FullName"));
+
+            Content = titleLabel;
         }
     }
 }
