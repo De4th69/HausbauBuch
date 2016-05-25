@@ -56,11 +56,28 @@ namespace HausbauBuch.Classes
             }
         }
 
+        private string _filePath;
+
+        public string FilePath
+        {
+            get { return _filePath; }
+            set
+            {
+                if (value.Equals(_filePath))
+                {
+                    return;
+                }
+                _filePath = value;
+                OnPropertyChanged();
+            }
+        }
+
         public Documents()
         {
             Name = "";
             Size = 0;
             DocumentType = "";
+            FilePath = "";
         }
     }
 }

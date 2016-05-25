@@ -22,5 +22,7 @@ namespace HausbauBuch.Helper
         public static Color DividerColor => Color.FromHex("#b6b6b6");
 
         public static Color Accent => Color.FromHex("#448aff");
+
+        public static Color TextColorRed => Color.FromHex("#e10039");
     }
 }

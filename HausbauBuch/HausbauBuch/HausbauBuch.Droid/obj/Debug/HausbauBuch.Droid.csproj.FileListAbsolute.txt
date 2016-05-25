@@ -143,7 +143,5 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\obj\Debug\HausbauBuch.Droid.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch.Droid\bin\Debug\HausbauBuch.Droid.dll.mdb

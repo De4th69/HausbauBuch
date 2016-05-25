@@ -44,7 +44,5 @@ C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\Haus
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.pdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Acr.Notifications.dll
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\Acr.Notifications.Interface.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\obj\Debug\HausbauBuch.dll.mdb
 C:\Users\schindler.MRP\Documents\GitHub\HausbauBuch\HausbauBuch\HausbauBuch\HausbauBuch\bin\Debug\HausbauBuch.dll.mdb

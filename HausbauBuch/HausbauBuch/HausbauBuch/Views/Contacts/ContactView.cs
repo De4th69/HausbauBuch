@@ -156,7 +156,6 @@ namespace HausbauBuch.Views.Contacts
                     {
                         DefaultCamera = CameraDevice.Rear,
                         Directory = "Photos",
-                        SaveToAlbum = true,
                         Name = "hausbaubuch" + DateTime.Now,
                         PhotoSize = PhotoSize.Small
                     });

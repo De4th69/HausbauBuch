@@ -63,10 +63,13 @@
     <Compile Include="Controls\DefaultEntry.cs" />
     <Compile Include="Controls\DefaultLabel.cs" />
     <Compile Include="Controls\DefaultTimePicker.cs" />
+    <Compile Include="Controls\DocumentsCell.cs" />
+    <Compile Include="Helper\ByteConverter.cs" />
     <Compile Include="Helper\CardPage.cs" />
     <Compile Include="Helper\Colors.cs" />
     <Compile Include="Helper\DateTimeConverter.cs" />
     <Compile Include="Helper\ImagePathConverter.cs" />
+    <Compile Include="Helper\MimeTypeConverter.cs" />
     <Compile Include="Helper\RemindMeValues.cs" />
     <Compile Include="Helper\TimeConverter.cs" />
     <Compile Include="Views\Activities\ActivitiesView.cs" />
@@ -95,10 +98,6 @@
     </Reference>
     <Reference Include="Acr.Notifications.Interface, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Acr.Notifications.1.5.2\lib\portable-win+net45+wp8+win8+wpa81\Acr.Notifications.Interface.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DLToolkit.Forms.Controls.FlowListView, Version=1.0.5871.22008, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DLToolkit.Forms.Controls.FlowListView.1.0.6\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\DLToolkit.Forms.Controls.FlowListView.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
