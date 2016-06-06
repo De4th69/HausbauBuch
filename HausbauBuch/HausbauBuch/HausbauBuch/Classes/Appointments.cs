@@ -185,6 +185,7 @@ namespace HausbauBuch.Classes
             Title = "";
             Detail = "";
             Place = "";
+            NotificationId = "";
         }
     }
 }
